@@ -1,0 +1,13 @@
+@keyframes pulse {
+    0% {
+        color: var(--turqoise);
+    }
+
+    50% {
+        color: var(--brown);
+    }
+
+    100% {
+        color: var(--turqoise);
+    }
+}

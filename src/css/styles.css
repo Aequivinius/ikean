@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Rock+Salt|Hachi+Maru+Pop');
+@import url('reset.css');
+@import url('animations.css');
+
+:root {
+    /* colour scheme */
+    --turqoise: #072620;
+    --brown: #594827;
+    --ocker: #BF8E63;
+    --camel: #A6785D;
+    --gray: #BFADA8;
+
+    --letter-spacing: 0.2em;
+    --fun-font: 'Rock Salt', 'Hachi Maru Pop', cursive;
+
+    --margin-very-small: 0.1em;
+    --margin-small: 0.25em;
+    --margin-medium: 0.5em;
+
+    --allegro: 0.25s;
+
+    scroll-behavior: smooth;
+
+}
+
+header {
+    text-align: center;
+    color: var(--turqoise);
+}
+
+h1 {
+    font-family: var(--fun-font);
+    font-size: 2em;
+    margin-bottom: calc(-1 *var(--margin-small));
+    letter-spacing: var(--letter-spacing);
+    animation: pulse 10s infinite;
+}
+
+summary {
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+}
+
+summary::after {
+    content: 'v';
+    text-transform: lowercase;
+    margin-left: var(--margin-small);
+    font-size: 0.8em;
+    transition: var(--allegro);
+    display: inline-block;
+    font-family: var(--fun-font);
+}
+
+details[open]>summary::after {
+    transform: rotate(180deg);
+}
+
+details[open] summary~* {
+    animation: fadeIn var(--allegro) ease-in-out;
+}
+
+.menu__item {
+    margin: var(--margin-medium) 0 var(--margin-medium) 0;
+}
+
+.menu__language:not(:last-child)::after {
+    content: " | "
+}
+
+#home {
+    background:
+        linear-gradient(201deg, var(--ocker), var(--camel)), url('noise.svg');
+    color: var(--brown);
+    text-shadow: 1px 1px 1px var(--camel);
+    height: 80vh;
+    position: relative;
+    box-shadow:
+        inset 0 10px 5px -10px #594827,
+        inset 0 -10px 5px -10px #594827;
+}
+
+
+#home__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+    left: 1em;
+    right: 1em;
+}
+
+.home__link {
+    font-style: normal;
+    border-bottom: 1px solid var(--turqoise);
+    padding-bottom: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+}
+
+.home__link:hover {
+    color: var(--turqoise);
+    border-color: var(--brown);
+}

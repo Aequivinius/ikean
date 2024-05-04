@@ -1,0 +1,32 @@
+h1 {
+    margin-top: calc(-1 * var(--margin-small));
+    font-size: 3em;
+}
+
+summary {
+    display: none;
+}
+
+details {
+    display: block;
+}
+
+.menu__item {
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: var(--margin-very-small);
+    margin: var(--margin-medium);
+}
+
+.menu__item:hover {
+    color: var(--brown);
+    transition: var(--allegro);
+}
+
+ul {
+    margin-bottom: var(--margin-small);
+}
+
+details[open] summary~* {
+    animation: none;
+}

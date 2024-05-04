@@ -1,0 +1,67 @@
+{
+    "meta__tagline": {
+        "de": "Tee-Vorführungen, -Einladungen und -Utensilien",
+        "en": "tea presentations, invitations and utensils",
+        "jp": "お茶のプレゼンテーション、茶事、茶道具"
+    },
+    "meta__description": {
+        "de": "ikean ist ein Teeraum für die Japanische Teezeremonie in Zürich. Wir bieten Tee-Vorführungen an, organisieren Tee-Einladungen (chaji) und verkaufen Tee-Utensilien (dōgu)",
+        "en": "ikean is a tea room for the Japanese tea ceremony in Zürich, Switzerland. We offer tea presentations, organise tea invitations (chaji) and sell tea utensils (dōgu).",
+        "jp": "ikeanはスイスのチューリッヒにある茶道のための茶室です。お茶のプレゼンテーション、茶事のお手伝い、茶道具の販売をしています。"
+    },
+    "meta__keywords": {
+        "de": "Tee, Tee-Zeremonie, chanoyu, chadō, Matcha, Japan, Zürich, Tee-Vorführung, Tee-Einladung, chaji, Tee-Utensilien, dogu, dougu",
+        "en": "tea, tea ceremony, chanoyu, chadō, matcha, Japan, Zürich, tea presentation, tea invitation, chaji, tea utensils, dogu, dougu",
+        "jp": "お茶、茶道、茶の湯、抹茶、日本、チューリッヒ、お茶のプレゼンテーション、茶事、茶道具"
+    },
+    "ikean": {
+        "de": "ikean",
+        "en": "ikean",
+        "jp": "池庵"
+    },
+    "menu__menu": {
+        "de": "Menü",
+        "en": "Menu",
+        "jp": "メニュー"
+    },
+    "menu__presentations": {
+        "de": "Vorführungen",
+        "en": "presentations",
+        "jp": "プレゼンテーション"
+    },
+    "menu__aspects": {
+        "de": "Aspekte",
+        "en": "aspects",
+        "jp": "様相"
+    },
+    "menu__shop": {
+        "de": "Shop",
+        "en": "shop",
+        "jp": "ショップ"
+    },
+    "menu__contact": {
+        "de": "Kontakt",
+        "en": "contact",
+        "jp": "コンタクト"
+    },
+    "menu__language_left": {
+        "de": "en",
+        "en": "de",
+        "jp": "英語"
+    },
+    "menu__language_right": {
+        "de": "jp",
+        "en": "jp",
+        "jp": "ドイツ語"
+    },
+    "menu__language_separator": {
+        "de": "|",
+        "en": "|",
+        "jp": "・"
+    },
+    "home__text": {
+        "de": "Die Erfahrung der Schönheit geht über die Grenzen der Kultur hinaus.",
+        "en": "the principles of beauty go beyond the limits of culture",
+        "jp": "美の原則は文化の枠を超える"
+    }
+}

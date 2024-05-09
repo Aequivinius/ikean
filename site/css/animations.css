@@ -1,0 +1,25 @@
+@keyframes pulse {
+    0% {
+        color: var(--turqoise);
+    }
+
+    50% {
+        color: var(--brown);
+    }
+
+    100% {
+        color: var(--turqoise);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        font-size: 0rem;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for toy in toys %}
+<figure>
+    <a href="#{{toy.id}}">
+        <img class="toys__thumbnail" src="../../toys/{{toy.id}}/{{toy.images[0]}}"
+            alt="a {{toy.category}} called {{toy.name[language]}}" />
+    </a>
+    <figcaption class="toys__description">
+        <h2 class="toys__name">{{toy.name[language]}}</h2>
+        <span class="toys__maker">{% if "maker" in toy %}made by {{toy.maker[language]}}{% else %}maker unknown{% endif
+            %}</span>
+        <span class="toys__price">{{toy.price}} CHF</span>
+    </figcaption>
+</figure>
+
+<div class="toy" id="{{toy.id}}">
+    <img class="gallery__main" src="../../toys/{{toy.id}}/{{toy.images[0]}}"
+        alt="a {{toy.category}} called {{toy.name[language]}}">
+    <div class="gallery">
+        {% for image in toy.images %}
+        <img src="../../toys/{{toy.id}}/{{image}}" alt="a {{toy.category}} called {{toy.name[language]}}"
+            onclick="changeMainImage('{{toy.id}}',this)">
+        {% endfor %}
+    </div>
+
+    <h2 class="toy__name">{{toy.name[language]}}</h2>
+    {% if "maker" in toy %}<span class="toy__maker">made by {{toy.maker[language]}}</span>{% endif %}
+
+    <p>Transport yourself to the elegant world of the Tale of Genji with our exquisite chashaku, 'Hana Chiro
+        Sato.' Crafted
+        with meticulous attention to detail, this traditional Japanese tea scoop embodies the grace and beauty
+        of Genji's era.</p>
+
+    <p>In the delicate hands of tea connoisseurs, the chashaku serves as an essential tool for measuring the
+        perfect amount of
+        matcha powder, ensuring a harmonious and authentic tea experience. Each scoop is a testament to
+        centuries of tea
+        ceremony tradition, evoking a sense of reverence and connection to Japan's rich cultural heritage.</p>
+
+    <p>Whether you're a seasoned matcha enthusiast or a newcomer to the world of Japanese tea, 'Hana Chiro Sato'
+        promises to
+        elevate your tea ritual to new heights. Indulge in the artistry and refinement of the Tale of Genji as
+        you savor every
+        sip of your perfectly prepared matcha. Bring a piece of Japanese history into your home and let the
+        timeless elegance of
+        'Hana Chiro Sato' enrich your tea journey.</p>
+    <a class="toy__close" href="#toys">Close</a>
+
+</div>
+{% endfor %}
+{% endblock %}

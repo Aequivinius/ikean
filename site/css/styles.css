@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Rock+Salt|Hachi+Maru+Pop|Noto+Sans+Japanese');
+@import url('reset.css');
+@import url('animations.css');
+@import url('header.css');
+@import url('toys.css');
+
+:root {
+    --turqoise: rgb(7, 38, 32);
+    --brown: rgb(89, 72, 39);
+    --ocker: rgb(191, 142, 99);
+    --camel: rgb(166, 120, 93);
+    --gray: rgb(7, 7, 6);
+
+    --letter-spacing: 0.2em;
+    --fun-font: 'Rock Salt', 'Hachi Maru Pop', cursive;
+
+    --margin-very-small: 0.1em;
+    --margin-small: 0.25em;
+    --margin-medium: 0.5em;
+    --margin-large: 1em;
+
+    --drop-shadow-subtle: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    --allegro: 0.25s;
+
+    scroll-behavior: smooth;
+}
+
+section {
+    position: relative;
+    box-shadow:
+        inset 0 10px 5px -10px var(--brown),
+        inset 0 -10px 5px -10px var(--brown);
+}
+
+#home {
+    color: var(--brown);
+    text-shadow: 1px 1px 1px var(--camel);
+    height: 80vh;
+    background: linear-gradient(201deg, var(--ocker), var(--camel)), url('noise.svg');
+}
+
+
+#home__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+    left: 1em;
+    right: 1em;
+}
+
+.home__link {
+    font-style: normal;
+    border-bottom: 1px solid var(--turqoise);
+    padding-bottom: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: var(--letter-spacing);
+}
+
+.home__link:hover {
+    color: var(--turqoise);
+    border-color: var(--brown);
+}

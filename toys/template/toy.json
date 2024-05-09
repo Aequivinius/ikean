@@ -1,0 +1,15 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Ryouhi",
+        "de": "Ryouhi",
+        "jp": "両飛"
+    },
+    "price": 80,
+    "on_sale": true,
+    "maker": {
+        "en": "Rikyu",
+        "de": "Rikkel",
+        "jp": "利休"
+    }
+}

@@ -1,0 +1,45 @@
+header {
+    text-align: center;
+    color: var(--turqoise);
+}
+
+h1 {
+    font-family: var(--fun-font);
+    font-size: 2em;
+    margin-bottom: calc(-1 *var(--margin-small));
+    letter-spacing: var(--letter-spacing);
+    animation: pulse 10s infinite;
+}
+
+summary {
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+}
+
+summary::after {
+    content: 'v';
+    text-transform: lowercase;
+    margin-left: var(--margin-small);
+    font-size: 0.8em;
+    transition: var(--allegro);
+    display: inline-block;
+    font-family: var(--fun-font);
+}
+
+details[open]>summary::after {
+    transform: rotate(180deg);
+}
+
+details[open] summary~* {
+    animation: fadeIn var(--allegro) ease-in-out;
+}
+
+.menu__item {
+    margin: var(--margin-medium) 0 var(--margin-medium) 0;
+}
+
+.menu__language:not(:last-child)::after {
+    content: " | "
+}

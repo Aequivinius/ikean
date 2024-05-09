@@ -1,0 +1,10 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Kokoro",
+        "jp": "心",
+        "de": "Hatsuwarau"
+    },
+    "price": 80,
+    "list": true
+}

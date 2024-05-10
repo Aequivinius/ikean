@@ -112,5 +112,14 @@ figure {
 .toy__maker {
     display: inline-block;
     font-style: italic;
-    margin-bottom: var(--margin-meodium);
+    margin-bottom: var(--margin-medium);
+}
+
+model-viewer {
+    width: 100%;
+    background-color: var(--turqoise);
+}
+
+.gallery__main-img {
+    display: none;
 }

@@ -16,8 +16,19 @@
 </figure>
 
 <div class="toy" id="{{toy.id}}">
-    <img class="gallery__main" src="../../toys/{{toy.id}}/{{toy.images[0]}}"
-        alt="a {{toy.category}} called {{toy.name[language]}}">
+    <div class="gallery__main">
+        {% if "model" in toy %}
+        <model-viewer class="gallery__main-model" alt="a 3D model of the {{toy.category}} called {{toy.name[language]}}"
+            src="../../toys/{{toy.id}}/{{toy.model}}" ar auto-rotate shadow-intensity="1" camera-controls
+            touch-action="pan-y"></model-viewer>
+
+        <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.poster}}"
+            alt="a {{toy.category}} called {{toy.name[language]}}">
+        {% else %}
+        <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.images[0]}}"
+            alt="a {{toy.category}} called {{toy.name[language]}}" style="display: block">
+        {%endif%}
+    </div>
     <div class="gallery">
         {% for image in toy.images %}
         <img src="../../toys/{{toy.id}}/{{image}}" alt="a {{toy.category}} called {{toy.name[language]}}"

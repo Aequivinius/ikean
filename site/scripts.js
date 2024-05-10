@@ -15,8 +15,29 @@ window.addEventListener('resize', handleResizeAndReload);
 window.addEventListener('load', handleResizeAndReload);
 
 function changeMainImage(id, thumbnail) {
-    const mainImage = document.getElementById(id).querySelector('img');
-    const temp = mainImage.src;
-    mainImage.src = thumbnail.src;
-    thumbnail.src = temp;
+    const main = document.getElementById(id).querySelector('.gallery__main');
+    const modelViewer = main.querySelector('.gallery__main-model');
+    const mainImage = main.querySelector('.gallery__main-img');
+    const isPoster = thumbnail.classList.contains('gallery__poster');
+
+    if (isPoster) {
+        modelViewer.style.display = 'block';
+        mainImage.style.display = 'none';
+
+        thumbnail.src = mainImage.src;
+        console.log(thumbnail.classList);
+        thumbnail.classList.remove('gallery__poster');
+        console.log(thumbnail.classList);
+
+    } else {
+        /* leaving model viewer */
+        if (modelViewer && modelViewer.style.display !== 'none') {
+            modelViewer.style.display = 'none';
+            mainImage.style.display = 'block';
+            thumbnail.classList.add('gallery__poster');
+        }
+        const temp = mainImage.src;
+        mainImage.src = thumbnail.src;
+        thumbnail.src = temp;
+    }
 }

@@ -7,6 +7,9 @@
 - [ ] desktop layout
 - [ ] item description from `.md` file
 - [ ] add 3D model viewer
+   * toy model needs to have poster and model (optional)
+   * toy generates an alt attribute
+   * gallery should begin at [1] for non-modelled items
 - [ ] add the actual items
 
 ## Home
@@ -45,7 +48,8 @@ toys
     |-- jp.md
     |-- photo1.jpg (name is not important)
     |-- ... (more photos)
-    |-- model.glb
+    |-- model.glb (needs to end in .glb)
+    |-- poster.jpg (needs to be called poster)
 |-- id (for example: ryouhi)
     |-- ...
 ```

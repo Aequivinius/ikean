@@ -4,6 +4,26 @@ import pytest
 from generate import toy_from_directory
 
 
+@pytest.fixture
+def sample_toys_directory(tmpdir):
+    # Create a temporary directory for testing
+    test_dir = tmpdir.mkdir("sample_toys")
+    toy_dir1 = test_dir.mkdir("ryouhi")
+    toy_dir2 = test_dir.mkdir("lego")
+    # Create toy.json files with test data
+    toy_data1 = {"name": "Ryouhi", "description": "A toy for testing", "price": 9.99}
+    toy_json1 = toy_dir1.join("toy.json")
+    toy_json1.write(json.dumps(toy_data1))
+    toy_data2 = {
+        "name": "Lego",
+        "description": "Another toy for testing",
+        "price": 19.99,
+    }
+    toy_json2 = toy_dir2.join("toy.json")
+    toy_json2.write(json.dumps(toy_data2))
+    return str(test_dir)
+
+
 def test_toy_from_directory(tmpdir):
     # Create a temporary directory for testing
     test_dir = tmpdir.mkdir("test_toys")

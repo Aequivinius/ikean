@@ -9,11 +9,23 @@ def toy_from_directory(directory):
 
     toy["id"] = os.path.split(directory)[-1]
 
-    toy["images"] = [
-        filename
-        for filename in os.listdir(directory)
-        if filename.lower().endswith((".png", ".jpg", ".jpeg", ".gif"))
-    ]
+    for filename in os.listdir(directory):
+        if (
+            filename.lower().endswith((".png", ".jpg", ".jpeg", ".gif"))
+            and "poster" not in filename.lower()
+        ):
+            if "images" not in toy:
+                toy["images"] = []
+            toy["images"].append(filename)
+
+        if "poster" in filename.lower():
+            toy["poster"] = filename
+
+        if filename.lower().endswith((".glb")):
+            toy["model"] = filename
+
+    if "model" in toy and "poster" not in toy:
+        raise ValueError("If a toy has a model, it must have a poster.")
 
     return toy
 

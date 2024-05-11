@@ -1,43 +1,5 @@
-# To Do
-
-- [ ] run the `pytest`s
-
-## Shop
-- [ ] integrate the `for_sale` to schema
-- [ ] desktop layout
-- [ ] item description from `.md` file
-- [ ] add 3D model viewer
-   * toy model needs to have poster and model (optional)
-   * toy generates an alt attribute
-   * gallery should begin at [1] for non-modelled items
-- [ ] add the actual items
-
-## Home
-- [ ] home page should link to contact
-- [ ] Replace Times with Garamond or Noto Serif
-
-## Content
-- [ ] aspects
-- [ ] presentations
-
-## Deployment
-- [ ] domain
-- [ ] deploy
-
-## Nice to have
-- [ ] better language switcher for japanese
-- [ ] small footer
-- [ ] set up CI/CD
-- [ ] add filter for toys
-
 # Toys
 It's automatically generated for every subdirectory in `toys`. The structure is as follows:
-* id
-* category
-* translation
-* text
-* fotos
-* 3d model
 
 ```
 toys

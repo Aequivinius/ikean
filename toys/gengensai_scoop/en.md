@@ -1,4 +1,8 @@
-Gengensai, renowned for his mastery in the art of tea utensil craftsmanship, presents a tea scoop that embodies centuries of tradition and expertise. Handcrafted with precision and care, each scoop is a testament to Gengensai's dedication to perfection.
+[Gengensai](https://tea.hedonisms.ch/wiki/gengensai) (玄々斎) renowned for his mastery in the art of tea utensil craftsmanship, presents a tea scoop that embodies centuries of tradition and expertise. Handcrafted with *precision and care*, each scoop is a testament to Gengensai's **dedication to perfection**.
+
+| question | answer |
+| --- | --- |
+| お作は？ | 玄々斎でございます |
 
 This exquisite tea scoop, meticulously carved from the finest bamboo or wood, exudes elegance and simplicity. Its smooth contours and graceful curves reflect the harmony and tranquility of the Japanese tea ceremony.
 

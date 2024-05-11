@@ -1,5 +1,7 @@
 import json
 import os
+import jinja2
+import markdown
 import generate.i18n as i18n
 
 
@@ -28,19 +30,23 @@ def toy_from_directory(directory):
         if filename.lower().endswith((".glb")):
             toy["model"] = filename
 
-        # descriptions
         for language in i18n.LANGUAGES:
             if filename.lower() == f"{language}.md":
                 with open(os.path.join(directory, filename)) as f:
                     if "description" not in toy:
                         toy["description"] = {}
-                    toy["description"][language] = f.read()
+                    markdown_content = f.read()
+                    html_content = markdown.markdown(
+                        markdown_content, extensions=["tables"]
+                    )
+                    toy["description"][language] = html_content
 
     if "model" in toy and "poster" not in toy:
         raise ValueError("If a toy has a model, it must have a poster.")
 
-    toy["alt"] = f"a {toy['category']} called {toy['name']['en']}"
-    # can I add a tertiary expression here to add maker?
+    toy["alt"] = f"a {toy['category']} called {toy['name']['en']}" + (
+        f" made by {toy['maker']}" if "maker" in toy else ""
+    )
 
     # descriptions
     # toy = i18n.get_missing_translations(toy)

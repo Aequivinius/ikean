@@ -30,3 +30,7 @@ ul {
 details[open] summary~* {
     animation: none;
 }
+
+#toys {
+    grid-template-columns: repeat(3, 1fr);
+}

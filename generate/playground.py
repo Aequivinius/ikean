@@ -39,6 +39,9 @@ def toy_from_directory(directory):
     if "model" in toy and "poster" not in toy:
         raise ValueError("If a toy has a model, it must have a poster.")
 
+    toy["alt"] = f"a {toy['category']} called {toy['name']['en']}"
+    # can I add a tertiary expression here to add maker?
+
     # descriptions
     # toy = i18n.get_missing_translations(toy)
 

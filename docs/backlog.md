@@ -4,12 +4,10 @@
 ## Toys
 - [ ] integrate the `for_sale` to schema
 - [ ] buy button (maybe with formspree)?
-- [x] desktop layout
-- [ ] item description from `.md` file and transform markup
-- [x] `playground.py` generates an `alt` attribute
 - [ ] gallery should begin at [1] for non-modelled items. Not sure how to do this elegantly.
 - [ ] add the actual items
-- [ ] categories could be systematised.
+- [x] desktop page: Item photo should be on the left, its description on the right
+- [ ] categories could be systematised
 - [ ] Seasonality
 - [ ] structured information (especially in Japanese, right now, we still have *made by* in there)
 

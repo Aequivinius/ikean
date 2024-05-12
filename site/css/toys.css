@@ -72,7 +72,7 @@ figure {
     letter-spacing: var(--letter-spacing);
 }
 
-.gallery {
+.gallery__thumbnails {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: calc(2*var(--margin-large));
@@ -84,14 +84,14 @@ figure {
     box-shadow: var(--drop-shadow-subtle);
 }
 
-.gallery img {
+.gallery__thumbnail {
     box-shadow: var(--drop-shadow-subtle);
     filter: grayscale(80%);
     cursor: pointer;
     transition: filter 0.3s;
 }
 
-.gallery img:hover {
+.gallery__thumbnail:hover {
     filter: grayscale(0%);
 }
 

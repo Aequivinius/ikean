@@ -15,30 +15,38 @@
 </figure>
 
 <div class="toy" id="{{toy.id}}">
-    <div class="gallery__main">
-        {% if "model" in toy %}
-        <model-viewer class="gallery__main-model" alt="{{toy.alt}}" src="../../toys/{{toy.id}}/{{toy.model}}" ar
-            auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-
-        <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.poster}}" alt="{{toy.alt}}">
-        {% else %}
-        <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}"
-            style="display: block">
-        {%endif%}
-    </div>
     <div class="gallery">
-        {% for image in toy.images %}
-        <img src="../../toys/{{toy.id}}/{{image}}" alt="{{toy.alt}}" onclick="changeMainImage('{{toy.id}}',this)">
-        {% endfor %}
+        <div class="gallery__main">
+            {% if "model" in toy %}
+            <model-viewer class="gallery__main-model" alt="{{toy.alt}}" src="../../toys/{{toy.id}}/{{toy.model}}" ar
+                auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
+            <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.poster}}" alt="{{toy.alt}}">
+            {% else %}
+            <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}"
+                style="display: block">
+            {%endif%}
+        </div>
+        <div class="gallery__thumbnails">
+            {% for image in toy.images %}
+            <img class="gallery__thumbnail" src="../../toys/{{toy.id}}/{{image}}" alt="{{toy.alt}}"
+                onclick="changeMainImage('{{toy.id}}',this)">
+            {% endfor %}
+        </div>
     </div>
 
-    <h2 class="toy__name">{{toy.name[language]}}</h2>
-    {% if "maker" in toy %}<span class="toy__maker">made by {{toy.maker[language]}}</span>{% endif %}
+    <div class="toy__info">
+        <h2 class="toy__name">{{toy.name[language]}}</h2>
+        {% if "maker" in toy %}<span class="toy__maker">made by {{toy.maker[language]}}</span>{% endif %}
 
-    <p>{{toy.description[language]}}</p>
+        <p>{{toy.description[language]}}</p>
 
-    <a class="toy__close" href="#toys">Close</a>
+        <a class="toy__close" href="#toys">Close</a>
+    </div>
+
+
 
 </div>
+
 {% endfor %}
 {% endblock %}

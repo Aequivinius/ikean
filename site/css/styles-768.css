@@ -34,3 +34,17 @@ details[open] summary~* {
 #toys {
     grid-template-columns: repeat(3, 1fr);
 }
+
+.toy:target {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: var(--margin-large);
+}
+
+.gallery {
+    grid-column: 1 / span 2;
+}
+
+.toy__info {
+    grid-column: 3 / span 3;
+}

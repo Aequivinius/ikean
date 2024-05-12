@@ -16,6 +16,7 @@
 ## Home
 - [ ] home page should link to contact
 - [ ] Replace Times with Garamond or Noto Serif
+- [ ] `<a>`s need styling
 - [ ] Japanese needs its own style sheet, the item description looks shit in italics
 
 ## Content

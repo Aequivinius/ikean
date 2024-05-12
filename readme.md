@@ -36,6 +36,8 @@ The `toy.json` at least contains (also see `toys/template/toy.json`):
 }
 ```
 
+The `.md` files also support `[[wikilinks]]`, which will point to [tea.hedonisms.ch](https://tea.hedonisms.ch/wiki).
+
 # Translations
 * the `generate.py` creates multilingual sites based on the `templates/translations.json`. The latter has the following format:
 

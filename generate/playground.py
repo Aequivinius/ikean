@@ -2,6 +2,7 @@ import json
 import os
 import jinja2
 import markdown
+from markdown.extensions.wikilinks import WikiLinkExtension
 import generate.i18n as i18n
 
 
@@ -37,7 +38,14 @@ def toy_from_directory(directory):
                         toy["description"] = {}
                     markdown_content = f.read()
                     html_content = markdown.markdown(
-                        markdown_content, extensions=["tables"]
+                        markdown_content,
+                        extensions=[
+                            "tables",
+                            "abbr",
+                            WikiLinkExtension(
+                                base_url="https://tea.hedonisms.ch/wiki/"
+                            ),
+                        ],
                     )
                     toy["description"][language] = html_content
 

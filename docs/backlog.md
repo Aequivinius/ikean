@@ -13,7 +13,7 @@
 
 ## Home
 - [ ] home page should link to contact
-- [ ] Replace Times with Garamond or Noto Serif
+- [ ] Replace Times with Garamond or Noto Serif; also have fonts locally for offline development
 - [ ] `<a>`s need styling
 - [ ] Japanese needs its own style sheet, the item description looks shit in italics
 

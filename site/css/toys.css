@@ -44,7 +44,6 @@ figure {
     float: right;
 }
 
-
 .toy {
     display: none;
     position: absolute;
@@ -109,6 +108,21 @@ figure {
     margin-bottom: var(--margin-medium);
 }
 
+.toy__info em {
+    font-style: normal;
+}
+
+.toy__info abbr {
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.toy__info abbr::after {
+    content: " (" attr(title) ")";
+    font-style: italic;
+}
+
 .toy__maker {
     display: inline-block;
     font-style: italic;
@@ -122,4 +136,21 @@ model-viewer {
 
 .gallery__main-img {
     display: none;
+}
+
+.toy__button {
+    border: 1px solid var(--turqoise);
+    background-color: transparent;
+    width: 100%;
+    padding: var(--margin-large);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.toy__button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+html:lang(jp) p {
+    font-style: normal;
 }

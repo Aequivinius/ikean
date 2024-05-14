@@ -68,5 +68,25 @@
         "de": "Tee-Vorführungen, -Einladungen und -Utensilien",
         "en": "tea presentations, invitations and utensils",
         "jp": "お茶のプレゼンテーション、茶事、茶道具"
+    },
+    "toy__close": {
+        "de": "Schließen",
+        "en": "Close",
+        "jp": "閉じる"
+    },
+    "toy__order": {
+        "de": "Bestellen",
+        "en": "Order",
+        "jp": "注文"
+    },
+    "toy__CHF": {
+        "de": "CHF",
+        "en": "Swiss francs",
+        "jp": "スイスフラン"
+    },
+    "toy__price": {
+        "de": "zum Preis von",
+        "en": "for",
+        "jp": "価格："
     }
 }

@@ -1,17 +1,17 @@
 import json
 import os
-import jinja2
 import markdown
 from markdown.extensions.wikilinks import WikiLinkExtension
 import generate.i18n as i18n
 
 
-def toy_from_directory(directory):
+def toy_from_directory(directory, categories):
 
     with open(os.path.join(directory, "toy.json")) as f:
         toy = json.load(f)
 
     toy["id"] = os.path.split(directory)[-1]
+    toy["category"] = categories[toy["category"]]
 
     for filename in os.listdir(directory):
 
@@ -56,22 +56,23 @@ def toy_from_directory(directory):
         f" made by {toy['maker']}" if "maker" in toy else ""
     )
 
-    # descriptions
-    # toy = i18n.get_missing_translations(toy)
+    toy = i18n.get_missing_translations(toy)
 
     return toy
 
 
 def load_toys(file_path):
+
+    with open(os.path.join(file_path, "categories.json")) as f:
+        categories = json.load(f)
+
     directories = [
         d
         for d in os.listdir(file_path)
         if os.path.isdir(os.path.join(file_path, d)) and d != "template"
     ]
-
     toys = [
-        toy_from_directory(os.path.join(file_path, directory))
+        toy_from_directory(os.path.join(file_path, directory), categories)
         for directory in directories
     ]
-
     return toys

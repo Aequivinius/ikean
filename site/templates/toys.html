@@ -41,7 +41,12 @@
 
         <p>{{toy.description[language]}}</p>
 
-        <a class="toy__close" href="#toys">Close</a>
+        {% if toy.sale %}
+        <button class="toy__button">{{toy__order}} ({{toy.category[language]}}, {{toy__price}} {{toy.price}}
+            {{toy__CHF}})</button>
+        {% endif %}
+
+        <a class="toy__close" href="#toys">{{toy__close}}</a>
     </div>
 
 

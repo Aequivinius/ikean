@@ -6,7 +6,7 @@
         "jp": "両飛"
     },
     "price": 80,
-    "on_sale": true,
+    "sale": true,
     "maker": {
         "en": "Rikyu",
         "de": "Rikkel",

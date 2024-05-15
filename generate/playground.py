@@ -52,6 +52,8 @@ def toy_from_directory(directory, categories):
     if "model" in toy and "poster" not in toy:
         raise ValueError("If a toy has a model, it must have a poster.")
 
+    toy["images"] = sorted(toy["images"])
+
     toy["alt"] = f"a {toy['category']} called {toy['name']['en']}" + (
         f" made by {toy['maker']}" if "maker" in toy else ""
     )

@@ -3,7 +3,7 @@ It's automatically generated for every subdirectory in `toys`. The structure is 
 
 ```
 toys
-|-- id (for example: hanachirosato)
+|-- id (for example: hanachirusato)
     |-- toy.json (fixed name)
     |-- en.md (fixed name)
     |-- de.md

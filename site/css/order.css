@@ -1,0 +1,72 @@
+#order__form {
+    justify-content: left;
+    max-width: 66%;
+    margin: 0 auto;
+    padding: var(--margin-large);
+    color: var(--turquoise);
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: var(--margin-medium);
+    margin-top: var(--margin-medium);
+}
+
+input,
+textarea {
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 1.2em;
+    padding: var(--margin-medium);
+    margin-bottom: var(--margin-medium);
+    border-radius: 0px;
+    background-color: rgba(191, 142, 99, 0.15);
+    border: 1px solid var(--turquoise);
+    color: var(--turquoise);
+}
+
+#order__form #toy {
+    color: var(--turquoise);
+    pointer-events: none;
+    background-color: lightgray;
+    text-transform: capitalize;
+}
+
+#confirm__group {
+    display: inline-block;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: var(--margin-medium);
+}
+
+#confirm__group {
+    text-align: justify;
+}
+
+#confirm__group p {
+    margin-top: var(--margin-small);
+}
+
+input[type="checkbox"] {
+    height: 1em;
+    width: 1em;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: var(--turquoise);
+}
+
+#order__button {
+    border: 1px solid var(--turquoise);
+    background-color: var(--ocker);
+    width: 100%;
+    padding: var(--margin-large);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+#order__button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}

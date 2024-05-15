@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<form id="order__form" action="https://formspree.io/f/mbjnbpyr" method="POST">
+    <label for="toy">{{order__toy}}</label>
+    <input type="toy" id="toy" name="toy" required readonly value="">
+
+    <script>
+        // Get the target value from the URL
+        const targetValue = window.location.hash.substring(1);
+        console.log(targetValue);
+
+        // Set the toy's value to the target value
+        const toyInput = document.getElementById('toy');
+        toyInput.value = targetValue;
+    </script>
+
+    <label for="email">{{order__mail}}</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="name">{{order__name}}</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="address">{{order__address}}</label>
+    <textarea id="address" name="address" rows="2" required></textarea>
+
+    <div id="confirm__group">
+        <input type="checkbox" id="confirmation" name="confirmation" required>
+        <label for="confirmation">
+            {{order__confirmation}}
+            <p>{{order__shipping}}</p>
+        </label>
+    </div>
+
+    <label for="comment">{{order__comment}}</label>
+    <textarea id="comment" name="comment"></textarea>
+
+    <button id="order__button" type="submit">{{order__order}}</button>
+</form>
+
+{% endblock %}

@@ -69,9 +69,49 @@
         "en": "tea presentations, invitations and utensils",
         "jp": "お茶のプレゼンテーション、茶事、茶道具"
     },
+    "order__toy": {
+        "de": "Name des Utensils",
+        "en": "Toy Name",
+        "jp": "道具の銘"
+    },
+    "order__mail": {
+        "de": "E-Mail",
+        "en": "E-Mail",
+        "jp": "メール"
+    },
+    "order__name": {
+        "de": "Name",
+        "en": "Name",
+        "jp": "名前"
+    },
+    "order__address": {
+        "de": "Adresse",
+        "en": "Address",
+        "jp": "住所"
+    },
+    "order__confirmation": {
+        "en": "I agree to order the selected item for the indicated price.",
+        "de": "Ich bestätige, dass ich den ausgewählten Artikels zum angegebenen Preis hiermit bestelle.",
+        "jp": "選択した道具を指定された価格で注文することに同意します。"
+    },
+    "order__shipping": {
+        "en": "Shipping in Switzerland is 7 CHF, and payment follows via PayPal or Twint. Shipping for orders outside of Switzerland will be communicated by e-mail.",
+        "de": "Der Versand innerhalb der Schweiz kostet 7 CHF, und die Bezahlung erfolgt per PayPal oder Twint. Versandkosten für Bestellungen ausserhalb der Schweiz werden per E-Mail kommuniziert.",
+        "jp": "スイス国内の配送は7 CHFで、支払いはPayPalまたはTwintで行われます。スイス国外への注文の配送料はメールで通知されます。"
+    },
+    "order__comment": {
+        "de": "Kommentar",
+        "en": "Comment",
+        "jp": "コメント"
+    },
+    "order__order": {
+        "de": "Bestellen",
+        "en": "Order",
+        "jp": "注文"
+    },
     "toy__close": {
-        "de": "Schließen",
-        "en": "Close",
+        "de": "Fenster Schließen",
+        "en": "Close Window",
         "jp": "閉じる"
     },
     "toy__order": {

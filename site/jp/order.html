@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <title>池庵 | お茶のプレゼンテーション、茶事、茶道具</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ikeanはスイスのチューリッヒにある茶道のための茶室です。お茶のプレゼンテーション、茶事のお手伝い、茶道具の販売をしています。">
+    <meta name="keywords" content="お茶、茶道、茶の湯、抹茶、日本、チューリッヒ、お茶のプレゼンテーション、茶事、茶道具">
+
+    <!-- styles -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛖</text></svg>">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="../css/styles-768.css">
+
+    <!-- js -->
+    <script src="../scripts.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+    <!-- i18n -->
+    <link rel="canonical" href="https://www.ikean.ch/en/order">
+    <link rel="alternate" hreflang="en" href="https://www.ikean.ch/en/order">
+    <link rel="alternate" hreflang="de" href="https://www.ikean.ch/de/order">
+    <link rel="alternate" hreflang="ja" href="https://www.ikean.ch/ja/order">
+</head>
+
+<body>
+    <header>
+        <h1>池庵</h1>
+        <nav class="menu">
+            <details>
+                <summary>メニュー</summary>
+                <ul>
+                    <li class="menu__item"><a href="">プレゼンテーション</a></li>
+                    <li class="menu__item"><a href="">様相</a></li>
+                    <li class="menu__item"><a href="toys.html">道具</a></li>
+                    <li class="menu__item"><a href="">コンタクト</a></li>
+                    <li class="menu__item"><a href="../en/order.html"
+                            class="menu__language">en</a><a href="../de/order.html"
+                            class="menu__language">de</a>
+                    </li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="order">
+
+
+
+<form id="order__form" action="https://formspree.io/f/mbjnbpyr" method="POST">
+    <label for="toy">道具の銘</label>
+    <input type="toy" id="toy" name="toy" required readonly value="">
+
+    <script>
+        // Get the target value from the URL
+        const targetValue = window.location.hash.substring(1);
+        console.log(targetValue);
+
+        // Set the toy's value to the target value
+        const toyInput = document.getElementById('toy');
+        toyInput.value = targetValue;
+    </script>
+
+    <label for="email">メール</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="name">名前</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="address">住所</label>
+    <textarea id="address" name="address" rows="2" required></textarea>
+
+    <div id="confirm__group">
+        <input type="checkbox" id="confirmation" name="confirmation" required>
+        <label for="confirmation">
+            選択した道具を指定された価格で注文することに同意します。
+            <p>スイス国内の配送は7 CHFで、支払いはPayPalまたはTwintで行われます。スイス国外への注文の配送料はメールで通知されます。</p>
+        </label>
+    </div>
+
+    <label for="comment">コメント</label>
+    <textarea id="comment" name="comment"></textarea>
+
+    <button id="order__button" type="submit">注文</button>
+</form>
+
+
+    </section>
+</body>
+
+</html>

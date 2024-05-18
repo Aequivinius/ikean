@@ -51,12 +51,12 @@ def get_missing_translation(text, target_language):
     return response.choices[0].message.content
 
 
-def get_missing_translations(toy):
+def get_missing_translations(object, path):
     for language in TARGET_LANGUAGES:
-        if language not in toy["description"]:
-            toy["description"][language] = get_missing_translation(
-                toy["description"]["en"], language
+        if language not in object["description"]:
+            object["description"][language] = get_missing_translation(
+                object["description"]["en"], language
             )
-            with open(os.path.join("toys", toy["id"], f"{language}.md"), "w") as f:
-                f.write(toy["description"][language])
-    return toy
+            with open(os.path.join(path, object["id"], f"{language}.md"), "w") as f:
+                f.write(object["description"][language])
+    return object

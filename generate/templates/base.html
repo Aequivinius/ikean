@@ -29,13 +29,13 @@
 
 <body>
     <header>
-        <h1>{{ikean}}</h1>
+        <h1><a href="home.html">{{ikean}}</a></h1>
         <nav class="menu">
             <details>
                 <summary>{{menu__menu}}</summary>
                 <ul>
                     <li class="menu__item"><a href="">{{menu__presentations}}</a></li>
-                    <li class="menu__item"><a href="">{{menu__aspects}}</a></li>
+                    <li class="menu__item"><a href="aspects.html">{{menu__aspects}}</a></li>
                     <li class="menu__item"><a href="toys.html">{{menu__toys}}</a></li>
                     <li class="menu__item"><a href="">{{menu__contact}}</a></li>
                     <li class="menu__item">{% for target_language in ["en", "de", "jp"] %}{% if target_language !=

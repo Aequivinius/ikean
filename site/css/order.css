@@ -1,3 +1,7 @@
+#order {
+    display: block;
+}
+
 #order__form {
     justify-content: left;
     max-width: 66%;

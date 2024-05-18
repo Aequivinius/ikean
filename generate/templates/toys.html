@@ -6,8 +6,8 @@
     <a href="#{{toy.id}}">
         <img class="toys__thumbnail" src="../../toys/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}" />
 
-        <figcaption class="toys__description">
-            <h2 class="toys__name clearfix">{{toy.name[language]}}{% if language != "jp"%}<span
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">{{toy.name[language]}}{% if language != "jp"%}<span
                     class="right">「{{toy.name["jp"]}}」</span>{%
                 endif %}</h2>
             <span class="toys__maker">{% if "maker" in toy %}made by {{toy.maker[language]}}{% else %}maker unknown{%
@@ -18,7 +18,7 @@
     </a>
 </figure>
 
-<div class="toy" id="{{toy.id}}">
+<div class="overlay" id="{{toy.id}}">
     <div class="gallery">
         <div class="gallery__main">
             {% if "model" in toy %}
@@ -57,7 +57,7 @@
             {{toy__CHF}})</a>
         {% endif %}
 
-        <a class="toy__close" href="#toys">{{toy__close}}</a>
+        <a class="close" href="#toys">{{toy__close}}</a>
     </div>
 
 

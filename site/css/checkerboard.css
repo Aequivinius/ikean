@@ -1,12 +1,5 @@
 /* toys is for the page with all the toys, toy for the individual toy page */
 
-#toys {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--margin-large);
-    padding: var(--margin-large);
-}
-
 figure {
     position: relative;
 }
@@ -21,12 +14,12 @@ figure {
     display: table;
 }
 
-.toys__thumbnail {
+.field__thumbnail {
     max-width: 100%;
     box-shadow: var(--drop-shadow-subtle);
 }
 
-.toys__description {
+.field__description {
     font-family: 'Noto Sans Japanese', sans-serif;
     font-size: 0.66em;
     background-color: rgba(255, 255, 255, 1);
@@ -35,7 +28,8 @@ figure {
     padding: var(--margin-medium);
     color: var(--turquoise);
 }
-.toys__name {
+
+.field__name {
     font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
@@ -48,33 +42,6 @@ figure {
 .toys__price {
     float: right;
     padding-right: var(--margin-medium);
-}
-
-.toy {
-    display: none;
-    position: absolute;
-    top: 0px;
-    padding: calc(3*var(--margin-large));
-    width: 100%;
-    min-height: 100%;
-    max-height: 100%;
-    z-index: 150;
-    overflow-y: scroll;
-    background-color: rgba(271, 243, 248, 0.95);
-    box-shadow:
-        inset 0 10px 5px -10px var(--brown),
-        inset 0 -10px 5px -10px var(--brown);
-}
-
-.toy:target {
-    display: block;
-}
-
-.toy__close {
-    float: right;
-    margin-top: 1em;
-    text-transform: uppercase;
-    letter-spacing: var(--letter-spacing);
 }
 
 .gallery__thumbnails {
@@ -103,15 +70,6 @@ figure {
 .toy__name {
     text-transform: uppercase;
     letter-spacing: calc(0.5* var(--letter-spacing));
-}
-
-.toy p {
-    font-family: 'Noto Sans Japanese', sans-serif;
-    font-size: 1em;
-    line-height: 1.5em;
-    text-align: justify;
-    font-style: italic;
-    margin-bottom: var(--margin-medium);
 }
 
 .toy__info em {

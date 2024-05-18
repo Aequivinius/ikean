@@ -54,11 +54,11 @@ def toy_from_directory(directory, categories):
 
     toy["images"] = sorted(toy["images"])
 
-    toy["alt"] = f"a {toy['category']} called {toy['name']['en']}" + (
+    toy["alt"] = f"a {toy['category']['en']} called {toy['name']['en']}" + (
         f" made by {toy['maker']}" if "maker" in toy else ""
     )
 
-    toy = i18n.get_missing_translations(toy)
+    toy = i18n.get_missing_translations(toy, "toys")
 
     return toy
 

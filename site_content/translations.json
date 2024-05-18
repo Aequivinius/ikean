@@ -104,12 +104,7 @@
         "en": "Comment",
         "jp": "コメント"
     },
-    "order__order": {
-        "de": "Bestellen",
-        "en": "Order",
-        "jp": "注文"
-    },
-    "toy__close": {
+    "gridobject__close": {
         "de": "Fenster Schließen",
         "en": "Close Window",
         "jp": "閉じる"

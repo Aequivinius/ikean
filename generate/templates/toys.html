@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% for toy in toys %}
+{% for toy in fields %}
 <figure>
     <a href="#{{toy.id}}">
-        <img class="toys__thumbnail" src="../../toys/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}" />
+        <img class="toys__thumbnail" src="../../content/toys/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}" />
 
         <figcaption class="field__description">
             <h2 class="field__name clearfix">{{toy.name[language]}}{% if language != "jp"%}<span
@@ -22,12 +22,13 @@
     <div class="gallery">
         <div class="gallery__main">
             {% if "model" in toy %}
-            <model-viewer class="gallery__main-model" alt="{{toy.alt}}" src="../../toys/{{toy.id}}/{{toy.model}}" ar
-                auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+            <model-viewer class="gallery__main-model" alt="{{toy.alt}}"
+                src="../../content/toys/{{toy.id}}/{{toy.model}}" ar auto-rotate shadow-intensity="1" camera-controls
+                touch-action="pan-y"></model-viewer>
 
-            <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.poster}}" alt="{{toy.alt}}">
+            <img class="gallery__main-img" src="../../content/toys/{{toy.id}}/{{toy.poster}}" alt="{{toy.alt}}">
             {% else %}
-            <img class="gallery__main-img" src="../../toys/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}"
+            <img class="gallery__main-img" src="../../content/toys/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}"
                 style="display: block">
             {%endif%}
         </div>
@@ -38,18 +39,18 @@
             {% set index = 1 %}
             {% endif %}
             {% for image in toy.images[index:] %}
-            <img class="gallery__thumbnail" src="../../toys/{{toy.id}}/{{image}}" alt="{{toy.alt}}"
+            <img class="gallery__thumbnail" src="../../content/toys/{{toy.id}}/{{image}}" alt="{{toy.alt}}"
                 onclick="changeMainImage('{{toy.id}}',this)">
             {% endfor %}
         </div>
     </div>
 
     <div class="toy__info">
-        <h2 class="toy__name">{{toy.name[language]}}{% if language != "jp"%}<span
+        <h2 class="toy__name clearfix">{{toy.name[language]}}{% if language != "jp"%}<span
                 class="right">「{{toy.name["jp"]}}」</span>{% endif %}</h2>
         {% if "maker" in toy %}<span class="toy__maker">made by {{toy.maker[language]}}</span>{% endif %}
 
-        <p>{{toy.description[language]}}</p>
+        <p>{{toy.content[language]}}</p>
 
         {% if toy.sale %}
         <a href="order.html#{{toy.id}}" class="toy__button">{{toy__order}} ({{toy.category[language]}},

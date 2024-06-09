@@ -76,6 +76,11 @@ section {
     border-color: var(--brown);
 }
 
+.menu__item:hover, .menu__active {
+    color: var(--brown);
+    transition: var(--allegro);
+}
+
 .overlay {
     display: none;
     position: absolute;
@@ -90,6 +95,15 @@ section {
     box-shadow:
         inset 0 10px 5px -10px var(--brown),
         inset 0 -10px 5px -10px var(--brown);
+}
+
+#contact p {
+    font-family: 'Noto Sans Japanese', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    font-style: italic;
+    margin-bottom: var(--margin-medium);
 }
 
 .overlay:target {

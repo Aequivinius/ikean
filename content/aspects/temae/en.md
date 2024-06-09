@@ -4,4 +4,4 @@ This is not just a mere formality, but an essential part of the congregation: It
 
 There is the story of Hideyoshi, who wanted to see Rikyū's morning glories in the tea garden; but when he arrived, they all had been cut. Instead, when he entered the room, he found a single morning glory in the alcove. Such a surprise only was possible in the light of his expectation.
 
-This is not contrained to the tea ceremony, though, but is relevant in today's gastronomy as well. Asking a guest what brings you here? doesn't need to be an empty formality, but helps to establish what expectations they hold.
+This is not contrained to the tea ceremony, though, but is relevant in today's gastronomy as well. Asking a guest *what brings you here?* doesn't need to be an empty formality, but helps to establish what expectations they hold.

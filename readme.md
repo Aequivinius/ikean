@@ -60,3 +60,32 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 
 # Dev
 * Use `poetry shell` then `code .` to get the `poetry` environment in VS Code
+
+# Backlog
+- [ ] restructure the whole `generate` package
+- [ ] write doc strings
+- [ ] write and run the `pytest`s, then register them on merges
+- [ ] JSON schema for checkerboards
+
+## Toys
+- [ ] Seasonality
+- [ ] structured information (especially in Japanese, right now, we still have *made by* in there)
+
+## Home
+- [ ] home page should link to contact
+- [ ] Replace Times with Garamond or Noto Serif; also have fonts locally for offline development
+- [ ] `<a>`s need styling
+
+## Content
+- [ ] aspects
+- [ ] presentations
+
+## Deployment
+- [ ] domain
+- [ ] deploy
+
+## Nice to have
+- [ ] better language switcher for japanese
+- [ ] small footer
+- [ ] set up CI/CD
+- [ ] add filter for toys

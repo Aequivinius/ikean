@@ -1,5 +1,7 @@
 # To Do
-- [ ] run the `pytest`s
+- [ ] restructure the whole `generate` package
+- [ ] write doc strings
+- [ ] write and run the `pytest`s, then register them on merges
 
 ## Toys
 - [ ] Seasonality

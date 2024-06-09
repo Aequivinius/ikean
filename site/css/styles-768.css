@@ -31,11 +31,11 @@ details[open] summary~* {
     animation: none;
 }
 
-#toys {
+section {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.toy:target {
+.overlay:target {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: var(--margin-large);

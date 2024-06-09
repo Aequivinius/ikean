@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for field in fields %}
+<figure>
+    <a href="#{{field.id}}">
+        <img class="toys__thumbnail" src="../../content/aspects/{{field.id}}/{{field.images[0]}}" alt="{{field.alt}}" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">{{field.name[language]}}{% if language != "jp"%}<span
+                    class="right">「{{field.name["jp"]}}」</span>{%
+                endif %}</h2>
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="{{field.id}}">
+
+    <div class="gallery">
+        <div class="gallery__main">
+            <img class="gallery__main-img" src="../../content/aspects/{{field.id}}/{{field.images[0]}}"
+                alt="{{field.alt}}" style="display: block">
+        </div>
+    </div>
+
+    <div class="toy__info">
+        <h2 class="toy__name clearfix">{{field.name[language]}}{% if language != "jp"%}<span
+                class="right">「{{field.name["jp"]}}」</span>{% endif %}</h2>
+
+        <p>{{field.content[language]}}</p>
+
+        <a class="close" href="#aspects">{{toy__close}}</a>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}

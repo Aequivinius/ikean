@@ -1,0 +1,1 @@
+Januar ist ein Monat der „ersten Male“: 初夢, der erste Traum des neuen Jahres, 初釜, die erste Tee-Einladung des neuen Jahres, und 書初, die erste Kalligrafie des neuen Jahres, sind ziemlich berühmt, aber es gibt noch viele andere, recht wichtige Dinge, wie 初笑, das erste Lachen des Jahres.

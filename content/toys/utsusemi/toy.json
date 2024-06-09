@@ -1,0 +1,15 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Shell of the Locust",
+        "de": "Die Hülle der Heuschrecke",
+        "jp": "空蝉"
+    },
+    "price": 120,
+    "sale": true,
+    "maker": {
+        "en": "Okada Saburo",
+        "de": "Okada Saburo",
+        "jp": "岡田三郎"
+    }
+}

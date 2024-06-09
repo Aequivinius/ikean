@@ -9,7 +9,7 @@ from markdown.extensions.wikilinks import WikiLinkExtension
 
 For every templates/*.html file, it will generate a page in each i18n.LANGUAGES language. Normally, it will use the contents from translation.json, but if the page is in the CHECKERBOARDS list in the corresponding .json, it will load the contents from the corresponding directory."""
 
-PAGES = "docs"
+PAGES = "site"
 TEMPLATES = "templates"
 PAGE_TYPES = "pages.json"
 CONTENT = "content"

@@ -1,6 +1,6 @@
 # Structure
 
-The `generate` package, unsurprisingly, *generates* the `site` in 3 different languages. The content either comes from the `site_content/translations.json` if it's a plain and easy site; or via `checkerboard`.
+The `generate` package, unsurprisingly, *generates* the `site` in 3 different languages. The content either comes from plain strings in the the `site_content/translations.json`, or from `.md` files if it needs more layout.
 
 A checkerboard is an instragram-like layout; made of individual *fields*. Each field has its content with structured data, free text, images and models organised in simple directories. For each site to be generated, `generate` looks for a directory in `site_content`, which in turn contains the field directories. For example, to generate the `aspects.html`, you need to have an `site_content/aspects` folder.
 

@@ -1,0 +1,2 @@
+Das Mahl, das dem Servieren des Tees vorausgeht, ist selbst zur Kunst geworden: Um eine gute Teeschale zuzubereiten, braucht man ein gutes Feuer; und ein gutes Feuer braucht Zeit. Um diese Zeit zu füllen, hat sich das 懐石-Mahl entwickelt.
+Für meine Praxis halte ich mich also an Jōōs Prinzip von "一汁三菜", das bedeutet eine Suppe, drei Beilagen (etwas Eingelegtes, etwas in einer flachen Schale und etwas Gebratenes).

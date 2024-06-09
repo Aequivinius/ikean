@@ -2,6 +2,7 @@
 - [ ] restructure the whole `generate` package
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
+- [ ] JSON schema for checkerboards
 
 ## Toys
 - [ ] Seasonality

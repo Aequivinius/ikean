@@ -55,6 +55,6 @@ class Translator:
                 object["content"][language] = self.get_missing_translation(
                     object["content"]["en"], language
                 )
-                with open(os.path.join(path, object["id"], f"{language}.md"), "w") as f:
+                with open(os.path.join(path, f"{language}.md"), "w") as f:
                     f.write(object["content"][language])
         return object

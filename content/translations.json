@@ -4,9 +4,14 @@
         "en": "tea scoop",
         "jp": "茶杓"
     },
+    "contact__text": {
+        "en": "I'm a bartender who turned to the Japanese tea ceremony to find a theory of hospitality. Contact me at nico@ikean.ch.",
+        "de": "Kontakt",
+        "jp": "コンタクト"
+    },
     "home__text": {
         "de": "Die Erfahrung der Schönheit geht über die Grenzen der Kultur hinaus.",
-        "en": "the principles of beauty go beyond the limits of culture",
+        "en": "The principles of beauty go beyond the limits of culture.",
         "jp": "美の原則は文化の枠を超える"
     },
     "ikean": {

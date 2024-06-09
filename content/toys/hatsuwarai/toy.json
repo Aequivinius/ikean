@@ -1,0 +1,10 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "First Laughter",
+        "de": "Ein erstes Lächeln",
+        "jp": "初笑"
+    },
+    "price": 40,
+    "sale": true
+}

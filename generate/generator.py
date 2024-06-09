@@ -7,7 +7,7 @@ from markdown.extensions.wikilinks import WikiLinkExtension
 
 """This package generates the site in different languages, loading its contents either from translations.json and directories.
 
-For every templates/*.html file, it will generate a page in each i18n.LANGUAGES language. Normally, it will use the contents from translation.json, but if the page is in the CHECKERBOARDS list below, it will load the contents from the corresponding directory."""
+For every templates/*.html file, it will generate a page in each i18n.LANGUAGES language. Normally, it will use the contents from translation.json, but if the page is in the CHECKERBOARDS list in the corresponding .json, it will load the contents from the corresponding directory."""
 
 PAGES = "site"
 TEMPLATES = "templates"

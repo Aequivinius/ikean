@@ -6,5 +6,10 @@
         "jp": "早乙女"
     },
     "price": 180,
-    "sale": true
+    "sale": true,
+    "maker": {
+        "en": "Okada Saburo",
+        "de": "Okada Saburo",
+        "jp": "岡田三郎"
+    }
 }

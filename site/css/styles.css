@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Rock+Salt|Hachi+Maru+Pop|Noto+Sans+Japanese');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Hachi+Maru+Pop');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @import url('reset.css');
 @import url('animations.css');
 @import url('header.css');
 @import url('checkerboard.css');
 @import url('order.css');
+@import url('jp.css');
 
 :root {
     --turquoise: rgb(7, 38, 32);
@@ -11,8 +15,11 @@
     --ocker: rgb(191, 142, 99);
     --camel: rgb(166, 120, 93);
 
-    --letter-spacing: 0.2em;
+    --letter-spacing: 0.15em;
     --fun-font: 'Rock Salt', 'Hachi Maru Pop', cursive;
+    --serif-font: 'Cormorant Garamond', serif;
+    --serif-font-jp: "Noto Serif JP", serif;
+    --sans-font: 'Helvetica Neue', "Helvetica", sans-serif;
 
     --margin-very-small: 0.1em;
     --margin-small: 0.25em;
@@ -28,6 +35,7 @@
 
 section {
     position: relative;
+    /* ocker very pale */
     background-color: RGBA(191,
                 142,
                 99,
@@ -35,7 +43,7 @@ section {
     box-shadow:
         inset 0 10px 5px -10px var(--brown),
         inset 0 -10px 5px -10px var(--brown);
-    display: grid;
+    display: grid; /* overwritten in #home */
     grid-template-columns: repeat(2, 1fr);
     gap: var(--margin-large);
     padding: var(--margin-large);
@@ -43,12 +51,12 @@ section {
 
 #home {
     display: block;
+    font-family: var(--serif-font);
     color: var(--brown);
     text-shadow: 1px 1px 1px var(--camel);
     height: 80vh;
     background: linear-gradient(201deg, var(--ocker), var(--camel)), url('noise.svg');
 }
-
 
 #home__text {
     position: absolute;
@@ -56,19 +64,23 @@ section {
     transform: translateY(-50%);
     font-size: 2rem;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
     left: 1em;
     right: 1em;
+}
+
+lang[jp] {
+    font-family: 'Noto Sans Japanese', sans-serif;
 }
 
 .home__link {
     font-style: normal;
     border-bottom: 1px solid var(--turquoise);
-    padding-bottom: 1px;
+    padding-bottom: 0.5px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.8em;
-    letter-spacing: var(--letter-spacing);
+    letter-spacing: var(--margin-very-small);
 }
 
 .home__link:hover {
@@ -81,21 +93,7 @@ section {
     transition: var(--allegro);
 }
 
-.overlay {
-    display: none;
-    position: absolute;
-    top: 0px;
-    padding: calc(3*var(--margin-large));
-    width: 100%;
-    min-height: 100%;
-    max-height: 100%;
-    z-index: 150;
-    overflow-y: scroll;
-    background-color: rgba(271, 243, 248, 0.95);
-    box-shadow:
-        inset 0 10px 5px -10px var(--brown),
-        inset 0 -10px 5px -10px var(--brown);
-}
+
 
 #contact p {
     font-family: 'Noto Sans Japanese', sans-serif;
@@ -104,24 +102,4 @@ section {
     text-align: justify;
     font-style: italic;
     margin-bottom: var(--margin-medium);
-}
-
-.overlay:target {
-    display: block;
-}
-
-.overlay p {
-    font-family: 'Noto Sans Japanese', sans-serif;
-    font-size: 1em;
-    line-height: 1.5em;
-    text-align: justify;
-    font-style: italic;
-    margin-bottom: var(--margin-medium);
-}
-
-.close {
-    float: right;
-    margin-top: 1em;
-    text-transform: uppercase;
-    letter-spacing: var(--letter-spacing);
 }

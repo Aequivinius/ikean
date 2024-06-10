@@ -1,0 +1,4 @@
+```de
+<p>Wie unter <a href="#tea">Tee</a> beschrieben, bilden die Süßigkeiten und der Tee eine untrennbare Einheit. Selbst wenn Sie die Holzkohle, die <a href="#kaiseki">Mahlzeit</a> und alle Etikette auslassen, würden Sie Ihren Gästen nicht versäumen, Süßigkeiten zu servieren. Traditionell werden <abbr title="nerikiri">練切</abbr> gereicht. Diese Süßigkeiten bestehen aus gefärbter Bohnenpaste und werden in formgerechte Formen gebracht. Sie können sehr ausdrucksstark sein, aber da sie normalerweise aus den gleichen Materialien hergestellt werden, vermitteln sie keinen <em>Geschmack</em> der Jahreszeit.</p>
+<p>Es ist jedoch wichtig, dass der Geschmack der Süßigkeiten nicht den Geschmack des Tees übertönt. In dieser Hinsicht sind japanische Teesüßigkeiten besonders darin, Fette zu vermeiden, die im Mund verbleiben und die Wertschätzung des Tees behindern. Dies sollte beachtet werden, wenn man nicht-japanische Süßigkeiten ausprobiert.</p>
+```

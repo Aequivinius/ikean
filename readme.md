@@ -62,10 +62,15 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 * Use `poetry shell` then `code .` to get the `poetry` environment in VS Code
 
 # Backlog
+- fonts, colors, fotos, italics, contact becomes about me
 - [ ] restructure the whole `generate` package
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
 - [ ] JSON schema for checkerboards
+
+## 日本語
+- [ ] checkerboard `field__info` with `writing-mode: vertical-rl`
+- [ ] language switcher script that copies `#`-links
 
 ## Toys
 - [ ] Seasonality

@@ -1,0 +1,14 @@
+html:lang(jp) p, html:lang(jp) #home__text {
+    font-style: normal;
+    font-family: var(--serif-font-jp);
+}
+
+html:lang(jp) header {
+    font-family: var(--serif-font-jp);
+}
+
+html:lang(jp) .home__link {
+    font-size: 1em;
+    font-weight: 500;
+    border: none;
+}

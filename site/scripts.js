@@ -41,3 +41,10 @@ function changeMainImage(id, thumbnail) {
         thumbnail.src = temp;
     }
 }
+
+window.addEventListener('hashchange', () => {
+    const menuLanguages = document.querySelectorAll('.menu__language');
+    menuLanguages.forEach(menuLanguage => {
+        menuLanguage.href = `${menuLanguage.href}${window.location.hash}`;
+    });
+});

@@ -1,12 +1,13 @@
 header {
     text-align: center;
     color: var(--turqoise);
+    font-family: var(--serif-font);
 }
 
 h1 {
     font-family: var(--fun-font);
     font-size: 2em;
-    margin-bottom: calc(-1 *var(--margin-small));
+    margin-bottom: calc(-1 * var(--margin-small));
     letter-spacing: var(--letter-spacing);
     animation: pulse 10s infinite;
 }
@@ -38,8 +39,4 @@ details[open] summary~* {
 
 .menu__item {
     margin: var(--margin-medium) 0 var(--margin-medium) 0;
-}
-
-.menu__language:not(:last-child)::after {
-    content: " | "
 }

@@ -1,0 +1,3 @@
+The tea ritual serves to establish a *sacred **space*** that elevates the mundane task of making a simple cup of tea into a higher realm. So in a way, with its prescribed movements, intention and care, we are already creating a *space*.
+
+However, it is also well-known that only very advanced practitioners manage to hold a tea gathering outside and prevent the minds of the guests from swaying. So a prepared tea *space* helps the guests to stay focused and enjoy the hospitality we're trying to offer them. From this idea, a whole architectural style of the *thatched hut tea room* has evolved, and even been expanded to include a garden in front of the tea room which the guests will walk through on their way.

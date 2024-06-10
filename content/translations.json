@@ -9,10 +9,20 @@
         "de": "Ich bin ein Barkeeper, der sich der japanischen Teezeremonie zugewandt hat, um eine Theorie der Gastfreundschaft zu finden. Kontaktieren Sie mich:",
         "jp": "私はホスピタリティの理論を見つけるために日本の茶道に転向したバーテンダーです。お問い合わせはこちら："
     },
-    "home__text": {
-        "de": "Die Erfahrung der Schönheit geht über die Grenzen der Kultur hinaus.",
-        "en": "The principles of beauty go beyond the limits of culture.",
-        "jp": "美の原則は文化の枠を超える"
+    "home__text_1": {
+        "de": "Die ",
+        "en": "The ",
+        "jp": ""
+    },
+    "home__text_2": {
+        "de": "Erfahrung der Schönheit",
+        "en": "principles of beauty",
+        "jp": "美の原則は"
+    },
+    "home__text_3": {
+        "de": " geht über die Grenzen der Kultur hinaus.",
+        "en": " go beyond the limits of culture.",
+        "jp": "文化の枠を超える。"
     },
     "ikean": {
         "de": "ikean",
@@ -25,24 +35,34 @@
         "jp": "様相"
     },
     "menu__contact": {
-        "de": "Kontakt",
-        "en": "contact",
-        "jp": "コンタクト"
+        "de": "über mich",
+        "en": "about",
+        "jp": "概要"
     },
     "menu__language_left": {
         "de": "en",
         "en": "de",
         "jp": "英語"
     },
+    "menu__language_left_url": {
+        "de": "en",
+        "en": "de",
+        "jp": "en"
+    },
     "menu__language_right": {
         "de": "jp",
         "en": "jp",
         "jp": "ドイツ語"
     },
+    "menu__language_right_url": {
+        "de": "jp",
+        "en": "jp",
+        "jp": "de"
+    },
     "menu__language_separator": {
-        "de": "|",
-        "en": "|",
-        "jp": "・"
+        "de": " | ",
+        "en": " | ",
+        "jp": " ・ "
     },
     "menu__menu": {
         "de": "Menü",
@@ -109,7 +129,7 @@
         "en": "Comment",
         "jp": "コメント"
     },
-    "gridobject__close": {
+    "field__close": {
         "de": "Fenster Schließen",
         "en": "Close Window",
         "jp": "閉じる"

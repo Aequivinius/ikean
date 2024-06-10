@@ -38,12 +38,12 @@ class Translator:
             },
             {
                 "role": "user",
-                "content": f"Translate into {target_language}, stripping any <p>-tags: {text}",
+                "content": f"Translate into {target_language}, maintaining the markdown markup: {text}",
             },
         ]
         response = self.gpt_client.chat.completions.create(
             model="gpt-3.5-turbo",
-            max_tokens=500,
+            max_tokens=1000,
             temperature=0.7,
             messages=messages,
         )

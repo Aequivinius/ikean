@@ -58,6 +58,7 @@ section {
     background: linear-gradient(201deg, var(--ocker), var(--camel)), url('noise.svg');
 }
 
+
 #home__text {
     position: absolute;
     top: 50%;
@@ -93,13 +94,14 @@ lang[jp] {
     transition: var(--allegro);
 }
 
-
-
-#contact p {
-    font-family: 'Noto Sans Japanese', sans-serif;
+#about p {
+    font-family: var(--sans-font);
     font-size: 1em;
     line-height: 1.5em;
     text-align: justify;
-    font-style: italic;
-    margin-bottom: var(--margin-medium);
+    margin-top: var(--margin-large);
+}
+
+#about {
+    display: block;
 }

@@ -52,6 +52,10 @@ class Generator:
             for d in os.listdir(directory)
             if os.path.isdir(os.path.join(directory, d)) and d != "template"
         ]
+
+        if len(subdirectories) == 0:
+            return [self.field_from_directory(directory)]
+
         fields = [
             self.field_from_directory(os.path.join(directory, subdirectory))
             for subdirectory in subdirectories

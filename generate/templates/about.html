@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-<img class="contact__main" src="../../content/contact.jpg" alt="Nico cleaning a tea caddy" style="display: block">
-
-<div class="contact__info">
-    <p>{{contact__text}} <a
-            href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#105;&#99;&#111;&#64;&#104;&#101;&#100;&#111;&#110;&#105;&#115;&#109;&#115;&#46;&#99;&#104;">📨</a>
-    </p>
+{% set field = fields[0] %}
+<div class="gallery ">
+    <img class="gallery__main gallery__main-img" src="../../content/about/{{field.images[0]}}"
+        alt="Nico cleaning a tea caddy" style="display: block">
 </div>
 
+<div class="field__info">
+    <h2 class="field__name clearfix">{{field.name[language]}}{% if language != "jp"%}<span lang="jp"
+            class="right">「{{field.name["jp"]}}」</span>{% endif %}</h2>
+    {{field.content[language]}}
+</div>
 {% endblock %}

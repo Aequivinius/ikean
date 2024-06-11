@@ -36,6 +36,12 @@ section {
     column-gap: calc(3 * var(--margin-large));
 }
 
+#about {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: calc(2 * var(--margin-large));
+}
+
 .gallery {
     grid-column: 1 / span 2;
 }
@@ -50,18 +56,6 @@ section {
 
 .field__info abbr::after {
     content: none;
-}
-
-#contact {
-    grid-column: 1 / span 3;
-}
-
-.contact__main {
-    grid-column: 1 / span 1;
-}
-
-.contact__info {
-    grid-column: 2 / span 3;
 }
 
 .aspects__thumbnail {

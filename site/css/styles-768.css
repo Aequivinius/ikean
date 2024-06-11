@@ -74,6 +74,16 @@ section {
     transition: filter var(--allegro) ease;
 }
 
+.toys__thumbnail {
+    filter: grayscale(25%) saturate(75%);
+    transition: filter var(--allegro) ease;
+}
+
+.toys__thumbnail:hover {
+    filter: none;
+    transition: filter var(--allegro) ease;
+}
+
 .overlay h2 {
     margin-top: 0;
 }

@@ -48,3 +48,10 @@ window.addEventListener('hashchange', () => {
         menuLanguage.href = `${menuLanguage.href}${window.location.hash}`;
     });
 });
+
+window.addEventListener('load', () => {
+    const menuLanguages = document.querySelectorAll('.menu__language');
+    menuLanguages.forEach(menuLanguage => {
+        menuLanguage.href = `${menuLanguage.href}${window.location.hash}`;
+    });
+});

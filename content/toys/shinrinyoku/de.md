@@ -1,3 +1,0 @@
-Dies ist eine einfache Bambus-Teeschaufel mit einigen interessanten Details in der Nähe des Bodens und in der Nähe des Knotens. Es fühlt sich erfrischend und elegant an, wie ein Spaziergang im Wald. Ihr Name, 森林浴, übersetzt sich wörtlich als Waldbaden oder, wissenschaftlicher ausgedrückt, als Silvotherapie. Während Menschen schon immer die ruhige Gelassenheit eines Waldes genossen haben, gewann der Begriff in den 1980er Jahren an Popularität, als Menschen versuchten, sich wieder mit der Natur zu verbinden.
-
-In dieser Ansicht kann man nicht nur die einfache Bedeutung des Genießens der Natur finden, sondern auch das postindustrielle Verlangen und den Kampf der Menschheit, den Schaden rückgängig zu machen, den wir der Natur zugefügt haben.

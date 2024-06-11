@@ -1,3 +1,0 @@
-Traditionell bezieht sich der Begriff "saotome" auf die Frauen, die im Frühsommer Reis auf den Reisfeldern pflanzen, eine für den Reisanbau in Japan entscheidende Zeit. Das Pflanzen von Reis ist nicht nur für die Landwirtschaft von Bedeutung, sondern ist auch in kulturelle Rituale und Feste eingebettet, die das landwirtschaftliche Erbe Japans feiern und ehren.
-
-Dieser Teelöffel ruft die Vorstellung und das Wesen des Frühsommers hervor und spiegelt eine Verbindung zum Land und dem zyklischen Charakter der Jahreszeiten wider. Diese Wahl symbolisiert eine Ehrerbietung für die Arbeit und Hingabe der Reispflanzer und betont die harmonische Beziehung zwischen menschlichen Aktivitäten und den Rhythmen der Natur.

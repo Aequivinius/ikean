@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "object",
+            "properties": {
+                "en": {
+                    "type": "string"
+                },
+                "de": {
+                    "type": "string"
+                },
+                "jp": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "en",
+                "de",
+                "jp"
+            ]
+        },
+        "order": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "name",
+        "order"
+    ]
+}

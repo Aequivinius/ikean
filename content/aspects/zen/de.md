@@ -1,0 +1,1 @@
+<p>Während Tee keine religiöse Praxis sein muss, ist er seit seiner Entstehung eng mit dem Zen-Buddhismus verbunden. Das gesagt, war Tee auch ein Spielfeld zur Etablierung sozialer Hierarchien, für künstlerischen Ausdruck und wirtschaftliche Unternehmungen. Es ist also nicht intrinsisch eine Zen-Praxis, kann aber genauso gut zu einer gemacht werden wie jede profane Aufgabe.</p>

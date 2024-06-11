@@ -66,6 +66,11 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
 - [ ] JSON schema for checkerboards
+- [ ] `order` field to sort aspects and 道具
+
+## 日本語
+- [ ] checkerboard `field__info` with `writing-mode: vertical-rl`
+- [ ] language switcher script that copies `#`-links
 
 ## Toys
 - [ ] Seasonality

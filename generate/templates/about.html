@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set field = fields[0] %}
+<div class="gallery ">
+    <img class="gallery__main gallery__main-img" src="../../content/about/{{field.images[0]}}"
+        alt="Nico cleaning a tea caddy" style="display: block">
+</div>
+
+<div class="field__info">
+    <h2 class="field__name clearfix">{{field.name[language]}}{% if language != "jp"%}<span lang="jp"
+            class="right">「{{field.name["jp"]}}」</span>{% endif %}</h2>
+    {{field.content[language]}}
+</div>
+{% endblock %}

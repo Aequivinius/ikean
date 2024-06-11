@@ -9,10 +9,20 @@
         "de": "Ich bin ein Barkeeper, der sich der japanischen Teezeremonie zugewandt hat, um eine Theorie der Gastfreundschaft zu finden. Kontaktieren Sie mich:",
         "jp": "私はホスピタリティの理論を見つけるために日本の茶道に転向したバーテンダーです。お問い合わせはこちら："
     },
-    "home__text": {
-        "de": "Die Erfahrung der Schönheit geht über die Grenzen der Kultur hinaus.",
-        "en": "The principles of beauty go beyond the limits of culture.",
-        "jp": "美の原則は文化の枠を超える"
+    "home__text_1": {
+        "de": "Die ",
+        "en": "The ",
+        "jp": ""
+    },
+    "home__text_2": {
+        "de": "Erfahrung der Schönheit",
+        "en": "principles of beauty",
+        "jp": "美の原則は"
+    },
+    "home__text_3": {
+        "de": " geht über die Grenzen der Kultur hinaus.",
+        "en": " go beyond the limits of culture.",
+        "jp": "文化の枠を超える。"
     },
     "ikean": {
         "de": "ikean",
@@ -25,24 +35,34 @@
         "jp": "様相"
     },
     "menu__contact": {
-        "de": "Kontakt",
-        "en": "contact",
-        "jp": "コンタクト"
+        "de": "über mich",
+        "en": "about",
+        "jp": "概要"
     },
     "menu__language_left": {
         "de": "en",
         "en": "de",
         "jp": "英語"
     },
+    "menu__language_left_url": {
+        "de": "en",
+        "en": "de",
+        "jp": "en"
+    },
     "menu__language_right": {
         "de": "jp",
         "en": "jp",
         "jp": "ドイツ語"
     },
+    "menu__language_right_url": {
+        "de": "jp",
+        "en": "jp",
+        "jp": "de"
+    },
     "menu__language_separator": {
-        "de": "|",
-        "en": "|",
-        "jp": "・"
+        "de": " | ",
+        "en": " | ",
+        "jp": " ・ "
     },
     "menu__menu": {
         "de": "Menü",
@@ -56,7 +76,7 @@
     },
     "menu__toys": {
         "de": "Utensilien",
-        "en": "toys",
+        "en": "utensils",
         "jp": "道具"
     },
     "meta__description": {
@@ -109,7 +129,7 @@
         "en": "Comment",
         "jp": "コメント"
     },
-    "gridobject__close": {
+    "field__close": {
         "de": "Fenster Schließen",
         "en": "Close Window",
         "jp": "閉じる"
@@ -124,9 +144,29 @@
         "en": "Swiss francs",
         "jp": "スイスフラン"
     },
+    "toy__maker_1": {
+        "de": "von ",
+        "en": "made by ",
+        "jp": ""
+    },
+    "toy__maker_2": {
+        "de": "",
+        "en": "",
+        "jp": "作"
+    },
+    "toy__maker_unknown": {
+        "de": "Hersteller unbekannt",
+        "en": "unknown maker",
+        "jp": "作家不明"
+    },
     "toy__price": {
         "de": "zum Preis von",
         "en": "for",
         "jp": "価格："
+    },
+    "toy__sale_disclaimer": {
+        "de": "Verkauft wird ausschließlich, was oben beschrieben ist; die übrigen Gegenstände auf den Bildern dienen lediglich dem Größenvergleich und der Veranschaulichung.",
+        "en": "The prince includes only the items described above; the other objects in the pictures are for size comparison and illustration only.",
+        "jp": "掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。"
     }
 }

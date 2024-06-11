@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for toy in fields %}
+<figure>
+    <a href="#{{toy.id}}">
+        <img class="toys__thumbnail" src="../../content/utensils/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">{{toy.name[language]}}{% if language != "jp"%}<span class="right">
+                    「{{toy.name["jp"]}}」</span>{%
+                endif %}</h2>
+            <span class="toys__maker">{% if "maker" in toy %}{{toy__maker_1}}{{toy.maker[language]}}{{toy__maker_2}}{%
+                else %}{{toy__maker_unknown}}{%
+                endif
+                %}</span>
+            <span class="toys__price">{{toy.price}} CHF</span>
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="{{toy.id}}">
+    <div class="gallery">
+        <div class="gallery__main">
+            {% if "model" in toy %}
+            <model-viewer class="gallery__main-model" alt="{{toy.alt}}"
+                src="../../content/utensils/{{toy.id}}/{{toy.model}}" ar auto-rotate shadow-intensity="1"
+                camera-controls touch-action="pan-y"></model-viewer>
+
+            <img class="gallery__main-img" src="../../content/utensils/{{toy.id}}/{{toy.poster}}" alt="{{toy.alt}}">
+            {% else %}
+            <img class="gallery__main-img" src="../../content/utensils/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}"
+                style="display: block">
+            {%endif%}
+        </div>
+        <div class="gallery__thumbnails">
+            {% if "model" in toy %}
+            {% set index = 0 %}
+            {% else %}
+            {% set index = 1 %}
+            {% endif %}
+            {% for image in toy.images[index:] %}
+            <img class="gallery__thumbnail" src="../../content/utensils/{{toy.id}}/{{image}}" alt="{{toy.alt}}"
+                onclick="changeMainImage('{{toy.id}}',this)">
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="field__info">
+        <h2 class="field__name clearfix">{{toy.name[language]}}{% if language != "jp"%}<span
+                class="right">「{{toy.name["jp"]}}」</span>{% endif %}</h2>
+        {% if "maker" in toy %}<span class="toy__maker">{{toy__maker_1}}{{toy.maker[language]}}{{toy__maker_2}}</span>{%
+        endif %}
+
+        <p>{{toy.content[language]}}</p>
+
+        {% if toy.sale %}
+        <p>{{toy__sale_disclaimer}}</p>
+
+        <a href="order.html#{{toy.id}}" class="toy__button">{{toy__order}} ({{toy.category[language]}},
+            {{toy__price}} {{toy.price}}
+            {{toy__CHF}})</a>
+        {% endif %}
+
+        <a class="close" href="utensils.html">{{field__close}}</a>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}

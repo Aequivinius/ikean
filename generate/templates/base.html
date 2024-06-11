@@ -37,13 +37,15 @@
                     <!-- <li class="menu__item"><a href="">{{menu__presentations}}</a></li> -->
                     <li class="menu__item {{'menu__active' if page == 'aspects' }}"><a
                             href="aspects.html">{{menu__aspects}}</a></li>
-                    <li class="menu__item {{'menu__active' if page == 'toys' }}"><a href="toys.html">{{menu__toys}}</a>
+                    <li class="menu__item {{'menu__active' if page == 'utensils' }}"><a
+                            href="utensils.html">{{menu__toys}}</a>
                     </li>
                     <li class="menu__item {{'menu__active' if page == 'contact' }}"><a
-                            href="contact.html">{{menu__contact}}</a></li>
-                    <li class="menu__item">{% for target_language in ["en", "de", "jp"] %}{% if target_language !=
-                        language %}<a href="../{{target_language}}/{{page}}.html"
-                            class="menu__language">{{target_language}}</a>{% endif %}{% endfor %}
+                            href="about.html">{{menu__contact}}</a></li>
+                    <li class="menu__item"><a href="../{{menu__language_left_url}}/{{page}}.html"
+                            class="menu__language">{{menu__language_left}}</a>{{menu__language_separator}}<a
+                            href="../{{menu__language_right_url}}/{{page}}.html"
+                            class="menu__language">{{menu__language_right}}</a>
                     </li>
                 </ul>
             </details>

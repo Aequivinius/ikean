@@ -33,33 +33,51 @@ section {
 .overlay:target {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    column-gap: var(--margin-large);
+    column-gap: calc(3 * var(--margin-large));
+}
+
+#about {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: calc(2 * var(--margin-large));
 }
 
 .gallery {
     grid-column: 1 / span 2;
 }
 
-.toy__info {
+.field__info {
     grid-column: 3 / span 3;
 }
 
-.toy__info abbr {
+.field__info abbr {
     border-bottom: 1px dotted var(--brown);
 }
 
-.toy__info abbr::after {
+.field__info abbr::after {
     content: none;
 }
 
-#contact {
-    grid-column: 1 / span 3;
+.aspects__thumbnail {
+    filter: grayscale(100%);
+    transition: filter var(--allegro) ease;
 }
 
-.contact__main {
-    grid-column: 1 / span 1;
+.aspects__thumbnail:hover {
+    filter: none;
+    transition: filter var(--allegro) ease;
 }
 
-.contact__info {
-    grid-column: 2 / span 3;
+.toys__thumbnail {
+    filter: grayscale(25%) saturate(75%);
+    transition: filter var(--allegro) ease;
+}
+
+.toys__thumbnail:hover {
+    filter: none;
+    transition: filter var(--allegro) ease;
+}
+
+.overlay h2 {
+    margin-top: 0;
 }

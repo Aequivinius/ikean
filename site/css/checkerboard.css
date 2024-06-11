@@ -20,13 +20,14 @@ figure {
 }
 
 .field__description {
-    font-family: 'Noto Sans Japanese', sans-serif;
+    font-family: var(--sans-font);
     font-size: 0.66em;
     background-color: rgba(255, 255, 255, 1);
     text-align: left;
     box-shadow: var(--drop-shadow-subtle);
     padding: var(--margin-medium);
     color: var(--turquoise);
+
 }
 
 .field__name {
@@ -35,6 +36,7 @@ figure {
     text-transform: uppercase;
 }
 
+
 .toys__maker, .toys__price {
     opacity: 0.66;
 }
@@ -42,6 +44,48 @@ figure {
 .toys__price {
     float: right;
     padding-right: var(--margin-medium);
+}
+
+.overlay:target {
+    display: block;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0px;
+    padding: calc(3*var(--margin-large));
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    z-index: 150;
+    overflow-y: scroll;
+    background-color: rgba(271, 269, 269, 0.95);
+    box-shadow:
+        inset 0 10px 5px -10px var(--brown),
+        inset 0 -10px 5px -10px var(--brown);
+}
+
+.overlay p {
+    font-family: var(--sans-font);
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: var(--margin-medium);
+}
+
+.overlay h2 {
+    font-family: var(--serif-font);
+    font-size: 1.2em;
+    margin-top: var(--margin-large);
+}
+
+.close {
+    float: right;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-family: var(--serif-font);
+    letter-spacing: var(--letter-spacing);
 }
 
 .gallery__thumbnails {
@@ -67,22 +111,31 @@ figure {
     filter: grayscale(0%);
 }
 
-.toy__name {
+.field__name {
     text-transform: uppercase;
-    letter-spacing: calc(0.5* var(--letter-spacing));
 }
 
-.toy__info em {
-    font-style: normal;
+.field__info em {
+    font-style: italic;
 }
 
-.toy__info abbr {
+.field__info a {
+    border-bottom: 1px solid var(--turquoise);
+    color: var(--brown);
+}
+
+.field__info a:hover {
+    border-bottom: 1px solid var(--brown);
+    color: var(--ocker);
+    transition: var(--allegro);
+}
+
+.field__info abbr {
     font-style: normal;
     text-decoration: none;
-
 }
 
-.toy__info abbr::after {
+.field__info abbr::after {
     content: " (" attr(title) ")";
     font-style: italic;
 }
@@ -90,7 +143,8 @@ figure {
 .toy__maker {
     display: inline-block;
     font-style: italic;
-    margin-bottom: var(--margin-medium);
+    opacity: 0.66;
+    margin-top: var(--margin-small);
 }
 
 model-viewer {

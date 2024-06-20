@@ -55,3 +55,16 @@ window.addEventListener('load', () => {
         menuLanguage.href = `${menuLanguage.href}${window.location.hash}`;
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const utensilsCategories = document.querySelectorAll('.utensils__category');
+    utensilsCategories.forEach(category => {
+        category.addEventListener('click', () => {
+            const categoryValue = category.getAttribute("for");
+            const fields = document.querySelectorAll(`[category="${categoryValue}"]`);
+            fields.forEach(field => {
+                field.style.display = document.getElementById(categoryValue).checked ? 'none' : 'block';
+            });
+        });
+    });
+});

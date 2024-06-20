@@ -4,6 +4,16 @@
         "en": "tea scoop",
         "jp": "茶杓"
     },
+    "kaiseki": {
+        "de": "Koch-Utensil",
+        "en": "cooking utensil",
+        "jp": "懐石"
+    },
+    "kobukusa": {
+        "de": "Tuch im alten Stil",
+        "en": "old-fashioned cloth",
+        "jp": "古帛紗"
+    },
     "contact__text": {
         "en": "I'm a bartender who turned to the Japanese tea ceremony to find a theory of hospitality. Contact me:",
         "de": "Ich bin ein Barkeeper, der sich der japanischen Teezeremonie zugewandt hat, um eine Theorie der Gastfreundschaft zu finden. Kontaktieren Sie mich:",

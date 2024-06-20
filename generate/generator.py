@@ -37,6 +37,7 @@ class Generator:
                     "language": language,
                     "page": template_file,
                     "fields": fields,
+                    "categories": self.categories_from_fields(fields),
                 }
             )
             with open(
@@ -45,6 +46,16 @@ class Generator:
                 encoding="utf-8",
             ) as f:
                 f.write(page)
+
+    def categories_from_fields(self, fields):
+        if fields is None:
+            return []
+        categories = []
+        for field in fields:
+            if "category" in field:
+                if field["category"] not in categories:
+                    categories.append(field["category"])
+        return categories
 
     def fields_from_directory(self, directory):
         subdirectories = [
@@ -79,10 +90,11 @@ class Generator:
         )
 
         if "category" in field:
+            id = field["category"]
             field["category"] = {
-                l: self.translator.translations[l][field["category"]]
-                for l in Translator.LANGUAGES
+                l: self.translator.translations[l][id] for l in Translator.LANGUAGES
             }
+            field["category"]["id"] = id
 
         for filename in [f for f in os.listdir(directory) if f.lower().endswith(".md")]:
             language = filename.split(".")[0]

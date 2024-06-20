@@ -1,8 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
+<nav id="utensils__categories">
+    {% for category in categories %}
+    <input type="checkbox" name="{{category['id']}}" id="{{category['id']}}" checked>
+    <label class="utensils__category" for="{{category['id']}}">{{category[language]}}</label>
+    {% endfor %}
+</nav>
+
+
 {% for toy in fields %}
-<figure>
+<figure category="{{toy.category['id']}}">
     <a href="#{{toy.id}}">
         <img class="toys__thumbnail" src="../../content/utensils/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}" />
 

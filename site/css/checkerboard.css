@@ -181,3 +181,29 @@ model-viewer {
 html:lang(jp) p {
     font-style: normal;
 }
+
+#utensils__categories {
+    grid-column: 1/-1;
+    margin: 0 auto;
+    margin-top: calc(-1* var(--margin-medium));
+    font-family: var(--serif-font);
+}
+
+.utensils__category:not(:last-child)::after {
+    content: "";
+    margin-left: var(--margin-large);
+    margin-right: var(--margin-large);
+}
+
+.utensils__category {
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#utensils__categories input {
+    display: none;
+}
+
+input[type="checkbox"]:checked+label {
+    font-weight: bold;
+}

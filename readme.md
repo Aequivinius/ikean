@@ -62,35 +62,27 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 * Use `poetry shell` then `code .` to get the `poetry` environment in VS Code
 
 # Backlog
-- [ ] restructure the whole `generate` package
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
 - [ ] JSON schema for checkerboards
 - [ ] `order` field to sort aspects and 道具
+- [ ] presentations page
 
-## 日本語
+## i18n
 - [ ] checkerboard `field__info` with `writing-mode: vertical-rl`
-- [ ] language switcher script that copies `#`-links
+- [ ] add icon for machine translated articles
+- [x] language switcher script that copies `#`-links
+- [ ] log when files are changed so new translations can be automatically generated
 
 ## Toys
 - [ ] Seasonality
-- [ ] structured information (especially in Japanese, right now, we still have *made by* in there)
-
-## Home
-- [ ] home page should link to contact
-- [ ] Replace Times with Garamond or Noto Serif; also have fonts locally for offline development
-- [ ] `<a>`s need styling
-
-## Content
-- [ ] aspects
-- [ ] presentations
+- [x] structured information (especially in Japanese, right now, we still have *made by* in there)
+- [x] add filter for toys
 
 ## Deployment
 - [ ] domain
-- [ ] deploy
+- [x] deploy
 
 ## Nice to have
-- [ ] better language switcher for japanese
+- [x] better language switcher for japanese
 - [ ] small footer
-- [ ] set up CI/CD
-- [ ] add filter for toys

@@ -54,8 +54,186 @@
 
     <section id="utensils">
 
+<nav id="utensils__categories">
 
-<figure>
+    <input type="checkbox" name="kaiseki" id="kaiseki" checked>
+    <label class="utensils__category" for="kaiseki">懐石</label>
+
+    <input type="checkbox" name="kobukusa" id="kobukusa" checked>
+    <label class="utensils__category" for="kobukusa">古帛紗</label>
+
+    <input type="checkbox" name="chashaku" id="chashaku" checked>
+    <label class="utensils__category" for="chashaku">茶杓</label>
+
+</nav>
+
+
+
+<figure category="kaiseki">
+    <a href="#nimonowan">
+        <img class="toys__thumbnail" src="../../content/utensils/nimonowan/1.jpg" alt="" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">煮物碗</h2>
+            <span class="toys__maker">作家不明</span>
+            <span class="toys__price">50 CHF</span>
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="nimonowan">
+    <div class="gallery">
+        <div class="gallery__main">
+
+            <img class="gallery__main-img" src="../../content/utensils/nimonowan/1.jpg" alt=""
+                style="display: block">
+
+        </div>
+        <div class="gallery__thumbnails">
+
+
+
+
+            <img class="gallery__thumbnail" src="../../content/utensils/nimonowan/2.jpg" alt=""
+                onclick="changeMainImage('nimonowan',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/nimonowan/3.jpg" alt=""
+                onclick="changeMainImage('nimonowan',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/nimonowan/4.jpg" alt=""
+                onclick="changeMainImage('nimonowan',this)">
+
+        </div>
+    </div>
+
+    <div class="field__info">
+        <h2 class="field__name clearfix">煮物碗</h2>
+
+
+        <p><p>懐石（かいせき）料理のメインディッシュは、軽く透明な出汁で煮込まれたものです。通常、季節の食材を繊細に盛り付けたもので、蒸した魚の団子や季節の野菜などがあります。必ずお椀で供されます。このコースは椀盛（わんもり）とも呼ばれ、碗（わん）を意味します。</p>
+<p>これらのお椀は柿合せ（かきあわせ）スタイルで塗られており、木目が見えます。これは、2018年にrikyuchaで購入した、蓋付きの5つのお椀セットです。これを2回使用しました。これは漆塗りの圧縮木粉で作られており（ここで木目と見えるものはおそらく本物ではない）、</p></p>
+
+
+        <p>掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。</p>
+
+        <a href="order.html#nimonowan" class="toy__button">注文 (懐石,
+            価格： 50
+            スイスフラン)</a>
+
+
+        <a class="close" href="utensils.html">閉じる</a>
+    </div>
+</div>
+
+
+<figure category="kobukusa">
+    <a href="#marumadoyamamizumon">
+        <img class="toys__thumbnail" src="../../content/utensils/marumadoyamamizumon/1.jpg" alt="" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">円窓山水紋</h2>
+            <span class="toys__maker">作家不明</span>
+            <span class="toys__price">40 CHF</span>
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="marumadoyamamizumon">
+    <div class="gallery">
+        <div class="gallery__main">
+
+            <img class="gallery__main-img" src="../../content/utensils/marumadoyamamizumon/1.jpg" alt=""
+                style="display: block">
+
+        </div>
+        <div class="gallery__thumbnails">
+
+
+
+
+            <img class="gallery__thumbnail" src="../../content/utensils/marumadoyamamizumon/2.jpg" alt=""
+                onclick="changeMainImage('marumadoyamamizumon',this)">
+
+        </div>
+    </div>
+
+    <div class="field__info">
+        <h2 class="field__name clearfix">円窓山水紋</h2>
+
+
+        <p><p>このパターンの一般的なバリエーションは、赤い背景に黄色で表示されますが、このカラースキームでは、ラウンドウィンドウから見える複雑な景色がよりはっきりと見えます。紙箱付き。</p></p>
+
+
+        <p>掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。</p>
+
+        <a href="order.html#marumadoyamamizumon" class="toy__button">注文 (古帛紗,
+            価格： 40
+            スイスフラン)</a>
+
+
+        <a class="close" href="utensils.html">閉じる</a>
+    </div>
+</div>
+
+
+<figure category="chashaku">
+    <a href="#mukanjou">
+        <img class="toys__thumbnail" src="../../content/utensils/mukanjou/1.jpg" alt="" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">無感情</h2>
+            <span class="toys__maker">岡田三郎作</span>
+            <span class="toys__price">180 CHF</span>
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="mukanjou">
+    <div class="gallery">
+        <div class="gallery__main">
+
+            <img class="gallery__main-img" src="../../content/utensils/mukanjou/1.jpg" alt=""
+                style="display: block">
+
+        </div>
+        <div class="gallery__thumbnails">
+
+
+
+
+            <img class="gallery__thumbnail" src="../../content/utensils/mukanjou/2.jpg" alt=""
+                onclick="changeMainImage('mukanjou',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/mukanjou/3.jpg" alt=""
+                onclick="changeMainImage('mukanjou',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/mukanjou/4.jpg" alt=""
+                onclick="changeMainImage('mukanjou',this)">
+
+        </div>
+    </div>
+
+    <div class="field__info">
+        <h2 class="field__name clearfix">無感情</h2>
+        <span class="toy__maker">岡田三郎作</span>
+
+        <p><p>学生が尋ねました。和尚 <abbr title="Tōzan Ryōkai">洞山良价</abbr> に寒さや暑さへの対処法を尋ねました。洞山はこう答えました：<em>「寒くもないし、暑くもない所へ行け」</em>。しかし、この言葉は旅をすることを意味しているのではなく、茶道で使われる水柄（みずひしゃく）のようになることを指しています。水柄は茶釜が熱くても熱さを感じず、冷たい水をくむ時も震えません。それは心がないからです。季節を強く感じる時にこの水柄を使います。</p>
+<p>製作者は成功した銀行経営者であり、日本茶道の実践者でもありました。彼は多くの茶柄や竹製の道具を彫りました。できるだけ古い寺院から入手した竹を使用しています。紙箱付きです。</p></p>
+
+
+        <p>掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。</p>
+
+        <a href="order.html#mukanjou" class="toy__button">注文 (茶杓,
+            価格： 180
+            スイスフラン)</a>
+
+
+        <a class="close" href="utensils.html">閉じる</a>
+    </div>
+</div>
+
+
+<figure category="chashaku">
     <a href="#hanachirusato">
         <img class="toys__thumbnail" src="../../content/utensils/hanachirusato/1_scoop.jpg" alt="" />
 
@@ -112,7 +290,7 @@
 </div>
 
 
-<figure>
+<figure category="chashaku">
     <a href="#saotome">
         <img class="toys__thumbnail" src="../../content/utensils/saotome/1_saotome.jpg" alt="" />
 
@@ -170,7 +348,7 @@
 </div>
 
 
-<figure>
+<figure category="chashaku">
     <a href="#hatsuwarai">
         <img class="toys__thumbnail" src="../../content/utensils/hatsuwarai/1.jpg" alt="" />
 
@@ -227,7 +405,7 @@
 </div>
 
 
-<figure>
+<figure category="chashaku">
     <a href="#shinrinyoku">
         <img class="toys__thumbnail" src="../../content/utensils/shinrinyoku/1_kobukusa.jpg" alt="" />
 
@@ -284,7 +462,63 @@
 </div>
 
 
-<figure>
+<figure category="chashaku">
+    <a href="#eiju">
+        <img class="toys__thumbnail" src="../../content/utensils/eiju/1.jpg" alt="" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">永寿</h2>
+            <span class="toys__maker">作家不明</span>
+            <span class="toys__price">280 CHF</span>
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="eiju">
+    <div class="gallery">
+        <div class="gallery__main">
+
+            <img class="gallery__main-img" src="../../content/utensils/eiju/1.jpg" alt=""
+                style="display: block">
+
+        </div>
+        <div class="gallery__thumbnails">
+
+
+
+
+            <img class="gallery__thumbnail" src="../../content/utensils/eiju/2.jpg" alt=""
+                onclick="changeMainImage('eiju',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/eiju/3.jpg" alt=""
+                onclick="changeMainImage('eiju',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/eiju/4.jpg" alt=""
+                onclick="changeMainImage('eiju',this)">
+
+        </div>
+    </div>
+
+    <div class="field__info">
+        <h2 class="field__name clearfix">永寿</h2>
+
+
+        <p><p>この茶さじは古い素材で作られており、2016年に東京の<abbr title="takenokodo">竹子堂</abbr>古美術店で購入しました。自然な変色があり、<abbr title="daitenmoku">台天目</abbr>などのより繊細なお茶の手順に使用できます。このようなスプーンには通常名前が付いていませんが、そのはっきりとした長い線が私に<abbr title="eiju">永寿</abbr>と呼ばせるようにしました。紙箱付き。</p></p>
+
+
+        <p>掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。</p>
+
+        <a href="order.html#eiju" class="toy__button">注文 (茶杓,
+            価格： 280
+            スイスフラン)</a>
+
+
+        <a class="close" href="utensils.html">閉じる</a>
+    </div>
+</div>
+
+
+<figure category="chashaku">
     <a href="#utsusemi">
         <img class="toys__thumbnail" src="../../content/utensils/utsusemi/1-utsusemi.jpg" alt="" />
 
@@ -335,6 +569,66 @@
 
         <a href="order.html#utsusemi" class="toy__button">注文 (茶杓,
             価格： 120
+            スイスフラン)</a>
+
+
+        <a class="close" href="utensils.html">閉じる</a>
+    </div>
+</div>
+
+
+<figure category="kaiseki">
+    <a href="#sakazuki">
+        <img class="toys__thumbnail" src="../../content/utensils/sakazuki/1.jpg" alt="" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">盃</h2>
+            <span class="toys__maker">作家不明</span>
+            <span class="toys__price">75 CHF</span>
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="sakazuki">
+    <div class="gallery">
+        <div class="gallery__main">
+
+            <img class="gallery__main-img" src="../../content/utensils/sakazuki/1.jpg" alt=""
+                style="display: block">
+
+        </div>
+        <div class="gallery__thumbnails">
+
+
+
+
+            <img class="gallery__thumbnail" src="../../content/utensils/sakazuki/2.jpg" alt=""
+                onclick="changeMainImage('sakazuki',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/sakazuki/3.jpg" alt=""
+                onclick="changeMainImage('sakazuki',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/sakazuki/box.jpg" alt=""
+                onclick="changeMainImage('sakazuki',this)">
+
+            <img class="gallery__thumbnail" src="../../content/utensils/sakazuki/box_2.jpg" alt=""
+                onclick="changeMainImage('sakazuki',this)">
+
+        </div>
+    </div>
+
+    <div class="field__info">
+        <h2 class="field__name clearfix">盃</h2>
+
+
+        <p><p>茶道の前の食事中には、お酒も出されます。通常、お酒は陶器のカップから飲まれますが、茶会ではより儀式的な形で出されます：浅い盃（sakazuki 盃）、実際にはカップよりもプレートのようなもので、わずか数回の小さな口当たりの液体を含むものです。このようにお酒を出すと、とても貴重に感じられます。</p>
+<p>セットには、5つの個々のカップ用の盃台（sakazuki dai 盃台）が付属しています。2018年に<a href="https://www.rikyucha.com/item/list2/283041">rikyucha</a>で購入したこのセットは、2回使用しました。ラッカー塗りの圧縮木粉から作られており、盃台とカップには紙箱が付属しています。</p></p>
+
+
+        <p>掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。</p>
+
+        <a href="order.html#sakazuki" class="toy__button">注文 (懐石,
+            価格： 75
             スイスフラン)</a>
 
 

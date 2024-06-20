@@ -1,0 +1,11 @@
+{
+    "category": "kaiseki",
+    "name": {
+        "en": "rice wine cups",
+        "de": "Reiswein-Teller",
+        "jp": "盃"
+    },
+    "price": 75,
+    "sale": true,
+    "material": "compressed wood powder"
+}

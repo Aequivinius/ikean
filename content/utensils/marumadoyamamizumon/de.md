@@ -1,0 +1,1 @@
+<p>Die gebräuchlichere Variante dieses Musters ist in Gelb auf rotem Hintergrund, aber mit diesem Farbschema sind die komplexen Landschaften, die durch die runden Fenster zu sehen sind, leichter zu erkennen. Wird mit einer Pappschachtel geliefert.</p>

@@ -1,0 +1,10 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Evening Prayer",
+        "de": "Abendgebet",
+        "jp": "晚課"
+    },
+    "price": 120,
+    "sale": true
+}

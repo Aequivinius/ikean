@@ -1,0 +1,15 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Open to Fortune",
+        "de": "Offen für Glück",
+        "jp": "開運"
+    },
+    "price": 80,
+    "sale": false,
+    "maker": {
+        "en": "Staf Daems",
+        "de": "Staf Daems",
+        "jp": "スタフ・ダエムス"
+    }
+}

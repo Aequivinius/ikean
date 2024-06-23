@@ -9,7 +9,7 @@
 </nav>
 
 
-{% for toy in fields %}
+{% for toy in fields if toy.sale %}
 <figure category="{{toy.category['id']}}">
     <a href="#{{toy.id}}">
         <img class="toys__thumbnail" src="../../content/utensils/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}" />

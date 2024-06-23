@@ -1,0 +1,15 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Nothung",
+        "de": "Nothung",
+        "jp": "ノートゥング"
+    },
+    "price": 140,
+    "sale": true,
+    "maker": {
+        "en": "Okada Saburo",
+        "de": "Okada Saburo",
+        "jp": "岡田三郎"
+    }
+}

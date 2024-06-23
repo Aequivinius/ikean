@@ -1,0 +1,10 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Indian Summer",
+        "de": "Altweibersommer",
+        "jp": "小春"
+    },
+    "price": 60,
+    "sale": true
+}

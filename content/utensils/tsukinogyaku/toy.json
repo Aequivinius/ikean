@@ -1,0 +1,15 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Moon's Guest",
+        "de": "Gast des Mondes",
+        "jp": "月の客"
+    },
+    "price": 40,
+    "sale": true,
+    "maker": {
+        "en": "Nico Čolić",
+        "de": "Nico Čolić",
+        "jp": "ニコ・チョリッチ"
+    }
+}

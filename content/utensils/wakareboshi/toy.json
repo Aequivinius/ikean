@@ -1,0 +1,10 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Parting Stars",
+        "de": "Sternenabschied",
+        "jp": "別星"
+    },
+    "price": 80,
+    "sale": true
+}

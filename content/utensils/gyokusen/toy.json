@@ -1,0 +1,10 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "The Jade Boat",
+        "de": "Das Jade-Schiff",
+        "jp": "玉船"
+    },
+    "price": 200,
+    "sale": true
+}

@@ -1,0 +1,10 @@
+{
+    "category": "textile",
+    "name": {
+        "en": "Flower Bird",
+        "de": "Blumenvogel",
+        "jp": "花鳥文"
+    },
+    "price": 80,
+    "sale": true
+}

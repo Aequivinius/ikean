@@ -1,0 +1,15 @@
+{
+    "category": "textile",
+    "name": {
+        "en": "Gingko-Pattern Silk",
+        "de": "Seide mit Gingko-Muster",
+        "jp": "帛紗"
+    },
+    "price": 80,
+    "sale": true,
+    "maker": {
+        "en": "Tatsumura Art Textiles",
+        "de": "Tatsumura Textilienkunst",
+        "jp": "龍村美術織物公式"
+    }
+}

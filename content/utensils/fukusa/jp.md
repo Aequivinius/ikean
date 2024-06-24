@@ -1,0 +1,1 @@
+<p>これは、通常、<abbr title="Urasenke">裏千家</abbr>から<abbr title="cha mei">茶銘</abbr>に到達した際に送られてくる浄化布です。非常に強いシルクで作られており、その上には<abbr title="Konnichian">今日庵</abbr>の銀杏柄が描かれています。日本のフリーマーケットで見つけました。再利用された紙箱が付属しています。</p>

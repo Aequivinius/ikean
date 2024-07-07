@@ -44,6 +44,7 @@ figure {
 .toys__price {
     float: right;
     padding-right: var(--margin-medium);
+    opacity: 0.8;
 }
 
 .overlay:target {
@@ -74,10 +75,9 @@ figure {
     margin-bottom: var(--margin-medium);
 }
 
-.overlay h2 {
+.field__name {
     font-family: var(--serif-font);
     font-size: 1.2em;
-    margin-top: var(--margin-large);
 }
 
 .close {
@@ -163,7 +163,7 @@ model-viewer {
 
 .toy__button {
     border: 1px solid var(--turquoise);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.05);
     width: 100%;
     margin-top: var(--margin-large);
     padding: var(--margin-large);
@@ -175,7 +175,7 @@ model-viewer {
 }
 
 .toy__button:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.10);
 }
 
 html:lang(jp) p {
@@ -206,4 +206,8 @@ html:lang(jp) p {
 
 input[type="checkbox"]:checked+label {
     font-weight: bold;
+}
+
+#about .gallery {
+    margin-bottom: var(--margin-large)
 }

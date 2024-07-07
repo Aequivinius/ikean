@@ -4,30 +4,15 @@
         "en": "tea scoop",
         "jp": "茶杓"
     },
-    "mizuya": {
-        "de": "Vorbereitung",
-        "en": "preparation",
-        "jp": "水指"
-    },
-    "kaiseki": {
-        "de": "Koch-Utensil",
-        "en": "cooking utensil",
-        "jp": "懐石"
-    },
-    "kobukusa": {
-        "de": "Tuch im alten Stil",
-        "en": "old-fashioned cloth",
-        "jp": "古帛紗"
-    },
-    "textile": {
-        "de": "Textilien",
-        "en": "Cloth",
-        "jp": "帛紗と古帛紗"
-    },
     "contact__text": {
-        "en": "I'm a bartender who turned to the Japanese tea ceremony to find a theory of hospitality. Contact me:",
         "de": "Ich bin ein Barkeeper, der sich der japanischen Teezeremonie zugewandt hat, um eine Theorie der Gastfreundschaft zu finden. Kontaktieren Sie mich:",
+        "en": "I'm a bartender who turned to the Japanese tea ceremony to find a theory of hospitality. Contact me:",
         "jp": "私はホスピタリティの理論を見つけるために日本の茶道に転向したバーテンダーです。お問い合わせはこちら："
+    },
+    "field__close": {
+        "de": "Fenster Schließen",
+        "en": "Close Window",
+        "jp": "閉じる"
     },
     "home__text_1": {
         "de": "Die ",
@@ -48,6 +33,16 @@
         "de": "ikean",
         "en": "ikean",
         "jp": "池庵"
+    },
+    "kaiseki": {
+        "de": "Koch-Utensil",
+        "en": "cooking utensil",
+        "jp": "懐石"
+    },
+    "kobukusa": {
+        "de": "Tuch im alten Stil",
+        "en": "old-fashioned cloth",
+        "jp": "古帛紗"
     },
     "menu__aspects": {
         "de": "Aspekte",
@@ -114,10 +109,25 @@
         "en": "tea presentations, invitations and utensils in Switzerland",
         "jp": "スイスでのお茶のプレゼンテーション、お茶のお手伝い、お茶の道具"
     },
-    "order__toy": {
-        "de": "Name des Utensils",
-        "en": "Toy Name",
-        "jp": "道具の銘"
+    "mizuya": {
+        "de": "Vorbereitung",
+        "en": "preparation",
+        "jp": "水指"
+    },
+    "order__address": {
+        "de": "Adresse",
+        "en": "Address",
+        "jp": "住所"
+    },
+    "order__comment": {
+        "de": "Kommentar",
+        "en": "Comment",
+        "jp": "コメント"
+    },
+    "order__confirmation": {
+        "de": "Ich bestätige, dass ich den ausgewählten Artikels zum angegebenen Preis hiermit bestelle.",
+        "en": "I agree to order the selected item for the indicated price.",
+        "jp": "選択した道具を指定された価格で注文することに同意します。"
     },
     "order__mail": {
         "de": "E-Mail",
@@ -129,35 +139,20 @@
         "en": "Name",
         "jp": "名前"
     },
-    "order__address": {
-        "de": "Adresse",
-        "en": "Address",
-        "jp": "住所"
-    },
-    "order__confirmation": {
-        "en": "I agree to order the selected item for the indicated price.",
-        "de": "Ich bestätige, dass ich den ausgewählten Artikels zum angegebenen Preis hiermit bestelle.",
-        "jp": "選択した道具を指定された価格で注文することに同意します。"
-    },
     "order__shipping": {
-        "en": "Shipping in Switzerland is 7 CHF, and payment follows via PayPal or Twint. Shipping for orders outside of Switzerland will be communicated by e-mail.",
         "de": "Der Versand innerhalb der Schweiz kostet 7 CHF, und die Bezahlung erfolgt per PayPal oder Twint. Versandkosten für Bestellungen ausserhalb der Schweiz werden per E-Mail kommuniziert.",
+        "en": "Shipping in Switzerland is 7 CHF, and payment follows via PayPal or Twint. Shipping for orders outside of Switzerland will be communicated by e-mail.",
         "jp": "スイス国内の配送は7 CHFで、支払いはPayPalまたはTwintで行われます。スイス国外への注文の配送料はメールで通知されます。"
     },
-    "order__comment": {
-        "de": "Kommentar",
-        "en": "Comment",
-        "jp": "コメント"
+    "order__toy": {
+        "de": "Name des Utensils",
+        "en": "Toy Name",
+        "jp": "道具の銘"
     },
-    "field__close": {
-        "de": "Fenster Schließen",
-        "en": "Close Window",
-        "jp": "閉じる"
-    },
-    "toy__order": {
-        "de": "Bestellen",
-        "en": "Order",
-        "jp": "注文"
+    "textile": {
+        "de": "Textilien",
+        "en": "cloth",
+        "jp": "帛紗と古帛紗"
     },
     "toy__CHF": {
         "de": "CHF",
@@ -179,6 +174,11 @@
         "en": "unknown maker",
         "jp": "作家不明"
     },
+    "toy__order": {
+        "de": "Kaufen",
+        "en": "Buy",
+        "jp": "購入"
+    },
     "toy__price": {
         "de": "zum Preis von",
         "en": "for",
@@ -188,5 +188,9 @@
         "de": "Verkauft wird ausschließlich, was oben beschrieben ist; die übrigen Gegenstände auf den Bildern dienen lediglich dem Größenvergleich und der Veranschaulichung.",
         "en": "The prince includes only the items described above; the other objects in the pictures are for size comparison and illustration only.",
         "jp": "掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。"
+    },
+    "translated": {
+        "de": "👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.",
+        "jp": "👾：このテキストは機械翻訳されました。不一致がある場合は、英語のページを参照してください。"
     }
 }

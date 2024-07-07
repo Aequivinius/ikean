@@ -57,4 +57,5 @@ class Translator:
                 )
                 with open(os.path.join(path, f"{language}.md"), "w") as f:
                     f.write(object["content"][language])
+                    f.write("\n" + self.translations[language]["translated"])
         return object

@@ -77,7 +77,3 @@ section {
     filter: none;
     transition: filter var(--allegro) ease;
 }
-
-.overlay h2 {
-    margin-top: 0;
-}

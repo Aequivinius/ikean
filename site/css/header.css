@@ -40,3 +40,15 @@ details[open] summary~* {
 .menu__item {
     margin: var(--margin-medium) 0 var(--margin-medium) 0;
 }
+
+details>summary {
+    list-style: none;
+}
+
+details>summary::marker {
+    display: none;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}

@@ -85,7 +85,7 @@ class Generator:
             [
                 f
                 for f in os.listdir(directory)
-                if f.lower().endswith((".png", ".jpg", ".jpeg", ".gif"))
+                if f.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".webp"))
             ]
         )
 

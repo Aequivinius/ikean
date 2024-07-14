@@ -86,8 +86,20 @@ class Generator:
                 f
                 for f in os.listdir(directory)
                 if f.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".webp"))
+                and "poster" not in f.lower()
             ]
         )
+
+        posters = [f for f in os.listdir(directory) if "poster" in f.lower()]
+        if posters:
+            field["poster"] = posters[0]
+
+        model = [f for f in os.listdir(directory) if f.lower().endswith((".glb"))]
+        if len(model) > 0:
+            field["model"] = model[0]
+
+        if "model" in field and "poster" not in field:
+            raise ValueError("If a toy has a model, it must have a poster.")
 
         if "category" in field:
             id = field["category"]

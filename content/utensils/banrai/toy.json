@@ -1,0 +1,10 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Heavy Thunder",
+        "de": "Donnergrollen",
+        "jp": "万雷"
+    },
+    "price": 80,
+    "sale": true
+}

@@ -1,0 +1,10 @@
+{
+    "category": "kaiseki",
+    "name": {
+        "en": "Cedar Tray",
+        "de": "Zedernholztablett",
+        "jp": "八寸盆"
+    },
+    "price": 10,
+    "sale": true
+}

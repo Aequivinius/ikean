@@ -67,22 +67,28 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 - [ ] JSON schema for checkerboards
 - [ ] `order` field to sort aspects and 道具
 - [ ] presentations page
+- [ ] outgoing links open in new window
 
 ## i18n
 - [ ] checkerboard `field__info` with `writing-mode: vertical-rl`
 - [ ] add icon for machine translated articles
 - [x] language switcher script that copies `#`-links
 - [ ] log when files are changed so new translations can be automatically generated
+- [ ] in JP site, EN should be EN
+- [ ] versions for files
 
 ## Toys
 - [ ] Seasonality
 - [x] structured information (especially in Japanese, right now, we still have *made by* in there)
 - [x] add filter for toys
+- [ ] order / new items
+- reduce filter on toys
 
 ## Deployment
-- [ ] domain
+- [x] domain
 - [x] deploy
 
 ## Nice to have
 - [x] better language switcher for japanese
-- [ ] small footer
+- [ ] small footer, Impressum, instagram
+- [ ] photo on intro page

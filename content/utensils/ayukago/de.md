@@ -1,0 +1,2 @@
+<p>Diese Blumenvase ist in Form eines Korbs gestaltet, der zum Fangen der geliebten <abbr title="ayu, süßer Fisch">鮎</abbr> verwendet wird. Sie ist dafür gemacht, an der Wand aufgehängt zu werden, und eignet sich sehr gut für den Sommer, da sie ein Gefühl von kühlen Flussströmungen mit lebendigen Fischen hervorruft. Wird mit einer Pappschachtel geliefert.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

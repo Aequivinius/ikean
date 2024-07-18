@@ -1,0 +1,15 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Morning Glory",
+        "de": "Morgenröte",
+        "jp": "曙"
+    },
+    "price": 180,
+    "sale": true,
+    "maker": {
+        "en": "Hisato Kokuryō",
+        "de": "Hisato Kokuryō",
+        "jp": "國領寿人"
+    }
+}

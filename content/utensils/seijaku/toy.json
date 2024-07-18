@@ -1,0 +1,15 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Pure and Impertubable",
+        "de": "Reinheit und Stille",
+        "jp": "静寂"
+    },
+    "price": 180,
+    "sale": true,
+    "maker": {
+        "en": "Beatrix Sturm-Kerstan",
+        "de": "Beatrix Sturm-Kerstan",
+        "jp": "ビーアトリクス・カースタン"
+    }
+}

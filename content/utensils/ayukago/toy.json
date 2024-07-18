@@ -1,0 +1,10 @@
+{
+    "category": "hanaire",
+    "name": {
+        "en": "Sweetfish Trap",
+        "de": "Ayu-Fallenkorb",
+        "jp": "鮎籠"
+    },
+    "price": 80,
+    "sale": true
+}

@@ -1,0 +1,1 @@
+<p>Diese schwarze Teeschale ist mit einer besonderen, glänzend schwarzen Glasur versehen. Sie ist das Ergebnis einer Technik namens <abbr title="hikidashi">引き出し</abbr>, bei der die glühend heiße Teeschale schnell aus dem Ofen entfernt und sofort abgekühlt wird, was zu dieser strahlend schwarzen Glasur führt.</p>

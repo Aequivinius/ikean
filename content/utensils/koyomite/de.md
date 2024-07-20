@@ -1,3 +1,2 @@
 <p>Dieser Stil von Teeschale wird traditionell an Silvester verwendet, aber sie könnte auch für Geburtstage oder andere Momente, die den Lauf der Zeit markieren, verwendet werden. Der Grund dafür ist ihr <abbr title="koyomite, ein alter Kalender">歴手</abbr>-Muster, mit den 12 Mondmonaten des Jahres.</p>
 <p>Sie wird von einem fleißigen <abbr title="kiyomizu yaki">清水焼</abbr> <a href="https://kyoyaki.com/kamamoto/kippogama/">Künstler</a> in Kyōto hergestellt und wird mit einer Holz- und einer äußeren Pappschachtel geliefert.</p>
-👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

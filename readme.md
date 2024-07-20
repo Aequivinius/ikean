@@ -82,11 +82,14 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 - [x] structured information (especially in Japanese, right now, we still have *made by* in there)
 - [x] add filter for toys
 - [ ] order / new items
-- reduce filter on toys
+- [ ] reduce filter on toys
+- [ ] the labels are messed up
+
 
 ## Deployment
 - [x] domain
 - [x] deploy
+- [ ] push directly deploys
 
 ## Nice to have
 - [x] better language switcher for japanese

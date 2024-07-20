@@ -1,0 +1,15 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Satsuma Tea Bowl",
+        "de": "Satsuma Tee-Schale",
+        "jp": "薩摩焼茶碗"
+    },
+    "price": 50,
+    "sale": true,
+    "maker": {
+        "en": "Chotaro Ariyama",
+        "de": "Chotaro Ariyama",
+        "jp": "有山長太郎"
+    }
+}

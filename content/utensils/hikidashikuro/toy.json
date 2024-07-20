@@ -1,0 +1,15 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Jet Black Tea Bowl",
+        "de": "Strahlend schwarze Teeschale",
+        "jp": "引出黒茶碗"
+    },
+    "price": 280,
+    "sale": true,
+    "maker": {
+        "en": "Katsura Kiln",
+        "de": "Katsura-Brennofen",
+        "jp": "桂窯"
+    }
+}

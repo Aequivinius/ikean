@@ -1,0 +1,15 @@
+{
+    "category": "kou",
+    "name": {
+        "en": "Lute",
+        "de": "Laute",
+        "jp": "琵琶"
+    },
+    "price": 180,
+    "sale": true,
+    "maker": {
+        "en": "Kato Shuntei",
+        "de": "Kato Shuntei",
+        "jp": "加藤春鼎"
+    }
+}

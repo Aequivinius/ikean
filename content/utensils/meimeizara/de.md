@@ -1,0 +1,2 @@
+<p>Solche Gerichte werden verwendet, wenn Süßigkeiten einzeln an Gäste serviert werden, zum Beispiel während Präsentationen oder beim Servieren von Personen, die nicht vertraut damit sind, wie man das <abbr title="fuchidaka, gestapeltes Süßigkeitenbehältnis">縁高</abbr> benutzt. Dies ist ein Set von 5 lackierten Gerichten, die in einer Pappschachtel geliefert werden.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

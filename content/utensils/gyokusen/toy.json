@@ -5,6 +5,6 @@
         "de": "Das Jade-Schiff",
         "jp": "玉船"
     },
-    "price": 180,
-    "sale": false
+    "price": 170,
+    "sale": true
 }

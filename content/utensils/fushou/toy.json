@@ -1,0 +1,10 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Ungeboren",
+        "de": "Unborn",
+        "jp": "不生"
+    },
+    "price": 80,
+    "sale": true
+}

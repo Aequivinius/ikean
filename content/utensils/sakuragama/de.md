@@ -1,2 +1,0 @@
-<p>Diese Teeschale mag ich besonders wegen der Glasur: Teile der Schale sind mit dem bedeckt, was wie Öltropfen aussieht, oder für den poetischeren Geist, wie Kirschblütenblätter, oder <abbr title="yozakura">夜桜</abbr>, am Nachthimmel. Es handelt sich um zeitgenössisches <abbr title="satsuma-Keramik">薩摩焼</abbr>, das jedoch näher am alten Stil hergestellt ist, der eine dunkle Tonerde und eine dunkle Glasur verwendet.</p>
-👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

@@ -1,0 +1,2 @@
+<p>Diese <abbr title="Mino">美濃</abbr>-Adelsschale zeigt die Interpretation des Künstlers im <abbr title="Oribe">織部</abbr>-Stil. Obwohl der Rand ziemlich scharf ist, ist es dennoch angenehm daraus zu trinken. Sie ist ziemlich groß und kann sowohl als normale als auch als <abbr title="tsutsu, rohrförmig">筒</abbr>-Teeschale verwendet werden. Wird mit der Schachtel des Künstlers geliefert.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

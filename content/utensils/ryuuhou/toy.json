@@ -1,0 +1,10 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Drift Ice",
+        "de": "Treibeis",
+        "jp": "流氷"
+    },
+    "price": 80,
+    "sale": true
+}

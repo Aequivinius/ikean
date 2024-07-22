@@ -1,0 +1,15 @@
+{
+    "category": "chawan",
+    "name": {
+        "en": "Oribe Bowl",
+        "de": "Oribe-Schale",
+        "jp": "オリベ茶碗"
+    },
+    "price": 280,
+    "sale": true,
+    "maker": {
+        "en": "Takefumi Onizawa",
+        "de": "Takefumi Onizawa",
+        "jp": "鬼沢武文"
+    }
+}

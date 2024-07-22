@@ -1,15 +1,15 @@
 {
-    "category": "chashaku",
+    "category": "kou",
     "name": {
-        "en": "Ryouhi",
-        "de": "Ryouhi",
-        "jp": "両飛"
+        "en": "No Idea",
+        "de": "Ohne Selbstbewusstsein",
+        "jp": "不識"
     },
-    "price": 80,
+    "price": 180,
     "sale": true,
     "maker": {
-        "en": "Okada Saburo",
-        "de": "Okada Saburo",
-        "jp": "岡田三郎"
+        "en": "Wabei Yarita",
+        "de": "Wabei Yarita",
+        "jp": "鎗田和平"
     }
 }

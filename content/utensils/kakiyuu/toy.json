@@ -1,0 +1,15 @@
+{
+    "category": "chashaku",
+    "name": {
+        "en": "Persimmon glazed bowl",
+        "de": "Schale mit Kaki-Glasur",
+        "jp": "柿釉天目茶碗"
+    },
+    "price": 180,
+    "sale": true,
+    "maker": {
+        "en": "Koie Tsuyoshi",
+        "de": "Koie Tsuyoshi",
+        "jp": "鯉江剛"
+    }
+}

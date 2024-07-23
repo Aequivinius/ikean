@@ -1,0 +1,15 @@
+{
+    "category": "chabako",
+    "name": {
+        "en": "Ryouhi",
+        "de": "Ryouhi",
+        "jp": "両飛"
+    },
+    "price": 80,
+    "sale": true,
+    "maker": {
+        "en": "Okada Saburo",
+        "de": "Okada Saburo",
+        "jp": "岡田三郎"
+    }
+}

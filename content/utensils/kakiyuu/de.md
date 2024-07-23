@@ -1,0 +1,2 @@
+<p>Diese <abbr title="tenmoku">天目</abbr>-Schale hat eine sehr helle, rote Persimmon-farbene Glasur und einen Metallrand, was sie besonders für das <abbr title="dai tenmoku">台天目</abbr>-Verfahren geeignet macht. Ihre Farbkontraste passen auch gut zu dem schwarzen <abbr title="dai, stand">台</abbr>, das üblicherweise während der Praxis verwendet wird. Wird mit der Künstlerbox geliefert.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

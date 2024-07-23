@@ -1,15 +1,15 @@
 {
     "category": "chabako",
     "name": {
-        "en": "Ryouhi",
-        "de": "Ryouhi",
-        "jp": "両飛"
+        "en": "Gust of Wind",
+        "de": "Brise",
+        "jp": "颯々"
     },
-    "price": 80,
+    "price": 120,
     "sale": true,
     "maker": {
-        "en": "Okada Saburo",
-        "de": "Okada Saburo",
-        "jp": "岡田三郎"
+        "en": "Kuse Kuhou",
+        "de": "Kuse Kuhou",
+        "jp": "久世久宝"
     }
 }

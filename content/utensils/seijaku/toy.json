@@ -5,11 +5,12 @@
         "de": "Reinheit und Stille",
         "jp": "静寂"
     },
-    "price": 170,
+    "price": 150,
     "sale": true,
     "maker": {
         "en": "Beatrix Sturm-Kerstan",
         "de": "Beatrix Sturm-Kerstan",
         "jp": "ビーアトリクス・カースタン"
-    }
+    },
+    "date": "2024-08-05"
 }

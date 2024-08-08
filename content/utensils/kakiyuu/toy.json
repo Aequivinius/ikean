@@ -5,11 +5,12 @@
         "de": "Schale mit Kaki-Glasur",
         "jp": "柿釉天目茶碗"
     },
-    "price": 180,
+    "price": 170,
     "sale": true,
     "maker": {
         "en": "Koie Tsuyoshi",
         "de": "Koie Tsuyoshi",
         "jp": "鯉江剛"
-    }
+    },
+    "date": "2024-08-05"
 }

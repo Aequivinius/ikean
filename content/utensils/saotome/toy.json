@@ -5,11 +5,12 @@
         "de": "Die Reispflanzende",
         "jp": "早乙女"
     },
-    "price": 150,
+    "price": 140,
     "sale": true,
     "maker": {
         "en": "Okada Saburo",
         "de": "Okada Saburo",
         "jp": "岡田三郎"
-    }
+    },
+    "date": "2024-08-05"
 }

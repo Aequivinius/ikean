@@ -5,6 +5,7 @@
         "de": "Treibeis",
         "jp": "流氷"
     },
-    "price": 80,
-    "sale": true
+    "price": 70,
+    "sale": true,
+    "date": "2024-08-04"
 }

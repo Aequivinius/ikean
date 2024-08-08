@@ -5,6 +5,7 @@
         "de": "Abendgebet",
         "jp": "晚課"
     },
-    "price": 90,
-    "sale": true
+    "price": 80,
+    "sale": true,
+    "date": "2024-08-01"
 }

@@ -77,3 +77,10 @@ section {
     filter: none;
     transition: filter var(--allegro) ease;
 }
+
+@media (hover: none) {
+    .field__info abbr::after {
+            content: " (" attr(title) ")";
+            font-style: italic;
+        }
+}

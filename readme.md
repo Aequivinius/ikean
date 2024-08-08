@@ -62,20 +62,21 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 * Use `poetry shell` then `code .` to get the `poetry` environment in VS Code
 
 # Backlog
+- [x] 抹茶 image saturation
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
 - [ ] JSON schema for checkerboards
 - [ ] `order` field to sort aspects and 道具
-- [ ] presentations page
+- [x] presentations page
 - [ ] outgoing links open in new window
 
 ## i18n
+- [x] hover for Japanese words
 - [ ] checkerboard `field__info` with `writing-mode: vertical-rl`
-- [ ] add icon for machine translated articles
+- [x] add icon for machine translated articles
 - [x] language switcher script that copies `#`-links
 - [ ] log when files are changed so new translations can be automatically generated
-- [ ] in JP site, EN should be EN
-- [ ] versions for files
+- [x] in JP site, EN should be EN
 
 ## Toys
 - [ ] Seasonality

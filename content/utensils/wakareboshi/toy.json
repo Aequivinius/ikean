@@ -5,6 +5,7 @@
         "de": "Sternenabschied",
         "jp": "別星"
     },
-    "price": 60,
-    "sale": true
+    "price": 50,
+    "sale": true,
+    "date": "2024-08-04"
 }

@@ -1,0 +1,4 @@
+<p>Die Teezeremonie spricht alle fünf Sinne an ⸺ der Geruchssinn wird besonders durch die Verwendung von speziellem Weihrauch betont, der den Raum und den Geist reinigt. Der Herbst ist die beste Zeit, um den Weihrauch zu riechen, denn die Luft ist klar und hell.</p>
+<p>Also werde ich in dieser Präsentation nicht nur eine kurze Einführung in die japanische Teezeremonie im Allgemeinen geben, sondern auch den Fokus auf den Weihrauch legen. Welche Arten von Weihrauch werden verwendet und wie wirken sie?</p>
+<p>Diese Präsentation findet bei <a href="https://homu.ch/">hōmu in Basel</a> statt. Die Präsentationen finden um 13:30 und 15:30 Uhr statt und werden auf Deutsch gehalten. Reservierungen können <a href="welcome@homu.ch">hier</a> vorgenommen werden.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

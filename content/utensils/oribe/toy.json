@@ -5,11 +5,12 @@
         "de": "Oribe-Schale",
         "jp": "オリベ茶碗"
     },
-    "price": 280,
+    "price": 250,
     "sale": true,
     "maker": {
         "en": "Takefumi Onizawa",
         "de": "Takefumi Onizawa",
         "jp": "鬼沢武文"
-    }
+    },
+    "date": "2024-08-05"
 }

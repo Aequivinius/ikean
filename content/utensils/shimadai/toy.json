@@ -5,11 +5,12 @@
         "de": "Schildkröte & Kranich",
         "jp": "島台"
     },
-    "price": 180,
+    "price": 140,
     "sale": true,
     "maker": {
         "en": "Shoraku",
         "de": "Shoraku",
         "jp": "松楽"
-    }
+    },
+    "date": "2024-08-04"
 }

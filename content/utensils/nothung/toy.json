@@ -5,11 +5,12 @@
         "de": "Nothung",
         "jp": "ノートゥング"
     },
-    "price": 110,
+    "price": 90,
     "sale": true,
     "maker": {
         "en": "Okada Saburo",
         "de": "Okada Saburo",
         "jp": "岡田三郎"
-    }
+    },
+    "date": "2024-08-04"
 }

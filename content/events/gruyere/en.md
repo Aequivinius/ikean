@@ -1,0 +1,1 @@
+This seminar is organised by [Ursula Kohli](https://dogudesign.ch/about-ursula.php), and will be taught by, amongst others, my teacher, [Kaori Miyanishi-Reitinger](https://miya.ch/). More information and registration can be found [here](https://lapartdieutee.wordpress.com).

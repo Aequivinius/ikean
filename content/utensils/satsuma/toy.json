@@ -5,11 +5,12 @@
         "de": "Satsuma Tee-Schale",
         "jp": "薩摩焼茶碗"
     },
-    "price": 50,
+    "price": 140,
     "sale": true,
     "maker": {
         "en": "Chotaro Ariyama",
         "de": "Chotaro Ariyama",
         "jp": "有山長太郎"
-    }
+    },
+    "date": "2024-08-05"
 }

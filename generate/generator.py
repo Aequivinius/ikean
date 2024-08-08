@@ -4,6 +4,7 @@ from generate.i18n import Translator
 import json
 import markdown
 from markdown.extensions.wikilinks import WikiLinkExtension
+from datetime import datetime
 
 """This package generates the site in different languages, loading its contents either from translations.json and directories.
 
@@ -21,7 +22,18 @@ class Generator:
         with open(os.path.join(self.TEMPLATES, PAGE_TYPES)) as f:
             self.page_types = json.load(f)
         self.env = Environment(loader=FileSystemLoader(self.TEMPLATES))
+        self.env.filters["format_date"] = self.format_date
         self.translator = Translator(os.path.join(CONTENT, "translations.json"))
+
+    def format_date(self, date_str, language="jp"):
+        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+        if language == "jp":
+            format = date_obj.strftime("%d日%m月%Y年")
+        if language == "en":
+            format = date_obj.strftime("%B %d, %Y")
+        if language == "de":
+            format = date_obj.strftime("%d.%m.%Y")
+        return format
 
     def generate(self, template_file: str, isCheckerboard: bool):
         template = self.env.get_template(f"{template_file}.html")
@@ -74,6 +86,7 @@ class Generator:
         return fields
 
     def field_from_directory(self, directory):
+        print(directory)
         json_files = [f for f in os.listdir(directory) if f.endswith(".json")]
         if len(json_files) != 1:
             raise ValueError("There should be exactly one JSON file in the directory.")

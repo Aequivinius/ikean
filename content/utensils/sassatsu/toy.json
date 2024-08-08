@@ -5,11 +5,12 @@
         "de": "Brise",
         "jp": "颯々"
     },
-    "price": 120,
+    "price": 110,
     "sale": true,
     "maker": {
         "en": "Kuse Kuhou",
         "de": "Kuse Kuhou",
         "jp": "久世久宝"
-    }
+    },
+    "date": "2024-08-05"
 }

@@ -79,10 +79,15 @@
         "en": "about",
         "jp": "概要"
     },
+    "menu__events": {
+        "de": "Veranstaltungen",
+        "en": "events",
+        "jp": "イベント"
+    },
     "menu__language_left": {
         "de": "en",
         "en": "de",
-        "jp": "英語"
+        "jp": "en"
     },
     "menu__language_left_url": {
         "de": "en",
@@ -92,7 +97,7 @@
     "menu__language_right": {
         "de": "jp",
         "en": "jp",
-        "jp": "ドイツ語"
+        "jp": "de"
     },
     "menu__language_right_url": {
         "de": "jp",
@@ -108,11 +113,6 @@
         "de": "Menü",
         "en": "Menu",
         "jp": "メニュー"
-    },
-    "menu__presentations": {
-        "de": "Vorführungen",
-        "en": "presentations",
-        "jp": "プレゼンテーション"
     },
     "menu__toys": {
         "de": "Utensilien",

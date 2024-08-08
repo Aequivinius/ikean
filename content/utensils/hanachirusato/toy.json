@@ -5,6 +5,7 @@
         "de": "Dorf der Fallenden Blumen",
         "jp": "花散里"
     },
-    "price": 50,
-    "sale": true
+    "price": 40,
+    "sale": true,
+    "date": "2024-08-01"
 }

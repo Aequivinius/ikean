@@ -5,11 +5,12 @@
         "de": "Ohne Selbstbewusstsein",
         "jp": "不識"
     },
-    "price": 170,
+    "price": 150,
     "sale": true,
     "maker": {
         "en": "Wabei Yarita",
         "de": "Wabei Yarita",
         "jp": "鎗田和平"
-    }
+    },
+    "date": "2024-08-05"
 }

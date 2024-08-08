@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav id="utensils__categories">
+    {% for category in categories %}
+    <input type="checkbox" name="{{category['id']}}" id="{{category['id']}}" checked>
+    <label class="utensils__category" for="{{category['id']}}">{{category[language]}}</label>
+    {% endfor %}
+</nav>
+
+
+{% for event in fields | sort(attribute='date') %}
+<figure>
+    <a href="#{{event.id}}">
+        <img class="toys__thumbnail" src="../../content/events/{{event.id}}/{{event.images[0]}}" alt="{{event.alt}}" />
+
+        <figcaption class="field__description">
+            <h2 class="field__name clearfix">{{event.name[language]}}{% if language != "jp"%}<span class="right">
+                    「{{event.name["jp"]}}」</span>{%
+                endif %}</h2>
+            <span class="toys__maker">{{event.date | format_date(language)}}</span>
+            {% if event.price %}<span class="toys__price">{{event.price}} CHF</span>{%endif%}
+        </figcaption>
+    </a>
+</figure>
+
+<div class="overlay" id="{{event.id}}">
+    <div class="gallery">
+        <div class="gallery__main">
+            <img class="gallery__main-img" src="../../content/events/{{event.id}}/{{event.images[0]}}"
+                alt="{{event.alt}}" style="display: block">
+        </div>
+        <div class="gallery__thumbnails">
+            {% for image in event.images[1:] %}
+            <img class="gallery__thumbnail" src="../../content/events/{{event.id}}/{{image}}" alt="{{event.alt}}"
+                onclick="changeMainImage('{{event.id}}',this)">
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="field__info">
+        <h2 class="field__name clearfix">{{event.name[language]}}{% if language != "jp"%}<span
+                class="right">「{{event.name["jp"]}}」</span>{% endif %}</h2>
+        <span class="toy__maker">{{event.date|format_date(language)}}</span>
+
+        <p>{{event.content[language]}}</p>
+        <a class="close" href="utensils.html">{{field__close}}</a>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}

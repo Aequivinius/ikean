@@ -5,11 +5,12 @@
         "de": "Laute",
         "jp": "琵琶"
     },
-    "price": 180,
+    "price": 160,
     "sale": true,
     "maker": {
         "en": "Kato Shuntei",
         "de": "Kato Shuntei",
         "jp": "加藤春鼎"
-    }
+    },
+    "date": "2024-08-05"
 }

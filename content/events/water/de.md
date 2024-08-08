@@ -1,0 +1,3 @@
+<p>In einer Schale Tee schmeckst du drei Dinge: Den Tee selbst, das Wasser und das Herz des Gastgebers. Deshalb werde ich in dieser Präsentation nicht nur eine kurze Einführung in die japanische Teezeremonie im Allgemeinen geben, sondern mich auch auf das Wasser konzentrieren. Welche Eigenschaften suchst du in großartigem Wasser für Tee?</p>
+<p>Diese Präsentation findet bei <a href="https://homu.ch/">hōmu in Basel</a> statt. Die Präsentationen finden um 13:30 und 15:30 Uhr statt und werden auf Deutsch gehalten. Reservierungen können <a href="welcome@homu.ch">hier</a> vorgenommen werden.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

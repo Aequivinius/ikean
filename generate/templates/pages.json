@@ -3,5 +3,6 @@
     "order": "normal",
     "utensils": "checkerboard",
     "aspects": "checkerboard",
-    "about": "checkerboard"
+    "about": "checkerboard",
+    "events": "checkerboard"
 }

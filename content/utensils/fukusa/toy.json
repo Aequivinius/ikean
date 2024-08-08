@@ -5,11 +5,12 @@
         "de": "Seide mit Gingko-Muster",
         "jp": "帛紗"
     },
-    "price": 50,
+    "price": 40,
     "sale": true,
     "maker": {
         "en": "Tatsumura Art Textiles",
         "de": "Tatsumura Textilienkunst",
         "jp": "龍村美術織物公式"
-    }
+    },
+    "date": "2024-08-01"
 }

@@ -1,0 +1,2 @@
+<p>Dieses Seminar wird von <a href="https://dogudesign.ch/about-ursula.php">Ursula Kohli</a> organisiert und unter anderem von meiner Lehrerin, <a href="https://miya.ch/">Kaori Miyanishi-Reitinger</a>, geleitet. Weitere Informationen und Anmeldung sind <a href="https://lapartdieutee.wordpress.com">hier</a> zu finden.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

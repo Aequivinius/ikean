@@ -9,7 +9,7 @@
 </nav>
 
 
-{% for event in fields | sort(attribute='date') %}
+{% for event in fields | sort(attribute='date') if event.date > NOW %}
 <figure>
     <a href="#{{event.id}}">
         <img class="toys__thumbnail" src="../../content/events/{{event.id}}/{{event.images[0]}}" alt="{{event.alt}}" />

@@ -63,10 +63,11 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 
 # Backlog
 - [x] 抹茶 image saturation
+- [ ] old events
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
 - [ ] JSON schema for checkerboards
-- [ ] `order` field to sort aspects and 道具
+- [x] `order` field to sort aspects and 道具
 - [x] presentations page
 - [ ] outgoing links open in new window
 
@@ -82,10 +83,8 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 - [ ] Seasonality
 - [x] structured information (especially in Japanese, right now, we still have *made by* in there)
 - [x] add filter for toys
-- [ ] order / new items
 - [ ] reduce filter on toys
 - [ ] the labels are messed up
-
 
 ## Deployment
 - [x] domain

@@ -23,6 +23,7 @@ class Generator:
             self.page_types = json.load(f)
         self.env = Environment(loader=FileSystemLoader(self.TEMPLATES))
         self.env.filters["format_date"] = self.format_date
+        self.env.globals["NOW"] = datetime.now().strftime("%Y-%m-%d")
         self.translator = Translator(os.path.join(CONTENT, "translations.json"))
 
     def format_date(self, date_str, language="jp"):

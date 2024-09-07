@@ -3,9 +3,13 @@
 {% block content %}
 
 
-<form id="order__form" action="https://formspree.io/f/mbjnbpyr" method="POST">
+<form id="order__form" action="https://formspree.io/f/xkgwekro" method="POST">
+    <input hidden id="language" name="language" value="{{language}}">
+
+
     <label for="toy">{{order__toy}}</label>
     <input type="toy" id="toy" name="toy" required readonly value="">
+
 
     <script>
         // Get the target value from the URL

@@ -165,13 +165,13 @@
         "jp": "名前"
     },
     "order__shipping": {
-        "de": "Der Versand innerhalb der Schweiz kostet 7 CHF, und die Bezahlung erfolgt per PayPal oder Twint. Versandkosten für Bestellungen ausserhalb der Schweiz werden per E-Mail kommuniziert.",
-        "en": "Shipping in Switzerland is 7 CHF, and payment follows via PayPal or Twint. Shipping for orders outside of Switzerland will be communicated by e-mail.",
-        "jp": "スイス国内の配送は7 CHFで、支払いはPayPalまたはTwintで行われます。スイス国外への注文の配送料はメールで通知されます。"
+        "de": "Der Versand innerhalb der Schweiz kostet 10 CHF, und die Bezahlung erfolgt per Rechnung oder PayPal. Versandkosten für Bestellungen außerhalb der Schweiz werden per E-Mail kommuniziert.",
+        "en": "Shipping in Switzerland is 10 CHF, and payment can me made by invoice or PayPal. Shipping for orders outside of Switzerland will be communicated by e-mail.",
+        "jp": "スイス国内の配送は１０CHFで、支払いは請求書またはPaypalで行うことができます。スイス国外への注文の配送料はメールで通知されます。"
     },
     "order__toy": {
         "de": "Name des Utensils",
-        "en": "Toy Name",
+        "en": "Utensil Name",
         "jp": "道具の銘"
     },
     "textile": {

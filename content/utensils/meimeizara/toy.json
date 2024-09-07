@@ -5,7 +5,7 @@
         "de": "Süßigkeitentellerchen",
         "jp": "銘々皿"
     },
-    "price": 40,
-    "sale": true,
+    "price": 30,
+    "sale": false,
     "date": "2024-08-04"
 }

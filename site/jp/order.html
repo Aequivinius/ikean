@@ -60,9 +60,13 @@
 
 
 
-<form id="order__form" action="https://formspree.io/f/mbjnbpyr" method="POST">
+<form id="order__form" action="https://formspree.io/f/xkgwekro" method="POST">
+    <input hidden id="language" name="language" value="jp">
+
+
     <label for="toy">道具の銘</label>
     <input type="toy" id="toy" name="toy" required readonly value="">
+
 
     <script>
         // Get the target value from the URL
@@ -87,7 +91,7 @@
         <input type="checkbox" id="confirmation" name="confirmation" required>
         <label for="confirmation">
             選択した道具を指定された価格で注文することに同意します。
-            <p>スイス国内の配送は7 CHFで、支払いはPayPalまたはTwintで行われます。スイス国外への注文の配送料はメールで通知されます。</p>
+            <p>スイス国内の配送は１０CHFで、支払いは請求書またはPaypalで行うことができます。スイス国外への注文の配送料はメールで通知されます。</p>
         </label>
     </div>
 

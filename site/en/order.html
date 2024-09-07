@@ -60,9 +60,13 @@
 
 
 
-<form id="order__form" action="https://formspree.io/f/mbjnbpyr" method="POST">
-    <label for="toy">Toy Name</label>
+<form id="order__form" action="https://formspree.io/f/xkgwekro" method="POST">
+    <input hidden id="language" name="language" value="en">
+
+
+    <label for="toy">Utensil Name</label>
     <input type="toy" id="toy" name="toy" required readonly value="">
+
 
     <script>
         // Get the target value from the URL
@@ -87,7 +91,7 @@
         <input type="checkbox" id="confirmation" name="confirmation" required>
         <label for="confirmation">
             I agree to order the selected item for the indicated price.
-            <p>Shipping in Switzerland is 7 CHF, and payment follows via PayPal or Twint. Shipping for orders outside of Switzerland will be communicated by e-mail.</p>
+            <p>Shipping in Switzerland is 10 CHF, and payment can me made by invoice or PayPal. Shipping for orders outside of Switzerland will be communicated by e-mail.</p>
         </label>
     </div>
 

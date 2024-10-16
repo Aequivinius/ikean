@@ -25,9 +25,9 @@
         "jp": "茶碗"
     },
     "contact__text": {
-        "de": "Ich bin ein Barkeeper, der sich der japanischen Teezeremonie zugewandt hat, um eine Theorie der Gastfreundschaft zu finden. Kontaktieren Sie mich:",
-        "en": "I'm a bartender who turned to the Japanese tea ceremony to find a theory of hospitality. Contact me:",
-        "jp": "私はホスピタリティの理論を見つけるために日本の茶道に転向したバーテンダーです。お問い合わせはこちら："
+        "de": "Kontaktieren Sie mich!",
+        "en": "Contact me!",
+        "jp": "お問い合わせはこちら!"
     },
     "field__close": {
         "de": "Fenster Schließen",
@@ -200,8 +200,8 @@
         "jp": "作家不明"
     },
     "toy__order": {
-        "de": "Kaufen",
-        "en": "Buy",
+        "de": "Erstehen",
+        "en": "Purchase",
         "jp": "購入"
     },
     "toy__price": {

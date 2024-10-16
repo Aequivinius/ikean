@@ -11,5 +11,10 @@
     <h2 class="field__name clearfix">{{field.name[language]}}{% if language != "jp"%}<span lang="jp"
             class="right">「{{field.name["jp"]}}」</span>{% endif %}</h2>
     {{field.content[language]}}
+
+    <a class="button"
+        href="javascript:location='mailto:\u006e\u0069\u0063\u006f\u0040\u0068\u0065\u0064\u006f\u006e\u0069\u0073\u006d\u0073\u002e\u0063\u0068';void 0">{{contact__text}}
+        </script>
+    </a>
 </div>
 {% endblock %}

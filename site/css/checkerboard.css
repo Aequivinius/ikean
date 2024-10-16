@@ -163,23 +163,6 @@ model-viewer {
     margin-bottom: var(--margin-large);
 }
 
-.toy__button {
-    border: 1px solid var(--turquoise);
-    background-color: rgba(0, 0, 0, 0.05);
-    width: 100%;
-    margin-top: var(--margin-large);
-    padding: var(--margin-large);
-    transition: background-color 0.3s;
-    cursor: pointer;
-    font-family: sans-serif;
-    display: flow-root;
-    text-align: center;
-}
-
-.toy__button:hover {
-    background-color: rgba(0, 0, 0, 0.10);
-}
-
 html:lang(jp) p {
     font-style: normal;
 }

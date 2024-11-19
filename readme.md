@@ -2,7 +2,7 @@
 
 The `generate` package, unsurprisingly, *generates* the `site` in 3 different languages. The content either comes from plain strings in the the `site_content/translations.json`, or from `.md` files if it needs more layout.
 
-A checkerboard is an instragram-like layout; made of individual *fields*. Each field has its content with structured data, free text, images and models organised in simple directories. For each site to be generated, `generate` looks for a directory in `site_content`, which in turn contains the field directories. For example, to generate the `aspects.html`, you need to have an `site_content/aspects` folder.
+A checkerboard is an instragram-like layout; made of individual *fields*. Each field has its content with structured data, free text, images and models organised in simple directories. For each site to be generated, `generate` looks for a directory in `site_content`, which in turn contains the field directories. For example, to generate the `principles.html`, you need to have an `site_content/principles` folder.
 
 The structure of such a field directory is as follows (with a *toy* as an example):
 
@@ -67,7 +67,7 @@ I used to apply a pretty thick saturation filter, which I then had to remove aga
 `find /path/to/directory -type f \( -iname \*.webp -o -iname \*.jpeg -o -iname \*.png \) -exec mogrify -modulate 100,50,100 {} \;`
 
 # Backlog
-- [ ] aspects to principles
+- [x] aspects to principles
 - [ ] old events
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
@@ -80,11 +80,12 @@ I used to apply a pretty thick saturation filter, which I then had to remove aga
 
 ## Toys
 - [ ] Filter for toys, with seasonality and category
-- [ ] reduce filter on toys
+- [x] reduce filter on toys
 - [ ] the labels are messed up
 
 ## Deployment
 - [ ] push directly deploys
+- [ ] Move hosting from github to my server
 
 ## Nice to have
 - [ ] small footer, Impressum, instagram

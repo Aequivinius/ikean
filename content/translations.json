@@ -69,10 +69,10 @@
         "en": "old-fashioned cloth",
         "jp": "古帛紗"
     },
-    "menu__aspects": {
-        "de": "Aspekte",
-        "en": "aspects",
-        "jp": "様相"
+    "menu__principles": {
+        "de": "Prinzipien",
+        "en": "principles",
+        "jp": "原則"
     },
     "menu__contact": {
         "de": "über mich",

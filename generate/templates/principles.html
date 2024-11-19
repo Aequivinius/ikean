@@ -4,7 +4,7 @@
 {% for field in fields %}
 <figure>
     <a href="#{{field.id}}">
-        <img class="aspects__thumbnail" src="../../content/aspects/{{field.id}}/{{field.images[0]}}"
+        <img class="principle__thumbnail" src="../../content/principles/{{field.id}}/{{field.images[0]}}"
             alt="{{field.alt}}" />
 
         <figcaption class="field__description">
@@ -18,7 +18,7 @@
 <div class="overlay" id="{{field.id}}">
     <div class="gallery">
         <div class="gallery__main">
-            <img class="gallery__main-img" src="../../content/aspects/{{field.id}}/{{field.images[0]}}"
+            <img class="gallery__main-img" src="../../content/principles/{{field.id}}/{{field.images[0]}}"
                 alt="{{field.alt}}" style="display: block">
         </div>
 
@@ -33,7 +33,7 @@
 
         <p>{{field.content[language]}}</p>
 
-        <a class="close" href="aspects.html">{{field__close}}</a>
+        <a class="close" href="principles.html">{{field__close}}</a>
     </div>
 </div>
 

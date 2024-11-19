@@ -58,12 +58,12 @@ section {
     content: none;
 }
 
-.aspects__thumbnail {
+.principle__thumbnail {
     filter: grayscale(100%);
     transition: filter var(--allegro) ease;
 }
 
-.aspects__thumbnail:hover {
+.principle__thumbnail:hover {
     filter: none;
     transition: filter var(--allegro) ease;
 }

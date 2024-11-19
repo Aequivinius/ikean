@@ -1,4 +1,4 @@
-The name is a pun in several ways: First of all, in itself, the *shell of the locust* is quite a poetic symbol. We need to leave our former selves behind to grow. But it is also the name of a character in the Tale of Genji; a lady that is not necessarily beautiful, but impressed Prince Genji with her stout behaviour and good taste. In my opinion, this aspects suits the simple, yet elegant make of this tea scoop.
+The name is a pun in several ways: First of all, in itself, the *shell of the locust* is quite a poetic symbol. We need to leave our former selves behind to grow. But it is also the name of a character in the Tale of Genji; a lady that is not necessarily beautiful, but impressed Prince Genji with her stout behaviour and good taste. In my opinion, this aspect suits the simple, yet elegant make of this tea scoop.
 
 Lastly, however, the word 空蝉 itself is interesting. It usually means *a living being* in general, instead of the locust shell. This is because the characters used to write this word were added ex-post for their sounds rather than their meaning; and with time, the word also got the meaning of *hollow locust*.
 

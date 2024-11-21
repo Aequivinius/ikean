@@ -62,9 +62,8 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 * Use `poetry shell` then `code .` to get the `poetry` environment in VS Code
 
 # Images
-I used to apply a pretty thick saturation filter, which I then had to remove again:
-
-`find /path/to/directory -type f \( -iname \*.webp -o -iname \*.jpeg -o -iname \*.png \) -exec mogrify -modulate 100,50,100 {} \;`
+* I used to apply a pretty thick saturation filter, which I then had to remove again: `find /path/to/directory -type f \( -iname \*.webp -o -iname \*.jpeg -o -iname \*.png \) -exec mogrify -modulate 100,50,100 {} \;`
+* Use `generate/convert.sh` from the directory you want to change the images in to convert to `.webp`
 
 # Backlog
 - [x] aspects to principles

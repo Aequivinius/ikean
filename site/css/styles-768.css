@@ -69,8 +69,12 @@ section {
 }
 
 .toys__thumbnail {
-    filter: grayscale(25%) saturate(75%);
+    filter: grayscale(10%) saturate(90%);
     transition: filter var(--allegro) ease;
+}
+
+.toys__thumbnail.past {
+    filter: grayscale(100%);
 }
 
 .toys__thumbnail:hover {

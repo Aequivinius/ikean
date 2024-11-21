@@ -68,7 +68,7 @@ I used to apply a pretty thick saturation filter, which I then had to remove aga
 
 # Backlog
 - [x] aspects to principles
-- [ ] old events
+- [x] old events
 - [ ] write doc strings
 - [ ] write and run the `pytest`s, then register them on merges
 - [ ] JSON schema for checkerboards

@@ -102,7 +102,7 @@ figure {
 
 .gallery__thumbnail {
     box-shadow: var(--drop-shadow-subtle);
-    filter: grayscale(80%);
+    filter: grayscale(90%);
     cursor: pointer;
     transition: filter 0.3s;
 }
@@ -162,6 +162,8 @@ model-viewer {
     padding-bottom: var(--margin-large);
     margin-bottom: var(--margin-large);
 }
+
+
 
 html:lang(jp) p {
     font-style: normal;

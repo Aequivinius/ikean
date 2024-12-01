@@ -8,7 +8,6 @@
     {% endfor %}
 </nav>
 
-
 {% for event in fields | sort(attribute='date') if event.date > NOW %}
 <figure>
     <a href="#{{event.id}}">

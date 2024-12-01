@@ -1,1 +1,0 @@
-The more common variant of this pattern is in yellow on a red background, but with this colour scheme, the intricate sceneries seen through the round windows are easier to make out. Comes with a paper box.

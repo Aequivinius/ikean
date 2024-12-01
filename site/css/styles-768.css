@@ -73,10 +73,6 @@ section {
     transition: filter var(--allegro) ease;
 }
 
-.toys__thumbnail.past {
-    filter: grayscale(100%);
-}
-
 .toys__thumbnail:hover {
     filter: none;
     transition: filter var(--allegro) ease;

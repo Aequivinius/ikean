@@ -102,6 +102,10 @@ lang[jp] {
     margin-top: var(--margin-large);
 }
 
+.toys__thumbnail.past {
+    filter: grayscale(100%);
+}
+
 #about {
     display: block;
 }

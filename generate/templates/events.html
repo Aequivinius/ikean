@@ -43,7 +43,11 @@
         <span class="toy__maker">{{event.date|format_date(language)}}</span>
 
         <p>{{event.content[language]}}</p>
-        <a class="close" href="utensils.html">{{field__close}}</a>
+        {% if event.buy is defined %}
+        <a href="{{event.buy}}" class="button">{{event__book}} {% if event.price %}({{event.price}} CHF){% endif %}</a>
+        {% endif %}
+
+        <a class="close" href="events.html">{{field__close}}</a>
     </div>
 </div>
 {% endfor %}
@@ -83,6 +87,7 @@
         <span class="toy__maker">{{event.date|format_date(language)}}</span>
 
         <p>{{event.content[language]}}</p>
+
         <a class="close" href="utensils.html">{{field__close}}</a>
     </div>
 </div>

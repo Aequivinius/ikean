@@ -1,1 +1,3 @@
 What does the host do to bring out the best flavor in a cup of tea? Of course, the quality of the tea itself is key, but technical aspects also matter: the water, its temperature, and the preparation process. Beyond that, there are subtler elements that influence the guest's experience — a tea served at a bustling train station won’t have the same effect as one enjoyed in the serene, carefully curated setting of a Japanese tea ceremony.<br/>This presentation dives into all these factors that shape the taste of tea in the Japanese tea ceremony.
+
+This presentation takes place at [hōmu](https://homu.ch/) in Basel. Presentations take place at 13:00 and 15:00.

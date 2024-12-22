@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+
 {% block content %}
 <nav id="utensils__categories">
     {% for category in categories %}
@@ -8,6 +9,7 @@
     {% endfor %}
 </nav>
 
+<p class="utensils__disclaimer">{{utensils__disclaimer}}</p>
 
 {% for toy in fields | sort(attribute='date', reverse=True) if toy.sale %}
 <figure category="{{toy.category['id']}}">

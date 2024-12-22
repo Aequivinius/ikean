@@ -163,6 +163,15 @@ model-viewer {
     margin-bottom: var(--margin-large);
 }
 
+.utensils__disclaimer {
+    font-style: italic;
+    color: rgb(187, 180, 172);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    background-color: var(--turquoise);
+    padding: var(--margin-large)
+}
 
 
 html:lang(jp) p {

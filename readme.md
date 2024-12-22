@@ -65,12 +65,10 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 * I used to apply a pretty thick saturation filter, which I then had to remove again: `find /path/to/directory -type f \( -iname \*.webp -o -iname \*.jpeg -o -iname \*.png \) -exec mogrify -modulate 100,50,100 {} \;`
 * Use `generate/convert.sh` from the directory you want to change the images in to convert to `.webp`
 
-# Backlog
-- [x] aspects to principles
-- [x] old events
-- [ ] write doc strings
-- [ ] write and run the `pytest`s, then register them on merges
-- [ ] JSON schema for checkerboards
+
+## UX
+- [ ] small footer, Impressum, instagram
+- [ ] photo / video on intro page
 - [ ] outgoing links open in new window
 
 ## i18n
@@ -79,13 +77,11 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 
 ## Toys
 - [ ] Filter for toys, with seasonality and category
-- [x] reduce filter on toys
+- [ ] Client side search index
 - [ ] the labels are messed up
 
-## Deployment
-- [ ] push directly deploys
+## DevOps
 - [ ] Move hosting from github to my server
-
-## Nice to have
-- [ ] small footer, Impressum, instagram
-- [ ] photo on intro page
+- [ ] write doc strings
+- [ ] write and run the `pytest`s, then register them on merges
+- [ ] JSON schema for checkerboards

@@ -9,6 +9,11 @@
         "en": "outside",
         "jp": "茶箱"
     },
+    "event__book" : {
+        "de": "Buchen",
+        "en": "Book",
+        "jp": "予約"
+    },
     "kou": {
         "de": "Räucherwerk",
         "en": "incense",
@@ -213,6 +218,11 @@
         "de": "Verkauft wird ausschließlich, was oben beschrieben ist; allfällige übrige Gegenstände auf den Bildern dienen lediglich dem Größenvergleich und der Veranschaulichung.",
         "en": "The price includes only the items described above; any other objects in the pictures are for size comparison and illustration only.",
         "jp": "掲載されている価格は、上記の道具のみを含んでいます。写真に写っている他の道具はサイズ比較や説明のためのものです。"
+    },
+    "utensils__disclaimer": {
+        "en": "Most of the tea utensils I have I bought second hand on temple flea markets during my travels to Japan. I'm fond of every item that I bought, but also, unfortunately, I have limited room for tea in my flat. Because of that, I'm listing here some items that I don't want to throw away, but that also I cannot keep. Each item has a price not because this is a commercial endeavour, but because I know from experience that things given for free usually also feel to the recipient like they are worthless. With this idea in mind I gave each item a symbolic price.",
+        "de": "Die meisten Tee-Utensilien, die ich besitze, habe ich auf Tempel-Flohmärkten in Japan erworben. Ich liebe jedes einzelne Utensil, das ich gekauft habe, aber leider habe ich nur begrenzten Platz für Tee in meiner Wohnung. Deshalb verkaufe ich hier einige Utensilien, die ich nicht wegwerfen möchte, aber auch nicht behalten kann. Jedes Utensil hat einen Preis, nicht weil dies ein kommerzielles Unterfangen ist, sondern weil ich aus Erfahrung weiß, dass Dinge, die kostenlos abgegeben werden, auch für den Empfänger oft wertlos erscheinen. Mit dieser Idee im Hinterkopf habe ich jedem Utensil einen symbolischen Preis gegeben.",
+        "jp": "私が持っているほとんどの茶道具は、日本への旅行中に寺院のフリーマーケットで中古で購入しました。私は購入したすべての道具が好きですが、残念ながら私のアパートにはお茶を置くための限られたスペースしかありません。そのため、捨てたくないが保管もできない道具をここにリストアップしています。各道具に価格が付いているのは、これが商業的な取り組みであるためではなく、無料で提供されるものは受取人にとっても価値がないと感じられることが多いという経験からです。この考えを念頭に置いて、各道具に象徴的な価格を付けました。"
     },
     "translated": {
         "de": "👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.",

@@ -1,1 +1,0 @@
-<p>Wird verwendet, um brennende Holzkohle zu transportieren und unangezündete anzuzünden, indem man einen Gasherd benutzt. Wird häufig verwendet, ist aber in gutem Zustand; ursprünglich auf <a href="https://www.rikyucha.com/item/list2/295301">rikyucha</a> gekauft. Wird mit einem Pappkarton geliefert.</p>

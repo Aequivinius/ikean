@@ -1,0 +1,11 @@
+{
+    "category": "scroll",
+    "name": {
+        "en": "Smoke Signals",
+        "de": "Rauchzeichen",
+        "jp": "狼煙"
+    },
+    "price": 20,
+    "sale": true,
+    "date": "2024-12-23"
+}

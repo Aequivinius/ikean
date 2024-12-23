@@ -1,1 +1,0 @@
-Used to transport burning charcoal, and to ignite unlit ones, using a gas stove. Used frequently, but in good condition; purchased originally on [rikyucha](https://www.rikyucha.com/item/list2/295301). Comes with a cardboard box.

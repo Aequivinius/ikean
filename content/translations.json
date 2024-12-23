@@ -224,6 +224,11 @@
         "de": "Die meisten Tee-Utensilien, die ich besitze, habe ich auf Tempel-Flohmärkten in Japan erworben. Ich liebe jedes einzelne Utensil, das ich gekauft habe, aber leider habe ich nur begrenzten Platz für Tee in meiner Wohnung. Deshalb verkaufe ich hier einige Utensilien, die ich nicht wegwerfen möchte, aber auch nicht behalten kann. Jedes Utensil hat einen Preis, nicht weil dies ein kommerzielles Unterfangen ist, sondern weil ich aus Erfahrung weiß, dass Dinge, die kostenlos abgegeben werden, auch für den Empfänger oft wertlos erscheinen. Mit dieser Idee im Hinterkopf habe ich jedem Utensil einen symbolischen Preis gegeben.",
         "jp": "私が持っているほとんどの茶道具は、日本への旅行中に寺院のフリーマーケットで中古で購入しました。私は購入したすべての道具が好きですが、残念ながら私のアパートにはお茶を置くための限られたスペースしかありません。そのため、捨てたくないが保管もできない道具をここにリストアップしています。各道具に価格が付いているのは、これが商業的な取り組みであるためではなく、無料で提供されるものは受取人にとっても価値がないと感じられることが多いという経験からです。この考えを念頭に置いて、各道具に象徴的な価格を付けました。"
     },
+    "scroll": {
+        "de": "Schriftrolle",
+        "en": "Hanging Scroll",
+        "jp": "掛軸"
+    },
     "translated": {
         "de": "👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.",
         "jp": "👾：このテキストは機械翻訳されました。不一致がある場合は、英語のページを参照してください。"

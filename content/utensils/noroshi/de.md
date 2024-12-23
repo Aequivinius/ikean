@@ -1,0 +1,3 @@
+<p>Dies ist eine Rolle, die ich leider nicht lesen kann, noch habe ich jemanden gefunden, der es kann. Allerdings erinnert mich die freie Kalligraphie ein wenig an den Rauch eines Räucherstäbchens und tatsächlich sieht es recht ansprechend aus, wenn es mit einem Räucherstäbchenhalter auf dem <abbr title="toko">床</abbr> wie auf dem Bild präsentiert wird.</p>
+<p>Wird in einer Papprolle mit dem <abbr title="silk cloth">帛紗</abbr> zur Präsentation geliefert, jedoch sind der Räucherstäbchenhalter und die Räucherschale nicht enthalten.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

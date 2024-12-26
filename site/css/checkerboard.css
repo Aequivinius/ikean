@@ -23,28 +23,56 @@ figure {
     font-family: var(--sans-font);
     font-size: 0.66em;
     background-color: rgba(255, 255, 255, 1);
-    text-align: left;
     box-shadow: var(--drop-shadow-subtle);
     padding: var(--margin-medium);
     color: var(--turquoise);
 
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr auto;
+    width: 100%; /* Full column width */
+    box-sizing: border-box; /* Ensure padding/border doesn't affect dimensions */
 }
 
 .field__name {
+    align-self: start;
     font-size: 1em;
     font-weight: 700;
     text-transform: uppercase;
+    grid-row: 1;
+    grid-column: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.field__description .field__name_right {
+    grid-row: 1;
+    grid-column: 2;
+    white-space: nowrap;
+    text-align: right;
+    font-family: var(--serif-font);
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-right: calc(-1 * var(--margin-medium));
 }
 
 
 .toys__maker, .toys__price {
     opacity: 0.66;
+    grid-row: 2;
+    grid-column: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .toys__price {
-    float: right;
-    padding-right: var(--margin-medium);
     opacity: 0.8;
+    grid-row: 2;
+    grid-column: 2;
+    white-space: nowrap;
+    text-align: right;
 }
 
 .overlay:target {
@@ -170,7 +198,11 @@ model-viewer {
     display: flex;
     align-items: center;
     background-color: var(--turquoise);
-    padding: var(--margin-large)
+    padding: var(--margin-large);
+    grid-column: span 1;
+    @media (max-aspect-ratio: 3/2) {
+        grid-column: span 2;
+    }
 }
 
 

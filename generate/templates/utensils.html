@@ -17,9 +17,10 @@
         <img class="toys__thumbnail" src="../../content/utensils/{{toy.id}}/{{toy.images[0]}}" alt="{{toy.alt}}" />
 
         <figcaption class="field__description">
-            <h2 class="field__name clearfix">{{toy.name[language]}}{% if language != "jp"%}<span class="right">
-                    「{{toy.name["jp"]}}」</span>{%
-                endif %}</h2>
+            <h2 class="field__name clearfix">{{toy.name[language]}}</h2>
+            {% if language != "jp"%}<span class="field__name_right">
+                「{{toy.name["jp"]}}」</span>{%
+            endif %}
             <span class="toys__maker">{% if "maker" in toy %}{{toy__maker_1}}{{toy.maker[language]}}{{toy__maker_2}}{%
                 else %}{{toy__maker_unknown}}{%
                 endif

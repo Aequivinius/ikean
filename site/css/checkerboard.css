@@ -27,11 +27,15 @@ figure {
     padding: var(--margin-medium);
     color: var(--turquoise);
 
+
+    box-sizing: border-box; /* Ensure padding/border doesn't affect dimensions */
+}
+
+.field__gridbox {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr auto;
     width: 100%; /* Full column width */
-    box-sizing: border-box; /* Ensure padding/border doesn't affect dimensions */
 }
 
 .field__name {

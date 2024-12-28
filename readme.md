@@ -78,7 +78,9 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 ## Toys
 - [ ] Filter for toys, with seasonality and category
 - [ ] Client side search index
-- [ ] the labels are messed up
+- [x] the labels are a little bit messed up
+- [x] navigation categories should be lower
+- [ ] navigation categories ought to have a checkbox
 
 ## DevOps
 - [ ] Move hosting from github to my server

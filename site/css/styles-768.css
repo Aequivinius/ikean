@@ -78,6 +78,12 @@ section {
     transition: filter var(--allegro) ease;
 }
 
+#menu__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: var(--margin-large);
+}
+
 @media (hover: none) {
     .field__info abbr::after {
             content: " (" attr(title) ")";

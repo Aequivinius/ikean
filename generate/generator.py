@@ -5,6 +5,7 @@ import json
 import markdown
 from markdown.extensions.wikilinks import WikiLinkExtension
 from datetime import datetime
+import fuckit
 
 """This package generates the site in different languages, loading its contents either from translations.json and directories.
 
@@ -138,5 +139,23 @@ class Generator:
                     field["content"] = {}
                 field["content"][language] = html_content
 
+        field["keywords"] = self.get_keywords(field)
+
         field = self.translator.get_missing_translations(field, directory)
         return field
+
+    def get_keywords(self, field):
+        keywords = {}
+        for language, model in self.translator.models.items():
+            text = field["content"][language]
+            doc = model(text.lower())
+            words = [token.text for token in doc if token.is_alpha and token.text not in model.Defaults.stop_words and token.pos_ in ["NOUN", "PROPN", "ADJ"] ]
+
+            with fuckit:
+                words.append(field["category"][language].lower())
+                words.append(field["name"][language].lower())
+                words.append(field["maker"][language].lower())
+
+            keywords[language] = " ".join(words)
+
+        return keywords

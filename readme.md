@@ -76,11 +76,13 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 - [ ] log when files are changed so new translations can be automatically generated
 
 ## Toys
-- [ ] Filter for toys, with seasonality and category
-- [ ] Client side search index
+- [ ] Filter toys with seasonality
+- [ ] search should include romanized Japanese category names
+- [ ] fuzzy search, multiword search
+- [x] Client side search index
 - [x] the labels are a little bit messed up
 - [x] navigation categories should be lower
-- [ ] navigation categories ought to have a checkbox
+- [x] navigation categories ought to have a checkbox
 
 ## DevOps
 - [ ] Move hosting from github to my server

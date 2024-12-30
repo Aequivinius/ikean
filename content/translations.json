@@ -1,4 +1,14 @@
 {
+    "categories__all": {
+        "en": "all categories",
+        "de": "alle Kategorien",
+        "jp": "全てのカテゴリ"
+    },
+    "categories__pick": {
+        "en": "pick a category",
+        "de": "Kategorie wählen",
+        "jp": "カテゴリを選択"
+    },
     "chaki": {
         "de": "Teebehälter",
         "en": "tea caddy",
@@ -178,6 +188,11 @@
         "de": "Name des Utensils",
         "en": "Utensil Name",
         "jp": "道具の銘"
+    },
+    "search__placeholder": {
+        "de": "Suche...",
+        "en": "Search...",
+        "jp": "検索"
     },
     "textile": {
         "de": "Textilien",

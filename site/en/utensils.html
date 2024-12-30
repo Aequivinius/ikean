@@ -18,6 +18,7 @@
 
     <!-- js -->
     <script src="../scripts.js"></script>
+    <script src="../search.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
     <script src="https://cdn.counter.dev/script.js" data-id="b0631752-3a02-4217-a4f5-ec16ece76be7"
         data-utcoffset="2"></script>
@@ -58,38 +59,38 @@
 
     <section id="utensils">
 
-<nav id="utensils__categories">
 
-    <input type="checkbox" name="chashaku" id="chashaku" checked>
-    <label class="utensils__category" for="chashaku">tea scoop</label>
+<nav id="menu__container">
+    <select id="menu__categories">
+        <option value="None" selected disabled hidden>pick a category</option>
+        <option value="all">all categories</option>
 
-    <input type="checkbox" name="chawan" id="chawan" checked>
-    <label class="utensils__category" for="chawan">tea bowl</label>
+        <option value="chashaku">tea scoop</option>
 
-    <input type="checkbox" name="chabako" id="chabako" checked>
-    <label class="utensils__category" for="chabako">outside</label>
+        <option value="chawan">tea bowl</option>
 
-    <input type="checkbox" name="kaiseki" id="kaiseki" checked>
-    <label class="utensils__category" for="kaiseki">cooking utensil</label>
+        <option value="chabako">outside</option>
 
-    <input type="checkbox" name="kou" id="kou" checked>
-    <label class="utensils__category" for="kou">incense</label>
+        <option value="kaiseki">cooking utensil</option>
 
-    <input type="checkbox" name="textile" id="textile" checked>
-    <label class="utensils__category" for="textile">cloth</label>
+        <option value="kou">incense</option>
 
-    <input type="checkbox" name="kake" id="kake" checked>
-    <label class="utensils__category" for="kake">scroll</label>
+        <option value="textile">cloth</option>
 
-    <input type="checkbox" name="mizuya" id="mizuya" checked>
-    <label class="utensils__category" for="mizuya">preparation</label>
+        <option value="kake">scroll</option>
 
+        <option value="mizuya">preparation</option>
+
+    </select>
+    <div id="menu__search">
+        <input id="menu__search_input" type="text" placeholder="Search...">
+    </div>
 </nav>
 
 <p class="utensils__disclaimer">Most of the tea utensils I have I bought second hand on temple flea markets during my travels to Japan. I'm fond of every item that I bought, but also, unfortunately, I have limited room for tea in my flat. Because of that, I'm listing here some items that I don't want to throw away, but that also I cannot keep. Each item has a price not because this is a commercial endeavour, but because I know from experience that things given for free usually also feel to the recipient like they are worthless. With this idea in mind I gave each item a symbolic price.</p>
 
 
-<figure category="kake">
+<figure category="kake" keywords="scroll free calligraphy bit smoke incense stick fact appetising incense burner abbr cardboard tube abbr incense burner incense tray scroll smoke signals">
     <a href="#noroshi">
         <img class="toys__thumbnail" src="../../content/utensils/noroshi/0.webp" alt="" />
 
@@ -157,7 +158,7 @@
 </div>
 
 
-<figure category="kou">
+<figure category="kou" keywords="bodhidharma emperor wu china emperor wisdom legendary monk emperor answer abbr shiki meaning emperor rugged uncompromising attitude early buddhism incense container awards exhibitions artist incense no idea wabei yarita">
     <a href="#fushiki">
         <img class="toys__thumbnail" src="../../content/utensils/fushiki/1.webp" alt="" />
 
@@ -228,7 +229,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr bowl bright red persimmon glaze metal rim suitable abbr procedure colour contrasts black abbr practise artist tea bowl persimmon glazed bowl koie tsuyoshi">
     <a href="#kakiyuu">
         <img class="toys__thumbnail" src="../../content/utensils/kakiyuu/1.webp" alt="" />
 
@@ -292,7 +293,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="abbr chinese poetry vessel rice wine setting poem particular red fireplace jade boat golden special tea scoop nodes intense cloth characters netherlands dutch japan wares japan portuguese word em japanese word abbr abbr tea scoop paper tea scoop the jade boat">
     <a href="#gyokusen">
         <img class="toys__thumbnail" src="../../content/utensils/gyokusen/1.webp" alt="" />
 
@@ -355,7 +356,7 @@
 </div>
 
 
-<figure category="kou">
+<figure category="kou" keywords="abbr japanese instrument similar lute melancholy instrument suitable shape incense container japanese word abbr appreciation artist numerous awards exhibitions world artist box inscription abbr son founder abbr chadō organisation open discussion research way tea secret transmissions different incense lute kato shuntei">
     <a href="#biwa">
         <img class="toys__thumbnail" src="../../content/utensils/biwa/1.webp" alt="" />
 
@@ -427,7 +428,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr tea artist renown abbr ceramics 薩摩 dignified black time garish style exports contemporary artist old style suitable abbr tea bowl little bit heavy artist tea bowl satsuma tea bowl chotaro ariyama">
     <a href="#satsuma">
         <img class="toys__thumbnail" src="../../content/utensils/satsuma/1.webp" alt="" />
 
@@ -488,7 +489,7 @@
 </div>
 
 
-<figure category="mizuya">
+<figure category="mizuya" keywords="spoons ash abbr shape abbr things host terms abbr tea people value good abbr ash form beginning tea invitation rest meditative practitioners little bit useful set spoons left great abbr middle ash right ridges classical shape abbr mon ji shape japanese character paper preparation ash spoons">
     <a href="#haisaji">
         <img class="toys__thumbnail" src="../../content/utensils/haisaji/1.webp" alt="" />
 
@@ -553,7 +554,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr bowl artist abbr rim sharp comfortable big normal abbr tube tea bowl artist tea bowl oribe bowl takefumi onizawa">
     <a href="#oribe">
         <img class="toys__thumbnail" src="../../content/utensils/oribe/1.webp" alt="" />
 
@@ -620,7 +621,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="tea bowl late german ceramicist kerstan sturm tea bowls tea years german clay colour ocean quiet abbr paper presentation abbr crest great artist silk paper tea bowl pure and impertubable beatrix sturm-kerstan">
     <a href="#seijaku">
         <img class="toys__thumbnail" src="../../content/utensils/seijaku/1.webp" alt="" />
 
@@ -685,7 +686,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="tea bowl abbr type dripping glaze abbr em zen world view birth death tea bowl unborn">
     <a href="#fushou">
         <img class="toys__thumbnail" src="../../content/utensils/fushou/1.webp" alt="" />
 
@@ -749,7 +750,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="simple abbr tea bowl soft pink hue abbr january abbr beginning new bowl transport switzerland abbr german em scherben bringen 福 abbr em good tea bowl games and laughter">
     <a href="#fukuwarai">
         <img class="toys__thumbnail" src="../../content/utensils/fukuwarai/1.webp" alt="" />
 
@@ -814,7 +815,7 @@
 </div>
 
 
-<figure category="chabako">
+<figure category="chabako" keywords="type abbr tea abbr abbr tea abbr procedure airplane carrier world war unadorned small signs use paper abbr sweets kyōto abbr inscription abbr gust abbr urasenke paper outside gust of wind kuse kuhou">
     <a href="#sassatsu">
         <img class="toys__thumbnail" src="../../content/utensils/sassatsu/1.webp" alt="" />
 
@@ -885,7 +886,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="style tea bowl new year eve birthdays moments turning time reason abbr ancient pattern lunar months prolific abbr kamamoto kyōto wooden outer paper tea bowl old calendar asami yoshizō">
     <a href="#koyomite">
         <img class="toys__thumbnail" src="../../content/utensils/koyomite/1.webp" alt="" />
 
@@ -950,7 +951,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="main course abbr meal light clear broth seasonal steamed fish seasonal vegetables bowl course abbr 碗 bowls abbr style wood grain set bowls matching lids item lacquered compressed wood powder wood grain real cooking utensil main soup bowl">
     <a href="#nimonowan">
         <img class="toys__thumbnail" src="../../content/utensils/nimonowan/1.webp" alt="" />
 
@@ -1015,7 +1016,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr abbr big little specks pink little specks sun greenery feeling heralding spring abbr blocks ice mountain seasonal words reminder care environment names reminder note bowl small fissure rim tea bowl drift ice">
     <a href="#ryuuhou">
         <img class="toys__thumbnail" src="../../content/utensils/ryuuhou/1.webp" alt="" />
 
@@ -1078,7 +1079,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="貴人 new white 天目 bowl bowl bent outwards inviting shape odd procedure nobleman today society smart element tea curriculum nobleman additional respect em level respect bowl paper tea bowl nobleman&#39;s bowl &amp; stand">
     <a href="#kinin">
         <img class="toys__thumbnail" src="../../content/utensils/kinin/1.webp" alt="" />
 
@@ -1151,7 +1152,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="abbr vega altair lovers abbr poem sadness separation world stars mood autumn loneliness melancholy tea scoop dents tip cloth stains scoop tube paper box cloth tea scoop parting stars">
     <a href="#wakareboshi">
         <img class="toys__thumbnail" src="../../content/utensils/wakareboshi/1.webp" alt="" />
 
@@ -1212,7 +1213,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="tea scoop sword tea tea scoop em sword em sword nordic sagas wagner operas em norse mythology em versions story em sword shards hero saga inherits new sword dragon tea ceremony aspect em interesting tea scoop suitable japanese businessman tea ceremony tea scoops old temple bamboo bamboo tube em ex paper bold tad pink abbr gingko prints cloth cardboard tea scoop nothung okada saburo">
     <a href="#nothung">
         <img class="toys__thumbnail" src="../../content/utensils/nothung/1.webp" alt="" />
 
@@ -1275,7 +1276,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="tea bowl glaze parts bowl oil drops poetic mind cherry blossom petals abbr night sky contemporary abbr closer old style dark clay dark tea bowl night sky cherry blossoms sakura kiln">
     <a href="#yozakura">
         <img class="toys__thumbnail" src="../../content/utensils/yozakura/1.webp" alt="" />
 
@@ -1348,7 +1349,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="set tea bowls abbr tea invitation auspicious symbols foot inner bowl pentagonal crane outer bowl hexagonal turtle crane gold turtle silver suitable preparation thick tea large number guests artist tea bowl turtle &amp; crane shoraku">
     <a href="#shimadai">
         <img class="toys__thumbnail" src="../../content/utensils/shimadai/1.webp" alt="" />
 
@@ -1418,7 +1419,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="black tea bowl glaze special shiny black result technique abbr glowing hot tea bowl kiln jet black tea bowl jet black tea bowl katsura kiln">
     <a href="#hikidashikuro">
         <img class="toys__thumbnail" src="../../content/utensils/hikidashikuro/1.webp" alt="" />
 
@@ -1482,7 +1483,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="pun ways em shell poetic symbol selves character tale genji lady beautiful impressed prince genji stout behaviour good taste opinion aspect simple elegant tea word abbr interesting em general locust shell characters word ex post sounds meaning time word meaning hollow circadas strong summer motif tea scoop suitable summer philosophical interpretation year use thick tea paper box bamboo tube bamboo tube original maker maker successful bank owner practitioner japanese tea ceremony tea scoops bamboo utensils bamboo old tea scoop shell of the locust okada saburo">
     <a href="#utsusemi">
         <img class="toys__thumbnail" src="../../content/utensils/utsusemi/1-utsusemi.webp" alt="" />
 
@@ -1546,7 +1547,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="meal tea ceremony rice wine rice wine ceramic cups tea gathering ceremonial fashion shallow abbr plate cup liquid small sips abbr way set abbr stand individual cups entire set item lacquered wood powder stand cups paper cooking utensil rice wine cups">
     <a href="#sakazuki">
         <img class="toys__thumbnail" src="../../content/utensils/sakazuki/1.webp" alt="" />
 
@@ -1611,7 +1612,7 @@
 </div>
 
 
-<figure category="chabako">
+<figure category="chabako" keywords="small abbr iron antique market years abbr tea abbr practise pine cone lid certain charm free rust substantial chalk crust taste water iron people bit vinegar comment paper outside cast iron kettle">
     <a href="#tetsubin">
         <img class="toys__thumbnail" src="../../content/utensils/tetsubin/1.webp" alt="" />
 
@@ -1678,7 +1679,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="mysterious course abbr menu abbr em chopstick light soup solids primary purpose chopsticks secondary purpose course abbr course host lids abbr cups little cups pine needle motif suitable light soup roasted pine nuts paper cooking utensil chopstick rinsing cups">
     <a href="#hashiarai">
         <img class="toys__thumbnail" src="../../content/utensils/hashiarai/1.webp" alt="" />
 
@@ -1737,7 +1738,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="student monk abbr cold heat 洞山 cold place water ladle tea ceremony heat abbr tea cold water mind scoop seasons maker successful bank owner practitioner japanese tea ceremony tea scoops bamboo utensils bamboo old temples paper tea scoop neither hot nor cold okada saburo">
     <a href="#mukanjou">
         <img class="toys__thumbnail" src="../../content/utensils/mukanjou/1.webp" alt="" />
 
@@ -1799,7 +1800,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="tea scoop large tea bowl akin famed abbr tea scoop abbr student large abbr tea abbr em moon person moon poem abbr student abbr kokonimo hitori tsuki iwahana moon evokative autumn night room interpretation abbr author cloth tea scoop suits cold elegance moon small stains tea scoop paper tea scoop moon&#39;s guest nico čolić">
     <a href="#tsukinogyaku">
         <img class="toys__thumbnail" src="../../content/utensils/tsukinogyaku/1.webp" alt="" />
 
@@ -1847,7 +1848,7 @@
         <span class="toy__maker">made by Nico Čolić</span>
 
         <p><p>This is a tea scoop I carved to suit a particularly large tea bowl akin to the famed <abbr title="seta">勢多</abbr> tea scoop that <abbr title="Rikyū">利休</abbr> carved to match his student's large <abbr title="mizu umi">水海</abbr> tea bowl.</p>
-<p>The <abbr title="tsuki no gyaku">月の客</abbr> is the <em>moon's guest</em>, or more bluntly, a person looking at the moon. It comes from a poem by <abbr title="Bashō">芭蕉</abbr>'s student <abbr title="Mukai">去来</abbr>: <em>岩鼻やここにもひとり—<abbr title="tsuki no gyaku">月の客</abbr></em>. Here at Iwahana somebody is watching the moon, too. It's quite evokative of an autumn night; and there's quite some room for interpretation who this <abbr title="tsuki no gyaku">月の客</abbr> is: Is it the author? Is it somebody else?</p>
+<p>The <abbr title="tsuki no gyaku">月の客</abbr> is the <em>moon's guest</em>, or more bluntly, a person looking at the moon. It comes from a poem by <abbr title="Bashō">芭蕉</abbr>'s student <abbr title="Mukai">去来</abbr>: <em><abbr title="iwahanaya kokonimo hitori tsuki no gyaku">岩鼻やここにもひとり—月の客</abbr></em>. Here at Iwahana somebody is watching the moon, too. It's quite evokative of an autumn night; and there's quite some room for interpretation who this <abbr title="tsuki no gyaku">月の客</abbr> is: Is it the author? Is it somebody else?</p>
 <p>The cloth I'm pairing this tea scoop with suits the cold elegance of the moon; but unfortunately, has some small stains. The tea scoop comes in a paper box.</p></p>
 
 
@@ -1862,7 +1863,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="late autumn days warm mind skies clear dry temperatures warm leaves trees red orange em small beautiful sceneries forests colour similar cherry blossom viewings actual spring paper box tea tea scoop indian summer">
     <a href="#koharu">
         <img class="toys__thumbnail" src="../../content/utensils/koharu/1.webp" alt="" />
 
@@ -1923,7 +1924,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="soft red 楽 style tea bowl orange hue small indentation bowl suitable 茶の湯 artist abbr bowl suitable new year time feeling abbr fresh artist tea practitioner artist box calligraphy abbr tea bowl morning glory hisato kokuryō">
     <a href="#akebono">
         <img class="toys__thumbnail" src="../../content/utensils/akebono/1.webp" alt="" />
 
@@ -1986,7 +1987,7 @@
 </div>
 
 
-<figure category="textile">
+<figure category="textile" keywords="purification cloth abbr abbr strong silk abbr gingko patterns flea market japan paper cloth gingko-pattern silk tatsumura art textiles">
     <a href="#fukusa">
         <img class="toys__thumbnail" src="../../content/utensils/fukusa/1.webp" alt="" />
 
@@ -2044,7 +2045,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="tea scoop sooty bamboo chapter famous tale genji abbr chiru em flowers chapter prince genji rainy summer afternoon days yore scent citrus blossoms abbr tea scoop similar strength melancholy suitable summer paper tea scoop the village where flowers fall">
     <a href="#hanachirusato">
         <img class="toys__thumbnail" src="../../content/utensils/hanachirusato/1_scoop.webp" alt="" />
 
@@ -2106,7 +2107,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="january month em abbr dream new abbr tea invitation new abbr calligraphy new famous important things abbr laughter year good tea scoop january lightness austere mood thick paper tea scoop first laughter">
     <a href="#hatsuwarai">
         <img class="toys__thumbnail" src="../../content/utensils/hatsuwarai/1.webp" alt="" />
 
@@ -2168,7 +2169,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="tube tea bowl 萬珠堂 store kyōto shape winter abbr warm bowl tea storm tempestial theme bowl abbr abbr joyous abbr silk cloth stiff paper tea bowl faraway thunder">
     <a href="#banrai">
         <img class="toys__thumbnail" src="../../content/utensils/banrai/1.webp" alt="" />
 
@@ -2239,7 +2240,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="tea scoop node end certain higher preparations suitable evening chanting sutras monks metaphysical dust day tea scoop metaphysical dust unusual cloth fabric napkin zurich company swissair class flights smaller normal abbr repurposed abbr tea scoop evening prayer">
     <a href="#banka">
         <img class="toys__thumbnail" src="../../content/utensils/banka/1.webp" alt="" />
 

@@ -18,6 +18,7 @@
 
     <!-- js -->
     <script src="../scripts.js"></script>
+    <script src="../search.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
     <script src="https://cdn.counter.dev/script.js" data-id="b0631752-3a02-4217-a4f5-ec16ece76be7"
         data-utcoffset="2"></script>
@@ -58,38 +59,38 @@
 
     <section id="utensils">
 
-<nav id="utensils__categories">
 
-    <input type="checkbox" name="chashaku" id="chashaku" checked>
-    <label class="utensils__category" for="chashaku">Teelöffel</label>
+<nav id="menu__container">
+    <select id="menu__categories">
+        <option value="None" selected disabled hidden>Kategorie wählen</option>
+        <option value="all">alle Kategorien</option>
 
-    <input type="checkbox" name="chawan" id="chawan" checked>
-    <label class="utensils__category" for="chawan">Teeschale</label>
+        <option value="chashaku">Teelöffel</option>
 
-    <input type="checkbox" name="chabako" id="chabako" checked>
-    <label class="utensils__category" for="chabako">Draußen</label>
+        <option value="chawan">Teeschale</option>
 
-    <input type="checkbox" name="kaiseki" id="kaiseki" checked>
-    <label class="utensils__category" for="kaiseki">Koch-Utensil</label>
+        <option value="chabako">Draußen</option>
 
-    <input type="checkbox" name="kou" id="kou" checked>
-    <label class="utensils__category" for="kou">Räucherwerk</label>
+        <option value="kaiseki">Koch-Utensil</option>
 
-    <input type="checkbox" name="textile" id="textile" checked>
-    <label class="utensils__category" for="textile">Textilien</label>
+        <option value="kou">Räucherwerk</option>
 
-    <input type="checkbox" name="kake" id="kake" checked>
-    <label class="utensils__category" for="kake">Schriftrolle</label>
+        <option value="textile">Textilien</option>
 
-    <input type="checkbox" name="mizuya" id="mizuya" checked>
-    <label class="utensils__category" for="mizuya">Vorbereitung</label>
+        <option value="kake">Schriftrolle</option>
 
+        <option value="mizuya">Vorbereitung</option>
+
+    </select>
+    <div id="menu__search">
+        <input id="menu__search_input" type="text" placeholder="Suche...">
+    </div>
 </nav>
 
 <p class="utensils__disclaimer">Die meisten Tee-Utensilien, die ich besitze, habe ich auf Tempel-Flohmärkten in Japan erworben. Ich liebe jedes einzelne Utensil, das ich gekauft habe, aber leider habe ich nur begrenzten Platz für Tee in meiner Wohnung. Deshalb verkaufe ich hier einige Utensilien, die ich nicht wegwerfen möchte, aber auch nicht behalten kann. Jedes Utensil hat einen Preis, nicht weil dies ein kommerzielles Unterfangen ist, sondern weil ich aus Erfahrung weiß, dass Dinge, die kostenlos abgegeben werden, auch für den Empfänger oft wertlos erscheinen. Mit dieser Idee im Hinterkopf habe ich jedem Utensil einen symbolischen Preis gegeben.</p>
 
 
-<figure category="kake">
+<figure category="kake" keywords="rolle freie kalligraphie rauch räucherstäbchens räucherstäbchenhalter abbr bild papprolle abbr präsentation räucherstäbchenhalter räucherschale text englischen unstimmigkeiten englische schriftrolle rauchzeichen">
     <a href="#noroshi">
         <img class="toys__thumbnail" src="../../content/utensils/noroshi/0.webp" alt="" />
 
@@ -158,7 +159,7 @@
 </div>
 
 
-<figure category="kou">
+<figure category="kou" keywords="bodhidharma chinesischen kaiser wu kaiser legendären mönch kaiser antwort abbr bedeutung kaiser raue kompromisslose haltung frühen buddhismus räucherwerkbehälter auszeichnungen ausstellungen schachtel künstlers räucherwerk ohne selbstbewusstsein wabei yarita">
     <a href="#fushiki">
         <img class="toys__thumbnail" src="../../content/utensils/fushiki/1.webp" alt="" />
 
@@ -229,7 +230,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr helle rote metallrand abbr farbkontraste schwarzen abbr praxis künstlerbox text englischen unstimmigkeiten englische teeschale schale mit kaki-glasur koie tsuyoshi">
     <a href="#kakiyuu">
         <img class="toys__thumbnail" src="../../content/utensils/kakiyuu/1.webp" alt="" />
 
@@ -294,7 +295,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="name abbr chinesischen dichtung gefäß servieren reiswein höfischen umfeld bestimmtes gedicht sinn roten kamin jadeschiff goldenen becher besonderen teelöffel knoten intensiven tuch abbr zeichen niederlande niederländer japan portugiesen japan wort japanische wort abbr abbr teelöffel teelöffel das jade-schiff">
     <a href="#gyokusen">
         <img class="toys__thumbnail" src="../../content/utensils/gyokusen/1.webp" alt="" />
 
@@ -359,7 +360,7 @@
 </div>
 
 
-<figure category="kou">
+<figure category="kou" keywords="abbr japanisches instrument laute melancholie verbindung form instruments räucherstäbchenbehälter japaner wort abbr wertschätzung künstler zahlreiche auszeichnungen ausstellungen welt schachtel künstlers inschrift inschrift abbr abbr sohn gründers abbr chadō organisation offene diskussion forschung geheimer übertragungen unterschiedlicher stile text englischen unstimmigkeiten englische räucherwerk laute kato shuntei">
     <a href="#biwa">
         <img class="toys__thumbnail" src="../../content/utensils/biwa/1.webp" alt="" />
 
@@ -432,7 +433,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr künstler ruf abbr keramiken 薩摩 laufe greller stil export zeitgenössischen künstler alten stil abbr box künstlers teeschale satsuma tee-schale chotaro ariyama">
     <a href="#satsuma">
         <img class="toys__thumbnail" src="../../content/utensils/satsuma/1.webp" alt="" />
 
@@ -493,7 +494,7 @@
 </div>
 
 
-<figure category="mizuya">
+<figure category="mizuya" keywords="löffel asche resultierende form abbr dinge gastgeber bezug abbr leute guten abbr hohen wert ascheform anfang praktizierenden set linke mittlere glätten asche schneiden rillen klassischste form abbr mon ji shape of the japanese pappschachtel text englischen unstimmigkeiten englische vorbereitung aschelöffel">
     <a href="#haisaji">
         <img class="toys__thumbnail" src="../../content/utensils/haisaji/1.webp" alt="" />
 
@@ -559,7 +560,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr interpretation künstlers abbr rand normale schachtel künstlers text englischen unstimmigkeiten englische teeschale oribe-schale takefumi onizawa">
     <a href="#oribe">
         <img class="toys__thumbnail" src="../../content/utensils/oribe/1.webp" alt="" />
 
@@ -627,7 +628,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="teeschale verstorbenen deutschen keramikerin tee deutschem ton farbe boden ozeans namen abbr umfunktionierten pappschachtel wappen großartige künstlerin seide pappschachtel teeschale reinheit und stille beatrix sturm-kerstan">
     <a href="#seijaku">
         <img class="toys__thumbnail" src="../../content/utensils/seijaku/1.webp" alt="" />
 
@@ -692,7 +693,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="teeschale abbr tropfenden glasur abbr weltanschauung geburt tod nachher text englischen unstimmigkeiten englische teeschale ungeboren">
     <a href="#fushou">
         <img class="toys__thumbnail" src="../../content/utensils/fushou/1.webp" alt="" />
 
@@ -757,7 +758,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="einfache abbr teeschale zarten rosa farbton abbr januar abbr beginn jahres schale transports schweiz abbr name abbr pappschachtel teeschale glück und freude">
     <a href="#fukuwarai">
         <img class="toys__thumbnail" src="../../content/utensils/fukuwarai/1.webp" alt="" />
 
@@ -822,7 +823,7 @@
 </div>
 
 
-<figure category="chabako">
+<figure category="chabako" keywords="typ abbr abbr abbr abbr flugzeugträger weltkriegs gebrauchsspuren pappschachtel abbr künstler kyōto inschrift abbr abbr pappschachtel text englischen unstimmigkeiten englische draußen brise kuse kuhou">
     <a href="#sassatsu">
         <img class="toys__thumbnail" src="../../content/utensils/sassatsu/1.webp" alt="" />
 
@@ -894,7 +895,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="stil teeschale silvester geburtstage lauf grund alter mondmonaten fleißigen abbr kamamoto kyōto äußeren pappschachtel teeschale alter kalender asami yoshizō">
     <a href="#koyomite">
         <img class="toys__thumbnail" src="../../content/utensils/koyomite/1.webp" alt="" />
 
@@ -959,7 +960,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="hauptgang abbr gedünstetes leichten klaren brühe saisonales gedämpfte saisonale gemüse schale gang abbr 碗 schale schalen abbr holzmaserung satz schalen passenden deckeln lackiertem komprimiertem holzpulver erscheinende holzmaserung koch-utensil suppen-schale">
     <a href="#nimonowan">
         <img class="toys__thumbnail" src="../../content/utensils/nimonowan/1.webp" alt="" />
 
@@ -1024,7 +1025,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="abbr abbr big rosa sonnenflecken grün gefühl namen abbr bergfluss saisonalen worten erinnerung umwelt namen erinnerung vergangenheit schale riss rand pappschachtel text englischen unstimmigkeiten englische teeschale treibeis">
     <a href="#ryuuhou">
         <img class="toys__thumbnail" src="../../content/utensils/ryuuhou/1.webp" alt="" />
 
@@ -1088,7 +1089,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="貴人 weißen schale schale einladendere form heutigen gesellschaft verfahren adligen kluges element adligen zusätzlichem respekt respektniveau schale ständer text englischen unstimmigkeiten englische teeschale schale und ständer für adlige">
     <a href="#kinin">
         <img class="toys__thumbnail" src="../../content/utensils/kinin/1.webp" alt="" />
 
@@ -1162,7 +1163,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="name abbr sterne liebende abbr gedicht traurigkeit trennung welt sterne stimmung herbstlicher einsamkeit melancholie teelöffel dellen nähe spitze tuch löffel rohr pappschachtel tuch teelöffel sternenabschied">
     <a href="#wakareboshi">
         <img class="toys__thumbnail" src="../../content/utensils/wakareboshi/1.webp" alt="" />
 
@@ -1223,7 +1224,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="teelöffel schwert teelöffel schwert nordischen sagas wagners nordischen mythologie versionen geschichte held sage schwert drachen teezeremonie aspekt teelöffel japanischen geschäftsmann tezeremonie teelöffel altem tempelbambus bambusrohr name kühnen namen form rosa abbr stoff teelöffel nothung okada saburo">
     <a href="#nothung">
         <img class="toys__thumbnail" src="../../content/utensils/nothung/1.webp" alt="" />
 
@@ -1286,7 +1287,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="teeschale glasur teile schale poetischeren geist kirschblütenblätter abbr nachthimmel zeitgenössisches abbr alten stil dunkle tonerde dunkle glasur text englischen unstimmigkeiten englische teeschale kirschblüten im abendrot brennofen sakura">
     <a href="#yozakura">
         <img class="toys__thumbnail" src="../../content/utensils/yozakura/1.webp" alt="" />
 
@@ -1360,7 +1361,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="teeschalen abbr teaeinladung glückverheißender symbole fuß inneren schale äußeren schale schildkröte gold schildkröte silber zubereitung dickem tee anzahl gästen künstlerbox text englischen unstimmigkeiten englische teeschale schildkröte &amp; kranich shoraku">
     <a href="#shimadai">
         <img class="toys__thumbnail" src="../../content/utensils/shimadai/1.webp" alt="" />
 
@@ -1431,7 +1432,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="schwarze teeschale besonderen schwarzen glasur ergebnis technik abbr heiße teeschale ofen schwarzen glasur teeschale strahlend schwarze teeschale katsura-brennofen">
     <a href="#hikidashikuro">
         <img class="toys__thumbnail" src="../../content/utensils/hikidashikuro/1.webp" alt="" />
 
@@ -1495,7 +1496,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="name arten wortspiel schale poetisches symbol früheren name charakters erzählung prinzen dame prinz genji robusten verhalten gutem geschmack meinung passt aspekt einfachen eleganten machart wort abbr heuschreckenschale zeichen wort klänge bedeutung wort bedeutung hohle zikaden starkem teelöffel sommer philosophischeren interpretation namens ganzjährigen gebrauch dicken tee pappschachtel bambusrohr bambusrohr ursprünglichen hersteller hersteller erfolgreicher bankbesitzer praktizierender japanischen teezeremonie teelöffel bambusutensilien bambus alten tempeln teelöffel die hülle der heuschrecke okada saburo">
     <a href="#utsusemi">
         <img class="toys__thumbnail" src="../../content/utensils/utsusemi/1-utsusemi.webp" alt="" />
 
@@ -1559,7 +1560,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="mahls teekränzchen reiswein reiswein keramikbechern teetreffens zeremoniellere weise flachen abbr art teller tasse flüssigkeit schlucke weise abbr abbr ständer gesamte set lackiertem gepresstem holzpulver ständer becher pappschachtel koch-utensil reiswein-teller">
     <a href="#sakazuki">
         <img class="toys__thumbnail" src="../../content/utensils/sakazuki/1.webp" alt="" />
 
@@ -1624,7 +1625,7 @@
 </div>
 
 
-<figure category="chabako">
+<figure category="chabako" keywords="abbr antiquitätenmarkt abbr teezubereitung abbr dienste gewissen charme rost beträchtliche kalkkruste geschmack wassers eisen rost leute kommentar bestellen zweckentfremdeten pappschachtel draußen gußeisen-kocher">
     <a href="#tetsubin">
         <img class="toys__thumbnail" src="../../content/utensils/tetsubin/1.webp" alt="" />
 
@@ -1691,7 +1692,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="mysteriösen gang abbr leichte suppe festen bestandteilen hauptzweck stäbchen sekundären zweck gang abbr course gastgeber deckel abbr köstlichkeiten becher leichte suppe gerösteten pinienkernen pappschachtel text englischen unstimmigkeiten englische koch-utensil stäbchenwaschbecher">
     <a href="#hashiarai">
         <img class="toys__thumbnail" src="../../content/utensils/hashiarai/1.webp" alt="" />
 
@@ -1751,7 +1752,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="schüler mönch abbr kälte hitze dōzan geh ort wasserschöpfkelle teezeremonie hitze abbr kaltes wasser geist schöpfkelle jahreszeiten hersteller erfolgreicher bankbesitzer praktizierender japanischen teezeremonie teeschöpfer bambusutensilien bambus alten tempeln pappschachtel teelöffel nicht heiss, nicht kalt okada saburo">
     <a href="#mukanjou">
         <img class="toys__thumbnail" src="../../content/utensils/mukanjou/1.webp" alt="" />
 
@@ -1813,7 +1814,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="teelöffel teeschale berühmten abbr abbr abbr schülers abbr no gast person mond gedicht abbr abbr no iwahana mond herbstnacht raum interpretation abbr no autor tuch teelöffel kalten eleganz mondes flecken teelöffel pappschachtel teelöffel gast des mondes nico čolić">
     <a href="#tsukinogyaku">
         <img class="toys__thumbnail" src="../../content/utensils/tsukinogyaku/1.webp" alt="" />
 
@@ -1876,7 +1877,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="späten herbst himmel blätter bäume schönen wälder farben kirschblütenbetrachtungen eigentlichen papierschachtel teelöffel teelöffel altweibersommer">
     <a href="#koharu">
         <img class="toys__thumbnail" src="../../content/utensils/koharu/1.webp" alt="" />
 
@@ -1937,7 +1938,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="weiche roterteeschale abbr orangen farbton vertiefung boden schale no künstler abbr name schale neujahr zeitpunkt gefühl abbr fresh künstler box künstlers kalligraphie abbr xii teeschale morgenröte hisato kokuryō">
     <a href="#akebono">
         <img class="toys__thumbnail" src="../../content/utensils/akebono/1.webp" alt="" />
 
@@ -2000,7 +2001,7 @@
 </div>
 
 
-<figure category="textile">
+<figure category="textile" keywords="reinigungstuch abbr abbr starkem seidenstoff abbr flohmarkt japan umfunktionierten pappschachtel textilien seide mit gingko-muster tatsumura textilienkunst">
     <a href="#fukusa">
         <img class="toys__thumbnail" src="../../content/utensils/fukusa/1.webp" alt="" />
 
@@ -2058,7 +2059,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="teelöffel rußigem bambus namen kapitel berühmten geschichte prinzen genji abbr chiru verstreute blumen kapitel prinz genji regnerischen sommer duft gefallenen zitrusblüten abbr teelöffel ähnliche stärke melancholie sommer pappschachtel teelöffel dorf der fallenden blumen">
     <a href="#hanachirusato">
         <img class="toys__thumbnail" src="../../content/utensils/hanachirusato/1_scoop.webp" alt="" />
 
@@ -2120,7 +2121,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="januar monat abbr traum abbr abbr kalligrafie wichtige dinge lachen jahres januar ernsten stimmung dicken tees pappschachtel teelöffel ein erstes lächeln">
     <a href="#hatsuwarai">
         <img class="toys__thumbnail" src="../../content/utensils/hatsuwarai/1.webp" alt="" />
 
@@ -2182,7 +2183,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="röhrenförmige teeschale geschlossenen geschäft kyōto form verwendung winter name abbr warme schale tee sturm stürmische thema schale abbr abbr joyous abbr seide tuchs wiederverwendeten pappschachtel teeschale donnergrollen">
     <a href="#banrai">
         <img class="toys__thumbnail" src="../../content/utensils/banrai/1.webp" alt="" />
 
@@ -2253,7 +2254,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="teelöffel knoten bestimmte höhere zubereitungen name passt abendlichen rezitierens sutras mönche metaphysischen staub teelöffel metaphysischen staub tees ungewöhnlichen tuch stoffserviette zürcher firma mavir swissair erstklassflüge normales abbr umfunktionierten abbr teelöffel abendgebet">
     <a href="#banka">
         <img class="toys__thumbnail" src="../../content/utensils/banka/1.webp" alt="" />
 

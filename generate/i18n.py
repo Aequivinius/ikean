@@ -2,6 +2,7 @@ import json
 from dotenv import load_dotenv
 import os
 from openai import OpenAI as openai
+import spacy
 
 
 class Translator:
@@ -9,11 +10,13 @@ class Translator:
     LANGUAGES = ["en", "de", "jp"]
     TARGET_LANGUAGES = ["de", "jp"]
     LANGUAGE_NAMES = {"en": "English", "de": "German", "jp": "Japanese"}
+    MODELS = { "en": "en_core_web_sm", "de": "de_core_news_sm", "jp": "ja_core_news_sm"}
 
     def __init__(self, translations: str):
         load_dotenv()
         self.gpt_client = openai(api_key=os.environ.get("OPENAI_KEY"))
         self.translations = self.load_translations(translations)
+        self.models = { language: spacy.load(model_name) for language, model_name in self.MODELS.items()}
 
     def load_translations(self, file_path):
         with open(file_path, "r", encoding="utf-8") as f:

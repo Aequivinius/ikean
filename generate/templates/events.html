@@ -61,11 +61,18 @@
         <img class="toys__thumbnail past" src="../../content/events/{{event.id}}/{{event.images[0]}}" alt="{{event.alt}}" />
 
         <figcaption class="field__description">
-            <h2 class="field__name clearfix">{{event.name[language]}}{% if language != "jp"%}<span class="right">
-                    「{{event.name["jp"]}}」</span>{%
-                endif %}</h2>
+            <div class="field__gridbox">
+            <h2 class="field__name clearfix">{{event.name[language]}}</h2>
+            {% if language != "jp"%}<span class="field__name_right">
+                「{{event.name["jp"]}}」</span>{%
+            endif %}
+            </div>
+            <div class="field__gridbox">
+
             <span class="toys__maker">{{event.date | format_date(language)}}</span>
             {% if event.price %}<span class="toys__price">{{event.price}} CHF</span>{%endif%}
+
+        </div>
         </figcaption>
     </a>
 </figure>

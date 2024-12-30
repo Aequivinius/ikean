@@ -57,14 +57,20 @@ window.addEventListener('load', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    const utensilsCategories = document.querySelectorAll('.utensils__category');
-    utensilsCategories.forEach(category => {
-        category.addEventListener('click', () => {
-            const categoryValue = category.getAttribute("for");
-            const fields = document.querySelectorAll(`[category="${categoryValue}"]`);
-            fields.forEach(field => {
-                field.style.display = document.getElementById(categoryValue).checked ? 'none' : 'block';
-            });
+    const menuCategories = document.querySelector('#menu__categories');
+    const figures = document.querySelectorAll('figure');
+
+
+    menuCategories.addEventListener('change', (event) => {
+        const selectedCategory = event.target.value;
+
+        /* we're working with .hidden as not to interfere with the search */
+        figures.forEach(figure => {
+            if (figure.getAttribute('category') === selectedCategory || selectedCategory === 'all') {
+                figure.classList.remove('hidden');
+            } else {
+                figure.classList.add('hidden');
+            }
         });
     });
 });

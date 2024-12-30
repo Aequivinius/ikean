@@ -126,3 +126,7 @@ lang[jp] {
 .button:hover {
     background-color: rgba(0, 0, 0, 0.10);
 }
+
+.hidden {
+    display: none;
+}

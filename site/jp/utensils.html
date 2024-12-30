@@ -18,6 +18,7 @@
 
     <!-- js -->
     <script src="../scripts.js"></script>
+    <script src="../search.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
     <script src="https://cdn.counter.dev/script.js" data-id="b0631752-3a02-4217-a4f5-ec16ece76be7"
         data-utcoffset="2"></script>
@@ -58,38 +59,38 @@
 
     <section id="utensils">
 
-<nav id="utensils__categories">
 
-    <input type="checkbox" name="chashaku" id="chashaku" checked>
-    <label class="utensils__category" for="chashaku">茶杓</label>
+<nav id="menu__container">
+    <select id="menu__categories">
+        <option value="None" selected disabled hidden>カテゴリを選択</option>
+        <option value="all">全てのカテゴリ</option>
 
-    <input type="checkbox" name="chawan" id="chawan" checked>
-    <label class="utensils__category" for="chawan">茶碗</label>
+        <option value="chashaku">茶杓</option>
 
-    <input type="checkbox" name="chabako" id="chabako" checked>
-    <label class="utensils__category" for="chabako">茶箱</label>
+        <option value="chawan">茶碗</option>
 
-    <input type="checkbox" name="kaiseki" id="kaiseki" checked>
-    <label class="utensils__category" for="kaiseki">懐石</label>
+        <option value="chabako">茶箱</option>
 
-    <input type="checkbox" name="kou" id="kou" checked>
-    <label class="utensils__category" for="kou">お香</label>
+        <option value="kaiseki">懐石</option>
 
-    <input type="checkbox" name="textile" id="textile" checked>
-    <label class="utensils__category" for="textile">帛紗と古帛紗</label>
+        <option value="kou">お香</option>
 
-    <input type="checkbox" name="kake" id="kake" checked>
-    <label class="utensils__category" for="kake">掛軸</label>
+        <option value="textile">帛紗と古帛紗</option>
 
-    <input type="checkbox" name="mizuya" id="mizuya" checked>
-    <label class="utensils__category" for="mizuya">水指</label>
+        <option value="kake">掛軸</option>
 
+        <option value="mizuya">水指</option>
+
+    </select>
+    <div id="menu__search">
+        <input id="menu__search_input" type="text" placeholder="検索">
+    </div>
 </nav>
 
 <p class="utensils__disclaimer">私が持っているほとんどの茶道具は、日本への旅行中に寺院のフリーマーケットで中古で購入しました。私は購入したすべての道具が好きですが、残念ながら私のアパートにはお茶を置くための限られたスペースしかありません。そのため、捨てたくないが保管もできない道具をここにリストアップしています。各道具に価格が付いているのは、これが商業的な取り組みであるためではなく、無料で提供されるものは受取人にとっても価値がないと感じられることが多いという経験からです。この考えを念頭に置いて、各道具に象徴的な価格を付けました。</p>
 
 
-<figure category="kake">
+<figure category="kake" keywords="p 残念 巻物 人 自由 書体 線香 煙 写真 線香 一緒 魅力 p p 段ボール 管 abbr title silk cloth 帛紗 abbr 線香 立て 線香 皿 p p テキスト 機械 不 一致 場合 英語 ページ p 掛軸 狼煙">
     <a href="#noroshi">
         <img class="toys__thumbnail" src="../../content/utensils/noroshi/0.webp" alt="" />
 
@@ -157,7 +158,7 @@
 </div>
 
 
-<figure category="kou">
+<figure category="kou" keywords="p ボーディ ダルマ 中国 武帝 皇帝 伝説 僧 知恵 皇帝 自分 答え abbr title fu shiki i know 不識 abbr 意味 気 意味 皇帝 答え 初期 仏教 頑丈 態度 香炉 p p a href https www city mobara chiba jp promotion html アーティスト a 年 数々 賞 回 展示 会 アーティスト 箱 付き p p テキスト 機械 不 一致 場合 英語 ページ p お香 不識 鎗田和平">
     <a href="#fushiki">
         <img class="toys__thumbnail" src="../../content/utensils/fushiki/1.webp" alt="" />
 
@@ -228,7 +229,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p this abbr title tenmoku 天目 abbr bowl has a very red persimmon coloured glaze a metal rim which makes it particularly suitable for the abbr title dai tenmoku 台 天目 abbr procedure its colour contrasts also nicely with the black abbr title dai stand 台 abbr that is typically used during practise comes with the artist s box p p abbr title tenmoku 天目 abbr 茶碗 非常 明るい 赤い 柿 色 釉薬 金属 リム abbr title dai tenmoku 台 天目 abbr 手法 色合い 通常 練習 中 黒い abbr title dai stand 台 abbr 素敵 作家 箱 付き p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 柿釉天目茶碗 鯉江剛">
     <a href="#kakiyuu">
         <img class="toys__thumbnail" src="../../content/utensils/kakiyuu/1.webp" alt="" />
 
@@ -294,7 +295,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p the name abbr title gyokusen 玉船 abbr is used in chinese poetry describes a vessel for serving rice wine in a courtly setting one poem in particular comes to mind em i sit by the red fireplace pour from the jade boat a golden cup em it suits this very special tea scoop with its three nodes and intense shape p p i matched it with a cloth called abbr title oranda kantou 阿蘭陀 間道 abbr where the first three characters stand for the netherlands while the dutch arrived first in japan only in their wares had already made it into japan before them through the portuguese who used the word em hollanda em to refer to them so the japanese word still is abbr title oranda オランダ abbr or 阿蘭陀 p p includes the abbr title kobukusa 古 帛紗 abbr and the tea scoop both in their own paper box p 茶杓 玉船">
     <a href="#gyokusen">
         <img class="toys__thumbnail" src="../../content/utensils/gyokusen/1.webp" alt="" />
 
@@ -356,7 +357,7 @@
 </div>
 
 
-<figure category="kou">
+<figure category="kou" keywords="p 琵琶 abbr title biwa 琵琶 abbr 日本 リュート 楽器 憂鬱 楽器 香合 形 日本 人 香 際 abbr title kiku abbr 言葉 p p 琵琶 世界 中 展覧 会 数々 賞 abbr title 家族 家族 abbr 芸術 家 芸術 家 箱 銘 p p 銘 abbr title kao 花押 abbr abbr title tanaka sen ō 田中 仙翁 abbr abbr title dainippon chadō gakkai 大 日本 茶道 学会 abbr 創設 者 息子 秘伝 スタイル 茶道 研究 議論 組織 p p テキスト 機械 不 一致 場合 英語 ページ p お香 琵琶 加藤春鼎">
     <a href="#biwa">
         <img class="toys__thumbnail" src="../../content/utensils/biwa/1.webp" alt="" />
 
@@ -428,7 +429,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p this abbr title chawan tea bowl 茶碗 abbr is made by an artist who tries to improve the renown of abbr title satsuma ware 薩摩 焼 abbr historically ceramics from 薩摩 were a dignified black but with time a garish style aimed at exports developed it is made by a contemporary artist but in the i find it suitable when a abbr title black raku 黒楽 abbr tea bowl is just a little bit too heavy comes with the artist s box p p abbr title chawan tea bowl 茶碗 abbr abbr title satsuma ware 薩摩 焼 abbr 名声 アーティスト 歴史 薩摩 陶器 品位 黒 時間 輸出 向け 派手 スタイル 現代 アーティスト 古い スタイル abbr title black raku 黒楽 abbr 茶碗 重 アーティスト 箱 付き p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 薩摩焼茶碗 有山長太郎">
     <a href="#satsuma">
         <img class="toys__thumbnail" src="../../content/utensils/satsuma/1.webp" alt="" />
 
@@ -491,7 +492,7 @@
 </div>
 
 
-<figure category="mizuya">
+<figure category="mizuya" keywords="p スプーン abbr title 風炉 火鉢 風炉 abbr 内 灰 結果 形状 abbr title 灰 型 灰 型 abbr abbr title 道具 茶 道具 道具 abbr ホスト 実際 数 少ない 作業 一部 人々 良い abbr title 灰 型 灰 型 abbr 多く 価値 茶会 招待 状 初め 灰 形状 後続 展開 人 自身 全て 実践 者 練習 a href https www youtube com watch v izaadkw pk 動画 a 初心 者 非常 役立つ p p 本 スプーン セット 左側 スプーン abbr title 五徳 五徳 abbr 周り 作業 中央 スプーン 灰 平ら 右側 スプーン 古典 形状 abbr title 文字 二文字 abbr 際 リッジ 紙箱 入り p p テキスト 機械 不 一致 場合 英語 ページ p 水指 灰匙">
     <a href="#haisaji">
         <img class="toys__thumbnail" src="../../content/utensils/haisaji/1.webp" alt="" />
 
@@ -556,7 +557,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p this abbr title mino 美濃 abbr arist s bowl displays the artist s take on the abbr title oribe 織部 abbr style while the rim is quite sharp it is still comfortable to drink from it is quite big can be used both as a normal as well as a abbr title tsutsu tube shaped 筒 abbr tea bowl comes with the artist s box p p abbr title mino 美濃 abbr 貴族 茶碗 作家 abbr title oribe 織部 abbr スタイル 縁 鋭い 大きく 通常 茶碗 abbr title tsutsu tube shaped 筒 abbr 茶碗 作家 箱 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 オリベ茶碗 鬼沢武文">
     <a href="#oribe">
         <img class="toys__thumbnail" src="../../content/utensils/oribe/1.webp" alt="" />
 
@@ -625,7 +626,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p 年 ドイツ 陶芸 家 a href https sturm kerstan keramik de ベアトリクス シュテルム ケルスタン a 茶碗 ドイツ 粘土 年間 茶 用 茶碗 色 静か 海底 abbr title せいじゃく 静寂 abbr 名前 再 紙箱 p p 素晴らしい アーティスト 紋章 abbr title ふくさ 帛紗 abbr プレゼンテーション 絹 独自 紙箱 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 静寂 ビーアトリクス・カースタン">
     <a href="#seijaku">
         <img class="toys__thumbnail" src="../../content/utensils/seijaku/1.webp" alt="" />
 
@@ -690,7 +691,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p 茶碗 前面 滴る 釉薬 abbr title tenmoku 天目 abbr タイプ abbr title fushou 不 生 abbr 文字 通り em unborn em 生 死 前 後 禅 世界 観 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 不生">
     <a href="#fushou">
         <img class="toys__thumbnail" src="../../content/utensils/fushou/1.webp" alt="" />
 
@@ -754,7 +755,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p シンプル abbr title hagi ware 萩焼 abbr 茶碗 淡い ピンク 色 月 伝統 abbr title hanabira mochi 葩 餅 abbr abbr title fuku warai 福笑 abbr 新年 はじまり p p 茶碗 輸送 中 a href https www japanraum net kintsugi ウルスラ カスパー a スイス 伝統 abbr title silver joinery 銀 継 abbr ドイツ 語 scherben bringen glück 福笑 福 名前 段ボール 箱 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 福笑">
     <a href="#fukuwarai">
         <img class="toys__thumbnail" src="../../content/utensils/fukuwarai/1.webp" alt="" />
 
@@ -819,7 +820,7 @@
 </div>
 
 
-<figure category="chabako">
+<figure category="chabako" keywords="p 種類 abbr title chabako tea box 茶箱 abbr abbr title rikyū 利休 abbr 第 次 世界 大戦 中 航空 母艦 abbr title hōunsai 鵬 雲斎 abbr abbr title wakei 和敬 abbr 手順 茶 際 有名 装飾 わずか 使用 感 紙箱 p p abbr title furidashi sweets shaker 振出 abbr a href https ja wikipedia org wiki e b e b e b e ae d 京都 a abbr title kiseto 黄 瀬戸 abbr 様式 abbr title sassatsu a gust of wind 颯々 abbr abbr title konnichi the urasenke headquarters abbr 刻印 専用 紙箱 p p テキスト 機械 不 一致 場合 英語 ページ p 茶箱 颯々 久世久宝">
     <a href="#sassatsu">
         <img class="toys__thumbnail" src="../../content/utensils/sassatsu/1.webp" alt="" />
 
@@ -890,7 +891,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p 茶碗 スタイル 伝統 大晦日 誕生 日 時間 経過 他 瞬間 理由 年間 月 abbr title koyomite an ancient calendar 歴 手 abbr パターン p p 京都 多作 abbr title kiyomizu yaki 清水 焼 abbr a href https kyoyaki com kamamoto kippogama アーティスト a 木製 外側 紙箱 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 暦手 浅見与し三">
     <a href="#koyomite">
         <img class="toys__thumbnail" src="../../content/utensils/koyomite/1.webp" alt="" />
 
@@ -955,7 +956,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="p 料理 メイン ディッシュ 軽く 透明 出汁 季節 食材 繊細 魚 団子 季節 野菜 椀 コース p p 椀 柿 合せ スタイル 木目 年 rikyucha 蓋 付き 椀 セット 回 漆塗り 圧縮 木粉 木目 本物 p 懐石 煮物碗">
     <a href="#nimonowan">
         <img class="toys__thumbnail" src="../../content/utensils/nimonowan/1.webp" alt="" />
 
@@ -1019,7 +1020,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p this abbr title hagi 萩焼 abbr style abbr title ido well 井戸 abbr bowl has little specks of pink like little specks of sun through the greenery it gives me a feeling of heralding spring so i gave it the name abbr title ryuu hou 流氷 abbr blocks of flowing down a mountain river p p however with so many seasonal words it also serves as a reminder to take care of our environment names like this become only a reminder of the past p p note that this bowl a small fissure at the rim comes in a cardboard box p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 流氷">
     <a href="#ryuuhou">
         <img class="toys__thumbnail" src="../../content/utensils/ryuuhou/1.webp" alt="" />
 
@@ -1082,7 +1083,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p traditionally a 貴人 is served from a new white 天目 shaped bowl this bowl is slightly bent outwards which gives it a more inviting shape while it may seem odd to practise a procedure for a nobleman in today s society i think it is a very smart element of the tea curriculum first learn treat a nobleman with additional respect than others then treat everyone with that level of respect the bowl and stand both come in a paper box p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 貴人茶碗と台">
     <a href="#kinin">
         <img class="toys__thumbnail" src="../../content/utensils/kinin/1.webp" alt="" />
 
@@ -1155,7 +1156,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p this name alludes to abbr title tanabata 七夕 abbr and the two starts vega altair representing two lovers that cannot be together abbr title kobayashi issa 小林 一茶 abbr wrote a poem about the sadness of their separation saying em in this world even the stars are separated em naturally it evokes a mood of autumn loneliness melancholy this tea scoop has a few dents near the tip also the cloth has a few stains the scoop comes with a tube and paper box the cloth with a cardboard box p 茶杓 別星">
     <a href="#wakareboshi">
         <img class="toys__thumbnail" src="../../content/utensils/wakareboshi/1.webp" alt="" />
 
@@ -1215,7 +1216,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p em 茶杓 茶道 剣 em 茶杓 実際 剣 北欧 サガ 剣 ワーグナー オペラ em nothung em 北欧 神話 em gram em 他 バージョン em balmung em 剣 サガ 主人 公 破片 再 新しい 剣 ドラゴン 剣 茶の湯 em 再 em 側面 興味 深く 茶杓 月 p p 茶杓 古い 寺院 竹 茶杓 彫る 好き 日本 実業 家 竹 筒 名前 同様 紙箱 p p 大胆 名前 形 和らげる 銀杏 模様 ピンク abbr title fukusa 帛紗 abbr 布 独自 ダンボール 箱 p 茶杓 ノートゥング 岡田三郎">
     <a href="#nothung">
         <img class="toys__thumbnail" src="../../content/utensils/nothung/1.webp" alt="" />
 
@@ -1277,7 +1278,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p 茶碗 釉薬 気 茶碗 一部 油滴 箇所 詩的 イメージ 桜 花びら abbr title ざくら 夜桜 abbr 夜空 現代 abbr title さつま やき 薩摩 焼 abbr 古い スタイル 近い 方 暗い 土 暗い 釉薬 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 夜桜 桜窯">
     <a href="#yozakura">
         <img class="toys__thumbnail" src="../../content/utensils/yozakura/1.webp" alt="" />
 
@@ -1350,7 +1351,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p 茶碗 セット abbr title hatsugama first tea invitation of the year abbr 伝統 縁起 良い シンボル 内側 茶碗 底 五 角形 鶴 外側 茶碗 底 角形 亀 鶴 金 亀 銀 多く ゲスト 濃茶 非常 個々 作家 箱 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 島台 松楽">
     <a href="#shimadai">
         <img class="toys__thumbnail" src="../../content/utensils/shimadai/1.webp" alt="" />
 
@@ -1420,7 +1421,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p 黒 茶碗 釉薬 特別 光沢 黒 熱い 茶碗 窯 素早く 即座 引き出し 技術 結果 結果 漆黒 釉薬 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 引出黒茶碗 桂窯">
     <a href="#hikidashikuro">
         <img class="toys__thumbnail" src="../../content/utensils/hikidashikuro/1.webp" alt="" />
 
@@ -1484,7 +1485,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p 名前 方法 第 em セミ 殻 em 詩的 シンボル 以前 自分 必要 源氏 物語 登場 人物 名前 美しい 立派 態度 趣味 源氏 女性 意見 側面 茶杓 シンプル エレガント 作り p p 最後 abbr title utsusemi 空蝉 abbr 言葉 自体 深い セミ 殻 em 生き物 em 一般 言葉 文字 意味 音 時間 言葉 em 空 セミ 殻 em 意味 p p 夏 強い モチーフ 蝉 茶杓 夏 名前 哲学 解釈 濃茶 年 中 紙箱 竹筒 竹筒 後 茶杓 元 作成 者 p p 作成 者 銀行 経営 者 日本 茶道 実践 者 多く 茶杓 竹製 器具 彫り 古い 寺院 竹 p 茶杓 空蝉 岡田三郎">
     <a href="#utsusemi">
         <img class="toys__thumbnail" src="../../content/utensils/utsusemi/1-utsusemi.webp" alt="" />
 
@@ -1547,7 +1548,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="p 茶道 前 食事 中 酒 酒 陶器 カップ 茶会 儀式 形 浅い 盃 sakazuki 盃 実際 カップ プレート 回 小さな 口当たり 液体 酒 貴重 p p セット 個々 カップ 用 盃 台 sakazuki dai 盃 台 年 a href https www rikyucha com item list rikyucha a セット 回 ラッカー 塗り 圧縮 木粉 盃 台 カップ 紙箱 p 懐石 盃">
     <a href="#sakazuki">
         <img class="toys__thumbnail" src="../../content/utensils/sakazuki/1.webp" alt="" />
 
@@ -1611,7 +1612,7 @@
 </div>
 
 
-<figure category="chabako">
+<figure category="chabako" keywords="p 骨董 市 小さな abbr title cast iron kettle 鉄瓶 abbr 年間 abbr title chabako tea prepared outside 茶箱 abbr abbr title ryaku bon 略 盆 abbr 練習 役 松かさ 蓋 特別 魅力 錆 相当 チョーク 結晶 水 味 影響 実際 鉄 錆 一部 人々 酢 簡単 注文 時 場合 コメント 再 利用 可能 紙箱 付き p p テキスト 機械 不 一致 場合 英語 ページ p 茶箱 鉄瓶">
     <a href="#tetsubin">
         <img class="toys__thumbnail" src="../../content/utensils/tetsubin/1.webp" alt="" />
 
@@ -1678,7 +1679,7 @@
 </div>
 
 
-<figure category="kaiseki">
+<figure category="kaiseki" keywords="p 懐石 メニュー 神秘 コース abbr title kaiseki 懐石 abbr メニュー 文字 通り em 箸 洗 em 箸 意味 軽い スープ スープ 少量 具 主な 目的 本当 箸 副次 目的 コース 後 abbr title a course in kaiseki 寸 abbr ホスト abbr title hashi arai 箸 洗 abbr カップ 蓋 小さな おいしい 料理 p p カップ 松 葉 モチーフ 松 実 軽い スープ 非常 個 セット 回 紙箱 p p テキスト 機械 不 一致 場合 英語 ページ p 懐石 箸洗">
     <a href="#hashiarai">
         <img class="toys__thumbnail" src="../../content/utensils/hashiarai/1.webp" alt="" />
 
@@ -1737,7 +1738,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p 学生 和尚 abbr title tōzan ryōkai 洞山 良价 abbr 寒 暑 対処 法 洞山 em 寒く 暑く 所 em 言葉 旅 茶道 水 柄 みず ひしゃく 水 柄 茶釜 熱く 熱 冷たい 水 時 心 季節 強く 時 水 柄 p p 製作 者 銀行 経営 者 日本 茶道 実践 者 多く 茶 柄 竹製 道具 古い 寺院 竹 紙箱 付き p 茶杓 無感情 岡田三郎">
     <a href="#mukanjou">
         <img class="toys__thumbnail" src="../../content/utensils/mukanjou/1.webp" alt="" />
 
@@ -1798,7 +1799,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p 有名 勢多 茶杓 大きな 茶碗 茶杓 abbr title seta 勢多 abbr 茶杓 利休 弟子 大きな 水海 茶碗 同様 p p abbr title tsuki no gyaku 月 客 abbr 月 つめる 人 率直 月 つめる 人 芭蕉 弟子 去来 詩 em 岩鼻 ひとり abbr title tsuki no gyaku 月 客 abbr em 岩鼻 月 秋 夜 abbr title tsuki no gyaku 月 客 abbr 解釈 余地 著者 他 p p 茶杓 布 月 冷たい 優雅 残念 シミ 茶杓 紙箱 p 茶杓 月の客 ニコ・チョリッチ">
     <a href="#tsukinogyaku">
         <img class="toys__thumbnail" src="../../content/utensils/tsukinogyaku/1.webp" alt="" />
 
@@ -1860,7 +1861,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p 晩秋 日中 暖かく 心地よい 日 湿気 少ない 空 気温 暖かく 木々 葉 非常 赤 オレンジ 色 strong 小さな 春 strong 美しい 景色 森 色 美しい 景色 実際 春 桜 花見 非常 茶杓 用 紙箱 p 茶杓 小春">
     <a href="#koharu">
         <img class="toys__thumbnail" src="../../content/utensils/koharu/1.webp" alt="" />
 
@@ -1920,7 +1921,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p オレンジ 色 近い 柔らか 赤い 楽 茶碗 茶の湯 底 小さな くぼみ 作家 曙 茶碗 新年 初心 時 p p 作家 茶道 家 年 数々 賞 a p p 作家 箱 上 表 千家 xii カリグラフィ p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 曙 國領寿人">
     <a href="#akebono">
         <img class="toys__thumbnail" src="../../content/utensils/akebono/1.webp" alt="" />
 
@@ -1983,7 +1984,7 @@
 </div>
 
 
-<figure category="textile">
+<figure category="textile" keywords="p abbr title urasenke 裏 千家 abbr abbr title cha mei 茶銘 abbr 際 浄化 布 非常 強い シルク 上 abbr title konnichian 今日 庵 abbr 銀杏 柄 日本 フリー マーケット 再 紙箱 p 帛紗と古帛紗 帛紗 龍村美術織物公式">
     <a href="#fukusa">
         <img class="toys__thumbnail" src="../../content/utensils/fukusa/1.webp" alt="" />
 
@@ -2040,7 +2041,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p 茶さじ 竹 有名 源氏 物語 第 章 同じ 名前 abbr title hana chiru sato 花散里 abbr em 村 散らばる 花々 em 章 源氏 皇子 昔話 雨 夏 午後 abbr title tachibana 橘 abbr 柑橘 花 香り p p 茶さじ 同様 力 憂鬱 夏 紙箱 入り p 茶杓 花散里">
     <a href="#hanachirusato">
         <img class="toys__thumbnail" src="../../content/utensils/hanachirusato/1_scoop.webp" alt="" />
 
@@ -2101,7 +2102,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p 月 em 最初 em 月 abbr title the first dream of the new year abbr abbr title hatsugama the first tea invitation of the new year abbr abbr title kakizome first calligraphy of the new year 書初 abbr 有名 abbr title hatsuwarai 初 笑 abbr 他 重要 年 最初 笑い 月 茶 スクープ 良い 濃茶 厳か ムード 軽 p p 紙箱 付き p 茶杓 初笑">
     <a href="#hatsuwarai">
         <img class="toys__thumbnail" src="../../content/utensils/hatsuwarai/1.webp" alt="" />
 
@@ -2162,7 +2163,7 @@
 </div>
 
 
-<figure category="chawan">
+<figure category="chawan" keywords="p 筒型 茶碗 今 京都 萬 珠 堂 形状 冬 名前 abbr title ばん らい 万雷 abbr 外 嵐 中 温かい 茶 p p 嵐 テーマ 茶碗 abbr title fukusa 帛紗 abbr abbr title かく 瑞鶴 abbr abbr title ほう うん さい 鵬 雲斎 abbr 布 シルク 非常 堅く 再 紙箱 p p テキスト 機械 不 一致 場合 英語 ページ p 茶碗 万雷">
     <a href="#banrai">
         <img class="toys__thumbnail" src="../../content/utensils/banrai/1.webp" alt="" />
 
@@ -2233,7 +2234,7 @@
 </div>
 
 
-<figure category="chashaku">
+<figure category="chashaku" keywords="p 末広 茶さじ 一部 高等 準備 正規 名前 理由 経 夕べ 間 僧侶 日 中 形而 上 塵 茶さじ 茶 形而 上 塵 p p 異例 布 年 代 チューリッヒ 企業 mavir スイス 航空 ファースト クラス フライト 用 布 ナプキン 通常 abbr title kobukusa 古 帛紗 abbr わずか 小さく 再 abbr title kobukusa 古 帛紗 abbr 段ボール 箱 一緒 p 茶杓 晚課">
     <a href="#banka">
         <img class="toys__thumbnail" src="../../content/utensils/banka/1.webp" alt="" />
 

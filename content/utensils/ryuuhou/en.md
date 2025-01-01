@@ -2,7 +2,7 @@ This 萩焼-style 井戸-bowl has little specks of pink, like little specks of s
 
 However, with so many seasonal words, it also serves as a reminder to take care of our environment, lest names like this become only a reminder of the past.
 
-Note that this bowl has a small fissure at the rim. Comes in a cardboard box.
+Note that this bowl has a small fissure at the rim. Comes in a signed wooden box.
 
 *[萩焼]: Hagi
 

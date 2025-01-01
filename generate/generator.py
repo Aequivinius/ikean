@@ -139,9 +139,9 @@ class Generator:
                     field["content"] = {}
                 field["content"][language] = html_content
 
-        field["keywords"] = self.get_keywords(field)
-
         field = self.translator.get_missing_translations(field, directory)
+
+        field["keywords"] = self.get_keywords(field)
         return field
 
     def get_keywords(self, field):

@@ -1,4 +1,4 @@
-<p>This <abbr title="Hagi">萩焼</abbr>-style <abbr title="ido, big well">井戸</abbr>-bowl has little specks of pink, like little specks of sun through the greenery. It gives me a feeling of heralding spring, so I gave it the name <abbr title="ryuu hou">流氷</abbr>. Imagine blocks of ice flowing down a mountain river!</p>
-<p>However, with so many seasonal words, it also serves as a reminder to take care of our environment, lest names like this become only a reminder of the past.</p>
-<p>Note that this bowl has a small fissure at the rim. Comes in a cardboard box.</p>
+<p>この<abbr title="Hagi">萩焼</abbr>スタイルの<abbr title="ido, big well">井戸</abbr>ボウルには、緑の間からの小さなピンクの斑点があります。小さな太陽のような斑点です。春の訪れを告げるような感じがして、私はそれに<abbr title="ryuu hou">流氷</abbr>という名前を付けました。山の川を流れる氷の塊を想像してください！</p>
+<p>しかし、季節の言葉が多いため、これは環境に気を配ることを思い出させるものでもあります。このような名前が過去の思い出だけを想起させるものにならないように環境に気をつけることを忘れないでください。</p>
+<p>このボウルにはリムに小さな亀裂があります。サイン入り木箱で提供されます。</p>
 👾：このテキストは機械翻訳されました。不一致がある場合は、英語のページを参照してください。

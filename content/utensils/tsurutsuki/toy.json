@@ -1,0 +1,16 @@
+{
+    "category": "chaki",
+    "name": {
+        "en": "Water Bucket",
+        "de": "Tee-Bottich",
+        "jp": "弦付"
+    },
+    "price": 120,
+    "sale": true,
+    "maker": {
+        "en": "Shoami Takano",
+        "de": "Shoami Takano",
+        "jp": "高野昭阿弥"
+    },
+    "date": "2025-01-01"
+}

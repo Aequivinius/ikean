@@ -1,0 +1,11 @@
+{
+    "category": "chaki",
+    "name": {
+        "en": "Water Dropper",
+        "de": "Tröpfchen-Spender",
+        "jp": "水滴"
+    },
+    "price": 60,
+    "sale": true,
+    "date": "2025-01-01"
+}

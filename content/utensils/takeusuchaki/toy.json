@@ -1,0 +1,16 @@
+{
+    "category": "chaki",
+    "name": {
+        "en": "Bamboo Tea Container",
+        "de": "Teedose aus Bambus",
+        "jp": "竹薄茶器"
+    },
+    "price": 80,
+    "sale": true,
+    "maker": {
+        "en": "Okada Saburo",
+        "de": "Okada Saburo",
+        "jp": "岡田三郎"
+    },
+    "date": "2025-01-01"
+}

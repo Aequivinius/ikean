@@ -6,7 +6,7 @@
     <select id="menu__categories">
         <option value="None" selected disabled hidden>{{categories__pick}}</option>
         <option value="all">{{categories__all}}</option>
-        {% for category in categories %}
+        {% for category in categories | sort(attribute=language) %}
         <option value="{{category['id']}}">{{category[language]}}</option>
         {% endfor %}
     </select>

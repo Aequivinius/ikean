@@ -1,0 +1,11 @@
+{
+    "category": "kaigu",
+    "name": {
+        "en": "Feeding Trough",
+        "de": "Futtertrog",
+        "jp": "餌畚"
+    },
+    "price": 40,
+    "sale": true,
+    "date": "2025-01-01"
+}

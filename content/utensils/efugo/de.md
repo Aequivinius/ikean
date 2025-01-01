@@ -1,0 +1,2 @@
+<p>Dieses <abbr title="kensui, Abwasserschale">建水</abbr> ist wahrscheinlich das berühmteste der sieben, die <abbr title="Rikyū">利休</abbr> bevorzugte. Es wird <abbr title="efugo">餌畚</abbr> genannt, was eine kleine Tasche bedeutet, um Futter für Falkner aufzubewahren. Dies war sehr beliebt unter den Samurai und erinnert daran, dass Tee früher bei den Kriegerklassen sehr beliebt war.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

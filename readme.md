@@ -79,6 +79,8 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 - [ ] Filter toys with seasonality
 - [ ] search should include romanized Japanese category names
 - [ ] fuzzy search, multiword search
+- [ ] price dump function
+- [ ] sell function that generates a pdf for the buyers (and the bill?)
 - [x] Client side search index
 - [x] the labels are a little bit messed up
 - [x] navigation categories should be lower

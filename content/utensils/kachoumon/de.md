@@ -1,1 +1,0 @@
-<p>Es handelt sich um eine moderne, sauberere Variante des klassischen <abbr title="kachoumon unken nishiki">花鳥文暈繝錦</abbr>, bei der die Ente durch einen Hahn ersetzt wird, was sie besonders für Morgen-Tees geeignet macht. Wird mit einer Pappschachtel geliefert.</p>

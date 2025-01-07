@@ -1,0 +1,16 @@
+{
+    "category": "kou",
+    "name": {
+        "en": "House of Autumn",
+        "de": "Herbsthütte",
+        "jp": "秋の宿"
+    },
+    "price": 50,
+    "sale": true,
+    "maker": {
+        "en": "Herend",
+        "de": "Herend",
+        "jp": "ヘレンド"
+    },
+    "date": "2025-01-07"
+}

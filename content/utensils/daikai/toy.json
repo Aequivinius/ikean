@@ -1,0 +1,11 @@
+{
+    "category": "chaki",
+    "name": {
+        "en": "The Wide Sea",
+        "de": "Das große Meer",
+        "jp": "大海茶入"
+    },
+    "price": 80,
+    "sale": true,
+    "date": "2025-01-07"
+}

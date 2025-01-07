@@ -1,0 +1,11 @@
+{
+    "category": "chabako",
+    "name": {
+        "en": "Seven Grasses",
+        "de": "Sieben Gräser",
+        "jp": "七草"
+    },
+    "price": 40,
+    "sale": true,
+    "date": "2025-01-07"
+}

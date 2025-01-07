@@ -76,6 +76,7 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 - [ ] log when files are changed so new translations can be automatically generated
 
 ## Toys
+- [ ] Sort toys by price
 - [ ] Filter toys with seasonality
 - [ ] search should include romanized Japanese category names
 - [ ] fuzzy search, multiword search

@@ -1,0 +1,3 @@
+<p>Es gibt eine Sorte der Glyzinie-Pflanze namens <em>Schwarzer Drache</em>, die so dunkelviolette Blüten produzieren kann, dass sie für die poetisch Veranlagten schwarz erscheinen. Ich dachte, dies wäre ein passender Name für dieses <abbr title="ko natsume, kleine Teedose">小棗</abbr> und das entsprechende <abbr title="kougou, Räucherstäbchenbehälter">香合</abbr>, ein passendes Set für die <abbr title="chabako">茶箱</abbr>.</p>
+<p>Als Set verkauft, wird in einer Pappschachtel geliefert.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

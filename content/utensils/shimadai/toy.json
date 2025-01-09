@@ -6,7 +6,7 @@
         "jp": "島台"
     },
     "price": 60,
-    "sale": true,
+    "sale": false,
     "maker": {
         "en": "Shoraku",
         "de": "Shoraku",

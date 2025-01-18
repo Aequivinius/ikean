@@ -2,6 +2,7 @@
 
 figure {
     position: relative;
+    min-width: 100px;
 }
 
 .right {
@@ -26,8 +27,6 @@ figure {
     box-shadow: var(--drop-shadow-subtle);
     padding: var(--margin-medium);
     color: var(--turquoise);
-
-
     box-sizing: border-box; /* Ensure padding/border doesn't affect dimensions */
 }
 
@@ -36,6 +35,8 @@ figure {
     grid-template-rows: auto auto;
     grid-template-columns: 1fr auto;
     width: 100%; /* Full column width */
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .field__name {
@@ -46,14 +47,14 @@ figure {
     grid-row: 1;
     grid-column: 1;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .field__description .field__name_right {
     grid-row: 1;
     grid-column: 2;
     white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     text-align: right;
     font-family: var(--serif-font);
     font-weight: 700;

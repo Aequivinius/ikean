@@ -6,7 +6,7 @@
         "jp": "夜桜"
     },
     "price": 20,
-    "sale": true,
+    "sale": false,
     "maker": {
         "en": "Sakura kiln",
         "de": "Brennofen Sakura",

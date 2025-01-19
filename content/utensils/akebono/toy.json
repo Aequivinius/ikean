@@ -6,7 +6,7 @@
         "jp": "曙"
     },
     "price": 50,
-    "sale": true,
+    "sale": false,
     "date": "2024-08-01",
     "maker": {
         "en": "Hisato Kokuryō",

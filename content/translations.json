@@ -49,6 +49,11 @@
         "en": "Close Window",
         "jp": "閉じる"
     },
+    "gongfucha": {
+        "de": "Chinesische Teezeremonie",
+        "en": "Chinese Tea Ceremony",
+        "jp": "功夫茶"
+    },
     "hanaire": {
         "de": "Blumen-Gefäß",
         "en": "flower vase",
@@ -198,6 +203,11 @@
         "de": "Suche...",
         "en": "Search...",
         "jp": "検索"
+    },
+    "sumi": {
+        "de": "Kohle",
+        "en": "Charcoal",
+        "jp": "炭"
     },
     "textile": {
         "de": "Textilien",

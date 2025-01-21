@@ -1,0 +1,2 @@
+<p>Dies ist ein Set alter Bambusdeckelauflagen, die ich während meines Besuchs in <abbr title="Takayama">高山</abbr>, einer Stadt in der Nähe von <abbr title="Nara">奈良</abbr>, berühmt für ihren Bambus, gekauft habe. Derjenige, der im Winter verwendet wird, ist besonders ausdrucksstark.</p>
+👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

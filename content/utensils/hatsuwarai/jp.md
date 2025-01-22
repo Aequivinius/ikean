@@ -1,2 +1,3 @@
-<p>1月は<em>最初の</em>月です：<abbr title="hatsuyume, the first dream of the new year">初夢</abbr>、<abbr title="hatsugama, the first tea invitation of the new year">初釜</abbr>、そして<abbr title="kakizome, first calligraphy of the new year">書初</abbr>などが有名ですが、<abbr title="hatsuwarai">初笑</abbr>など、他にも重要なことがたくさんあります。年の最初の笑いです。したがって、1月のお茶のスクープは良いものであり、濃茶の厳かなムードに軽さをもたらします。</p>
-<p>紙箱付き。</p>
+<p>1月は<em>最初の</em>月です：<abbr title="hatsuyume, the first dream of the new year">初夢</abbr>、<abbr title="hatsugama, the first tea invitation of the new year">初釜</abbr>、そして<abbr title="kakizome, first calligraphy of the new year">書初</abbr>などが有名ですが、<abbr title="hatsuwarai">初笑</abbr>（年の最初の笑い）など、他にも重要なことがたくさんあります。これらは1月にふさわしく、濃茶の厳粛な雰囲気に軽さをもたらします。</p>
+<p>紙箱入りで、重い絹の<abbr title="fukusa, silk cloth">帛紗</abbr>と一緒に提供されます。これは<abbr title="Tatsumura Art Textiles">龍村美術織物</abbr>によって制作されています。伝統的には、これは<abbr title="Konnichi An, the Urasenke headquarters.">今日庵</abbr>から<abbr title="chamei, tea name">茶名</abbr>を得た人々に贈られます。その硬さから、練習するのが非常に興味深いです。木箱に入っています。</p>
+👾：このテキストは機械翻訳されました。不一致がある場合は、英語のページを参照してください。

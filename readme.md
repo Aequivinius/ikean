@@ -77,6 +77,7 @@ It is converted by `generate.py` into a different format where `key`s are sorted
 
 ## Toys
 - [ ] Sort toys by price
+- [ ] One toy, multiple categories
 - [ ] Filter toys with seasonality
 - [ ] search should include romanized Japanese category names
 - [ ] fuzzy search, multiword search

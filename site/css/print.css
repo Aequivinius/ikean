@@ -30,6 +30,7 @@
     .gallery__thumbnail {
         filter: grayscale(0%);
         break-inside: avoid;
+        page-break-inside: avoid;
     }
 
     .button, .close {

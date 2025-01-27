@@ -1,0 +1,43 @@
+@media print {
+    header {
+        display: none;
+    }
+
+    .overlay:target {
+        background-color: rgba(271, 269, 269, 1);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery {
+        order: 2;
+    }
+
+    .field__info abbr::after {
+        content: " (" attr(title) ")";
+        font-style: italic;
+    }
+
+    .field__info {
+        order: 1;
+    }
+
+    .gallery__thumbnails {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery__thumbnail {
+        filter: grayscale(0%);
+    }
+
+    .button, .close {
+        display: none;
+    }
+
+    model-viewer {
+        display: none;
+    }
+
+
+}

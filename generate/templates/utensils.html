@@ -73,8 +73,10 @@
 
         <p>{{toy.content[language]}}</p>
 
+
+
         {% if toy.sale %}
-        <p>{{toy__sale_disclaimer}}</p>
+        <p class="disclaimer">{{toy__sale_disclaimer}}</p>
 
         <a href="order.html#{{toy.id}}" class="button">{{toy__order}} ({{toy__price}} {{toy.price}}
             {{toy__CHF}})</a>

@@ -4,7 +4,9 @@ from generate.generator import CONTENT
 import sys
 import os
 import json
-from weasyprint import HTML
+import pdfkit
+import datetime
+import zipfile
 
 def generate():
     generator = Generator()
@@ -14,6 +16,11 @@ def generate():
 def sell(items):
     """ Doesn't work yet!  """
     UTENSILS_PATH = os.path.join(os.getcwd(), CONTENT, "utensils")
+    current_date = datetime.now().strftime("%d%m%Y")
+    sale_directory = f"sale_{current_date}"
+    if not os.path.exists(sale_directory):
+        os.makedirs(sale_directory)
+
     for item in items:
         item_path = os.path.join(UTENSILS_PATH, item)
         if os.path.isdir(item_path):
@@ -22,6 +29,19 @@ def sell(items):
                 raise ValueError(f"Item '{item}' is already sold.")
         else:
             raise FileNotFoundError(f"Directory for item '{item}' does not exist in {UTENSILS_PATH}.")
+
+        pdfkit.from_url(f'https://www.ikean.ch/site/de/utensils.html#{item}', f'{sale_directory}/{item}.pdf')
+
+    zip_name = f"{sale_directory}.zip"
+    try:
+        with zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED) as zipf:
+            for root, _, files in os.walk(sale_directory):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    zipf.write(file_path, os.path.relpath(file_path, sale_directory))
+        print(f"'{sale_directory}' successfully zipped into '{zip_name}'.")
+    except Exception as e:
+        print(f"Error while zipping '{sale_directory}': {e}")
 
     # HTML('url').write_pdf('sale.pdf')
     # print the websites

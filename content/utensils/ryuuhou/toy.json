@@ -6,6 +6,6 @@
         "jp": "流氷"
     },
     "price": 110,
-    "sale": false,
+    "sale": true,
     "date": "2025-01-01"
 }

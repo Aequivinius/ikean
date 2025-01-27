@@ -17,6 +17,7 @@ openai = "^1.28.1"
 spacy = "^3.8.3"
 fuckit = "^4.8.1"
 weasyprint = "^63.1"
+pdfkit = "^1.0.0"
 
 [tool.pytest.ini_options]
 pythonpath = [

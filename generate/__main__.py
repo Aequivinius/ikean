@@ -5,7 +5,7 @@ import sys
 import os
 import json
 import pdfkit
-import datetime
+from datetime import datetime
 import zipfile
 
 def generate():
@@ -21,6 +21,12 @@ def sell(items):
     if not os.path.exists(sale_directory):
         os.makedirs(sale_directory)
 
+
+    pdfkit_options = {
+        'print-media-type': '',
+        'enable-local-file-access': None
+    }
+
     for item in items:
         item_path = os.path.join(UTENSILS_PATH, item)
         if os.path.isdir(item_path):
@@ -30,7 +36,8 @@ def sell(items):
         else:
             raise FileNotFoundError(f"Directory for item '{item}' does not exist in {UTENSILS_PATH}.")
 
-        pdfkit.from_url(f'https://www.ikean.ch/site/de/utensils.html#{item}', f'{sale_directory}/{item}.pdf')
+        # it's not printing using the css
+        pdfkit.from_url(f'https://www.ikean.ch/site/de/utensils.html#{item}', f'{sale_directory}/{item}.pdf', options=pdfkit_options)
 
     zip_name = f"{sale_directory}.zip"
     try:

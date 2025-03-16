@@ -1,0 +1,3 @@
+To hold a tea invitation according to all the rules in the book means to serve the best possible bowl of tea to your guests. That entails boiling the water over charcoal in their company. During the time the water needs to come to a boil, the host originally served a simple meal, which in the centuries developed into its own art form which today we know as *cha kaiseki*. This cuisine puts a special emphasis on the seasons and the bowls, in which the food is served. Its taste is subtle, as not to overpower the tea that follows it.
+
+For this event, you receive a 5 course meal followed by a bowl of tea, accompanied by illuminating information (in German) about the history and the logic of this tea cuisine.

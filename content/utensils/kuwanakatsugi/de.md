@@ -1,3 +1,3 @@
 <p>Obwohl es viele Teedosen in dieser <abbr title="nakatsugi">中次</abbr>-Form gibt, ist die aus Maulbeerholz diejenige, die normalerweise für das <abbr title="wakin">和巾</abbr>-Verfahren verwendet wird, das von <abbr title="Gengensai">玄々斎</abbr> wiederbelebt wurde. </p>
-<p>Es gibt zwei dieser Artikel zum Verkauf. Sie unterscheiden sich nur geringfügig: Ausstellungsstück A ist etwas kleiner, etwas leichter und kann im 3D-Modell betrachtet werden. Es wird mit einer bunten Papierschachtel geliefert. Ausstellungsstück B hat eine dunklere Farbe und ist geringfügig höher. Es ist auf den Fotos auf dieser Seite abgebildet und wird in einer blauen Pappschachtel geliefert.</p>
+<p>Wird in einer blauen Pappschachtel geliefert.</p>
 👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

@@ -5,8 +5,8 @@
         "de": "Brise",
         "jp": "颯々"
     },
-    "price": 90,
-    "sale": true,
+    "price": 80,
+    "sale": false,
     "maker": {
         "en": "Kuse Kuhou",
         "de": "Kuse Kuhou",

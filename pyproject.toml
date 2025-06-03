@@ -18,6 +18,10 @@ spacy = "^3.8.3"
 fuckit = "^4.8.1"
 weasyprint = "^63.1"
 pdfkit = "^1.0.0"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+pillow = "^11.2.1"
+beautifulsoup4 = "^4.13.4"
 
 [tool.pytest.ini_options]
 pythonpath = [

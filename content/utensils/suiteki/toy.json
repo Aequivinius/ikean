@@ -5,7 +5,7 @@
         "de": "Tröpfchen-Spender",
         "jp": "水滴"
     },
-    "price": 40,
-    "sale": true,
+    "price": 30,
+    "sale": false,
     "date": "2025-01-01"
 }

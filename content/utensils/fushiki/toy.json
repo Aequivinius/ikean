@@ -6,7 +6,7 @@
         "jp": "不識"
     },
     "price": 20,
-    "sale": true,
+    "sale": false,
     "maker": {
         "en": "Wabei Yarita",
         "de": "Wabei Yarita",

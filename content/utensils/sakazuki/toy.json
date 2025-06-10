@@ -5,8 +5,8 @@
         "de": "Reiswein-Teller",
         "jp": "盃"
     },
-    "price": 20,
-    "sale": false,
+    "price": 80,
+    "sale": true,
     "material": "compressed wood powder",
     "date": "2024-08-04"
 }

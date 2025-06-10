@@ -5,7 +5,7 @@
         "de": "Suppen-Schale",
         "jp": "煮物碗"
     },
-    "price": 20,
-    "sale": false,
+    "price": 60,
+    "sale": true,
     "date": "2024-08-04"
 }

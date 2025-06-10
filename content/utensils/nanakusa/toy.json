@@ -6,6 +6,6 @@
         "jp": "七草"
     },
     "price": 20,
-    "sale": true,
+    "sale": false,
     "date": "2025-01-07"
 }

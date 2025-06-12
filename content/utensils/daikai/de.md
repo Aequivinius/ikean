@@ -1,2 +1,0 @@
-<p>Dieser Typ von <abbr title="chaire">茶入</abbr> soll angeblich das sein, was <abbr title="Myōan Eisai, ein buddhistischer Mönch im XII Jahrhundert">明菴栄西</abbr> benutzte, um die ersten Teesamen von China nach Japan zu bringen. Hier ist es im <abbr title="seto">瀬戸</abbr>-Stil dargestellt. Leider gibt es keine dazugehörige <abbr title="shifuku, Seidentuchverpackung">仕覆</abbr>.</p>
-👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

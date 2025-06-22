@@ -1,2 +1,0 @@
-<p>Dies ist eine Teeschaufel mit dem Knoten am Ende, sodass sie nur für bestimmte höhere Zubereitungen verwendet wird. Der Name ist also passend: Während des abendlichen Rezitierens von Sutras reinigen sich die Mönche vom metaphysischen Staub, den sie tagsüber angesammelt haben; ganz so wie die Teeschaufel vom metaphysischen Staub des Tees gereinigt wird.</p>
-👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

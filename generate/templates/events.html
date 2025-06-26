@@ -47,7 +47,7 @@
 
         <p>{{event.content[language]}}</p>
         {% if event.buy is defined %}
-        <a href="{{event.buy}}" class="button">{{event__book}} {% if event.price %}({{event.price}} CHF){% endif %}</a>
+        <a href="{{event.buy}}" class="button" target="_blank" rel="noopener noreferrer">{{event__book}} {% if event.price %}({{event.price}} CHF){% endif %}</a>
         {% endif %}
 
         <a class="close" href="events.html">{{field__close}}</a>

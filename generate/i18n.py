@@ -13,7 +13,7 @@ class Translator:
     MODELS = { "en": "en_core_web_sm", "de": "de_core_news_sm", "jp": "ja_core_news_sm"}
 
     def __init__(self, translations: str):
-        load_dotenv()
+        load_dotenv(override=True)
         self.gpt_client = openai(api_key=os.environ.get("OPENAI_API_KEY"))
         self.translations = self.load_translations(translations)
         self.models = { language: spacy.load(model_name) for language, model_name in self.MODELS.items()}

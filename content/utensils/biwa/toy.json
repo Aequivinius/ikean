@@ -6,7 +6,7 @@
         "jp": "琵琶"
     },
     "price": 90,
-    "sale": true,
+    "sale": false,
     "maker": {
         "en": "Kato Shuntei",
         "de": "Kato Shuntei",

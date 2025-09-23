@@ -1,0 +1,11 @@
+{
+    "category": "kaiseki",
+    "name": {
+        "en": "Pitcher for Rice-Water",
+        "de": "Kanne für Reis-Wasser",
+        "jp": "湯桶"
+    },
+    "price": 80,
+    "sale": true,
+    "date": "2025-10-01"
+}

@@ -1,0 +1,3 @@
+A complete set of six 灰匙 (*haisaji*, ash spoons) made from copper. These specialized implements are used in the practice of *haigata* (灰型), the shaping of ash in the hearth (*furo*) on which then the coal is placed. Each spoon has a distinct form, allowing precise control of the ash form, and bears the maker’s seal. The set is housed in its original *kiribako* (wooden paulownia box) with calligraphy on the lid.
+
+It is said that the host in a tea ceremony doesn't really present anything he has made himself: The 道具 (tea utensils) are made by craftsmen, as well as the tea and the sweets. However, the ash form is something where the host displays his own skill.

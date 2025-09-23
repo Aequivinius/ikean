@@ -1,4 +1,4 @@
-This is a tea scoop I carved to suit a particularly large tea bowl akin to the famed 勢多 tea scoop that 利休 carved to match his student's large 水海 tea bowl.
+This is a tea scoop that was carved to suit a particularly large tea bowl akin to the famed 勢多 tea scoop that 利休 carved to match his student's large 水海 tea bowl.
 
 The 月の客 is the *moon's guest*, or more bluntly, a person looking at the moon. It comes from a poem by 芭蕉's student 去来: *岩鼻やここにもひとり—月の客*. Here at Iwahana somebody is watching the moon, too. It's quite evokative of an autumn night; and there's quite some room for interpretation who this 月の客 is: Is it the author? Is it somebody else?
 

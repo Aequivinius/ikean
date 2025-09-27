@@ -1,16 +1,11 @@
 {
     "category": "chashaku",
     "name": {
-        "en": "Ryouhi",
-        "de": "Ryouhi",
-        "jp": "両飛"
+        "en": "Nesting Bowls",
+        "de": "Formelle Reis-Schalen",
+        "jp": "四つ椀"
     },
     "price": 80,
     "sale": true,
-    "maker": {
-        "en": "Okada Saburo",
-        "de": "Okada Saburo",
-        "jp": "岡田三郎"
-    },
-    "date": "2025-01-01"
+    "date": "2025-10-01"
 }

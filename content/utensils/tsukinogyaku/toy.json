@@ -6,6 +6,7 @@
         "jp": "月の客"
     },
     "price": 30,
-    "sale": true,
+    "sale": false,
+    "buyer": "Mary",
     "date": "2024-08-02"
 }

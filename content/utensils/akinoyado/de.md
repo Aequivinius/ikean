@@ -1,4 +1,0 @@
-<p>Dieses <abbr title="kougou, Räucherstäbchenbehälter">香合</abbr> ist ein <abbr title="mitate">見立て</abbr>-Stück, das heißt, ein Gegenstand, der aus der Welt des <abbr title="cha no yu">茶の湯</abbr> stammt. Es gibt eine lange Tradition, Gegenstände für die Teezeremonie umzufunktionieren, und eine großartige Möglichkeit, einen europäischen Geschmack in den Teeraum zu bringen.</p>
-<p>Dieses <abbr title="kougou, Räucherstäbchenbehälter">香合</abbr> stammt von dem berühmten Porzellanhersteller, dessen Keramik Königin Victoria auf der Great Exhibition in London im Jahr 1851 beeindruckte und damit seine Verbindung zu den europäischen Höfen etablierte.</p>
-<p>Ich habe es <abbr title="aki no yado, Haus des Herbstes">秋の宿</abbr> genannt wegen seiner schönen Bemalung. Wird mit einer Pappschachtel geliefert.</p>
-👾: Dieser Text wurde maschinell aus dem Englischen übersetzt. Bei Unstimmigkeiten konsultieren Sie bitte die englische Seite.

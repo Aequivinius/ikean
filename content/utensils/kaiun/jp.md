@@ -1,2 +1,0 @@
-<p>This <abbr title="aka raku, red raku">赤楽</abbr> tea bowl got a bit damaged in transport, including a little hole! I had it fixed by Swiss <abbr title="kintsugi">金継ぎ</abbr> artist <a href="https://www.japanraum.net/kintsugi">Ursula Kaspar</a>, and have named it <abbr title="kaiun">開運</abbr>. This means to be open for good fortune to come in, which I found fitting, given the hole it had that now, fixed in silver, adds interest and depth.</p>
-👾：このテキストは機械翻訳されました。不一致がある場合は、英語のページを参照してください。
